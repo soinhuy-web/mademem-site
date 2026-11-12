@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960">
-  <title>cloisonne</title>
-  <rect width="1280" height="960" fill="#E7DED1"/>
-  <rect x="72" y="72" width="1136" height="816" fill="#F4EFE8" stroke="#C9BBA8" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <title>Cloisonné plaque and small box</title>
+  <rect width="800" height="560" fill="#e7ded1"/>
+  <ellipse cx="400" cy="455" rx="190" ry="18" fill="#55483a" opacity=".08"/>
+  <rect x="250" y="150" width="210" height="270" rx="8" fill="#1f4d45" stroke="#c6a15a" stroke-width="10"/>
+  <circle cx="355" cy="270" r="58" fill="none" stroke="#d7c27a" stroke-width="4"/>
+  <path d="M330 270Q355 230 380 270Q355 310 330 270" fill="#8fb9a4" stroke="#e7d7a1" stroke-width="2"/>
+  <rect x="490" y="250" width="130" height="100" rx="6" fill="#24584e" stroke="#c6a15a" stroke-width="8"/>
+  <path d="M510 300Q555 270 600 300" fill="none" stroke="#e7d7a1" stroke-width="3"/>
 </svg>

@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960">
-  <title>jingdezhen-urn-scale</title>
-  <rect width="1280" height="960" fill="#E7DED1"/>
-  <rect x="72" y="72" width="1136" height="816" fill="#F4EFE8" stroke="#C9BBA8" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <title>Porcelain urn beside a book, for scale</title>
+  <rect width="800" height="560" fill="#e7ded1"/>
+  <ellipse cx="390" cy="448" rx="180" ry="18" fill="#655c4e" opacity=".08"/>
+  <rect x="470" y="230" width="130" height="180" rx="4" fill="#cbb89a" stroke="#8d7b62" stroke-width="3"/>
+  <rect x="484" y="246" width="102" height="148" fill="#f3ece0"/>
+  <path d="M250 168Q310 152 370 168L366 204Q420 244 414 338Q411 408 362 430Q310 444 258 430Q212 408 210 338Q204 244 256 204Z" fill="#f7f3e8" stroke="#b9b7a5" stroke-width="3"/>
+  <ellipse cx="310" cy="164" rx="58" ry="13" fill="#d4d6c5"/>
+  <path d="M270 350Q330 310 324 250" stroke="#7a8b78" fill="none" stroke-width="4"/>
 </svg>

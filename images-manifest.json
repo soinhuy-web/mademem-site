@@ -814,17 +814,17 @@
     },
     {
       "id": "hero-poster",
-      "placeholder_src": "/assets/img/placeholders/home-process-poster.svg",
+      "placeholder_src": "/assets/img/gallery/lifestyle-08.jpg",
       "final_path": "/assets/video/hero-poster.jpg",
       "status": "pending",
       "pages": [
         "/",
         "/es/"
       ],
-      "alt_en": "A calm still shown in the hero until the film file is added.",
-      "alt_es": "Imagen serena del inicio, visible hasta que se agregue el archivo de la película.",
+      "alt_en": "A leather armchair beside a wood stove, with a black-and-white American Cocker Spaniel resting on the chair.",
+      "alt_es": "Un sillón de cuero junto a una estufa de leña, con un cocker spaniel americano blanco y negro descansando en el sillón.",
       "width": 1280,
-      "height": 720,
+      "height": 964,
       "caption_en": "",
       "caption_es": ""
     },
@@ -2624,8 +2624,8 @@
         "/how/",
         "/es/how/"
       ],
-      "alt_en": "A table with a printed pet photograph and material samples, for the first step of the process.",
-      "alt_es": "Una mesa con una fotografía impresa de una mascota y muestras de materiales, para el primer paso del proceso.",
+      "alt_en": "A simple illustration of a closed carton.",
+      "alt_es": "Una ilustración sencilla de una caja de cartón cerrada.",
       "width": 1280,
       "height": 960,
       "caption_en": "Sample illustration — real product photos to follow",
@@ -2640,8 +2640,8 @@
         "/how/",
         "/es/how/"
       ],
-      "alt_en": "Three printed design proofs of a photo plaque on a desk, for the design-together step.",
-      "alt_es": "Tres pruebas impresas de una placa con foto sobre un escritorio, para el paso de diseñar juntos.",
+      "alt_en": "A simple illustration of one framed pet portrait.",
+      "alt_es": "Una ilustración sencilla de un retrato de mascota en un marco.",
       "width": 1280,
       "height": 960,
       "caption_en": "Sample illustration — real product photos to follow",
@@ -2656,8 +2656,8 @@
         "/how/",
         "/es/how/"
       ],
-      "alt_en": "A chosen design proof ready for approval, for the approve-the-final step.",
-      "alt_es": "Una prueba de diseño elegida, lista para su aprobación, para el paso de aprobar el diseño final.",
+      "alt_en": "A simple illustration of a framed pet portrait.",
+      "alt_es": "Una ilustración sencilla de un retrato de mascota enmarcado.",
       "width": 1280,
       "height": 960,
       "caption_en": "Sample illustration — real product photos to follow",
@@ -2672,8 +2672,8 @@
         "/how/",
         "/es/how/"
       ],
-      "alt_en": "A finished urn being checked against its proof, for the check-together step.",
-      "alt_es": "Una urna terminada que se revisa junto a su prueba de diseño, para el paso de revisar juntos.",
+      "alt_en": "A simple illustration of a table with a small box, a sheet, and a thick stroke.",
+      "alt_es": "Una ilustración sencilla de una mesa con una caja pequeña, una hoja y un trazo grueso.",
       "width": 1280,
       "height": 960,
       "caption_en": "Sample illustration — real product photos to follow",

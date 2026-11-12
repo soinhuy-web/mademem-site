@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960">
-  <title>crystal-3d-scale</title>
-  <rect width="1280" height="960" fill="#E7DED1"/>
-  <rect x="72" y="72" width="1136" height="816" fill="#F4EFE8" stroke="#C9BBA8" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <title>Crystal block beside a book, for scale</title>
+  <rect width="800" height="560" fill="#e7ded1"/>
+  <ellipse cx="400" cy="430" rx="200" ry="18" fill="#55483a" opacity=".08"/>
+  <rect x="430" y="210" width="150" height="190" rx="4" fill="#cbb89a" stroke="#8d7b62" stroke-width="3"/>
+  <rect x="446" y="226" width="118" height="158" fill="#f3ece0"/>
+  <path d="M230 250L330 232L390 270V400L290 422L230 384Z" fill="#f4f5ed" fill-opacity=".85" stroke="#adb8a6" stroke-width="2"/>
+  <path d="M330 232V392" stroke="#c5ccbd" stroke-width="2" fill="none"/>
+  <rect x="214" y="400" width="196" height="28" rx="6" fill="#c5ccbd" stroke="#8f9a86" stroke-width="3"/>
 </svg>
