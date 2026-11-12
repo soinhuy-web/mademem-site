@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/how/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/how/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/how/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/site.js" defer></script>
@@ -93,19 +93,15 @@
     </script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "MadeMem", "legalName": "Jingyun (Sichuan) Trading Co., Ltd.", "url": "https://mademem.com", "email": "info@teruu.com", "logo": "https://mademem.com/assets/img/placeholders/logo.svg"}</script>
   </head>
-  <body class="inner">
+  <body class="inner how-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Skip to content</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/" aria-label="MadeMem home">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/contact/" data-event="preview_start">Start with a photo</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
-          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/" aria-current="page">How it works</a><a href="/stories/">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/es/how/" lang="es-US" hreflang="es-US">Español</a>
-            <button data-open-search aria-label="Open site search">Search</button>
-            <button data-open-save>Save my design</button>
-          </div>
+          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/" aria-current="page">How it works</a><a href="/stories/">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a><span class="nav-tools"><a class="language-switch" href="/es/how/" lang="es-US" hreflang="es-US">Español</a><button data-open-search aria-label="Open site search">Search</button><button data-open-save>Save my design</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -118,8 +114,9 @@
           <div class="steps-expanded">
             <article class="step-full">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-1.svg" alt="A simple illustration of a closed carton." width="1280" height="960" loading="lazy" data-slot="step-1" data-final="/assets/img/how/step-1.jpg" class="slot-4x3">
-                  <figcaption>A simple illustration of a closed carton.<br>Sample illustration — real product photos to follow</figcaption>
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Workshop</span></span>
+                <img data-field="walnut" alt="A closed carton on a workshop bench." width="1280" height="960" loading="lazy" data-slot="step-1" data-final="/assets/img/how/step-1.jpg" class="awaiting slot-4x3">
+                  <figcaption>A closed carton on a workshop bench.<br>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               <div>
                 <h2>Imagine</h2>
@@ -127,32 +124,50 @@
                 <p>Choose a keepsake, tell us who it is for, and share a photo when you are ready. Take the time you need.</p>
               </div>
             </article>
-            <article class="step-full">
+            <article class="step-full step-key">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-2.svg" alt="A simple illustration of one framed pet portrait." width="1280" height="960" loading="lazy" data-slot="step-2" data-final="/assets/img/how/step-2.jpg" class="slot-4x3">
-                  <figcaption>A simple illustration of one framed pet portrait.<br>Sample illustration — real product photos to follow</figcaption>
+                <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Design proof</span></span>
+                <img data-field="proof" alt="One framed pet portrait prepared as a design proof." width="1280" height="960" loading="lazy" data-slot="step-2" data-final="/assets/img/how/step-2.jpg" class="awaiting slot-4x3">
+                  <figcaption>One framed pet portrait prepared as a design proof.<br>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               <div>
                 <h2>Design together</h2>
+<div class="proof-sheet">
+                  <p class="proof-kicker">Sample layout · not a customer’s order</p>
+                  <p class="proof-count"><span>2</span> of 3</p>
+                  <p class="proof-name">A name you choose</p>
+                  <p class="proof-dates">Your words here</p>
+                  <ul class="proof-options"><li>Proof 1</li><li class="is-chosen">Proof 2</li><li>Proof 3</li></ul>
+                  <p class="proof-foot">You pay only after you approve the proof. We do not start production before approval.</p>
+                </div>
                 <p class="lede">We work from your photograph.</p>
                 <p>Send one photo. We send 3 design proofs within 24 hours, counted in US business days, US Eastern Time. You choose 1 proof. 2 rounds of revision are included. You pay only after you approve the proof. We do not start production before approval. Friday evening, Saturday, Sunday, and US federal holidays do not start a 24-hour weekday clock. We count US business days in US Eastern Time.</p>
               </div>
             </article>
-            <article class="step-full">
+            <article class="step-full step-key">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-3.svg" alt="A simple illustration of a framed pet portrait." width="1280" height="960" loading="lazy" data-slot="step-3" data-final="/assets/img/how/step-3.jpg" class="slot-4x3">
-                  <figcaption>A simple illustration of a framed pet portrait.<br>Sample illustration — real product photos to follow</figcaption>
+                <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Design proof</span></span>
+                <img data-field="proof" alt="The framed portrait chosen as the final proof." width="1280" height="960" loading="lazy" data-slot="step-3" data-final="/assets/img/how/step-3.jpg" class="awaiting slot-4x3">
+                  <figcaption>The framed portrait chosen as the final proof.<br>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               <div>
                 <h2>Approve the final</h2>
+<div class="proof-sheet">
+                  <p class="proof-kicker">Sample layout · not a customer’s order</p>
+                  <p class="proof-count"><span>1</span> chosen</p>
+                  <p class="proof-name">A name you choose</p>
+                  <p class="proof-dates">Your words here</p>
+                  <p class="proof-foot">Approve it before payment instructions are sent. Production begins only after approval.</p>
+                </div>
                 <p class="lede">Choose the design that feels right.</p>
                 <p>You choose 1 proof and have 2 included revision rounds. Approve it before payment instructions are sent. Production begins only after approval.</p>
               </div>
             </article>
             <article class="step-full">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-4.svg" alt="A simple illustration of a table with a small box, a sheet, and a thick stroke." width="1280" height="960" loading="lazy" data-slot="step-4" data-final="/assets/img/how/step-4.jpg" class="slot-4x3">
-                  <figcaption>A simple illustration of a table with a small box, a sheet, and a thick stroke.<br>Sample illustration — real product photos to follow</figcaption>
+                <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Proof</span></span>
+                <img data-field="walnut" alt="A finished piece beside its printed proof on a work table." width="1280" height="960" loading="lazy" data-slot="step-4" data-final="/assets/img/how/step-4.jpg" class="awaiting slot-4x3">
+                  <figcaption>A finished piece beside its printed proof on a work table.<br>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               <div>
                 <h2>Check together</h2>
@@ -162,7 +177,8 @@
             </article>
             <article class="step-full">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-5.svg" alt="A packed gift box ready to be sent, for the delivered step." width="1280" height="960" loading="lazy" data-slot="step-5" data-final="/assets/img/how/step-5.jpg" class="slot-4x3">
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Parcel</span></span>
+                <img data-field="walnut" alt="A packed gift box ready to be sent, for the delivered step." width="1280" height="960" loading="lazy" data-slot="step-5" data-final="/assets/img/how/step-5.jpg" class="awaiting slot-4x3">
                   <figcaption>A packed gift box ready to be sent, for the delivered step.<br>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               <div>

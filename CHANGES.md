@@ -1,5 +1,11 @@
 # Changes
 
+## November 12, 2026 — visual redesign
+
+- New type (self-hosted Fraunces and Source Sans 3) and a warmer glaze-and-walnut palette. Home leads with the CC0 life photograph, both actions on the picture, and a four-fact trust strip. Craft, the five steps, the three sample stories, and the price ladder follow.
+- Pending product photographs no longer request the cartoon SVGs. Each slot is an `img` without `src` over a CSS material field until `final_path` exists. Captions stay. `images-manifest.json` records aspect ratios and the hero film (`assets/video/hero-15s.mp4`, 16:9, PT15S) plus `assets/video/hero-poster.jpg`.
+- Shop shows pieces beside the filters. Product, pricing, How, gallery, stories, and the rest of the English and Spanish trees use the same system. Facts, prices, lead times, step names, and contact rules are unchanged.
+
 ## November 12, 2026 — round 4 slots, lead times, and four products
 
 - Home hero is a muted, looping `<video>` with a play/pause control and a 70% overlay (lighter on small screens). The source stays commented out until `assets/video/hero-15s.mp4` and `assets/video/hero-poster.jpg` exist, so the page does not request a missing file. VideoObject is omitted until then. README documents how to drop the film in.

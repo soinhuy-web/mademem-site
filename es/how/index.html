@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/how/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/how/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/how/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Karla:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/locale-es.js" defer></script>
@@ -96,19 +96,15 @@
   "logo": "https://mademem.com/assets/img/placeholders/logo.svg"
 }</script>
   </head>
-  <body class="inner">
+  <body class="inner how-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Ir al contenido</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/es/" aria-label="Inicio de MadeMem">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/es/contact/" data-event="preview_start">Empezar con una foto</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menú</button>
-          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/" aria-current="page">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/how/" lang="en-US" hreflang="en-US">English</a>
-            <button data-open-search aria-label="Buscar en el sitio">Buscar</button>
-            <button data-open-save>Guardar mi diseño</button>
-          </div>
+          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/" aria-current="page">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a><span class="nav-tools"><a class="language-switch" href="/how/" lang="en-US" hreflang="en-US">English</a><button data-open-search aria-label="Buscar en el sitio">Buscar</button><button data-open-save>Guardar mi diseño</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -121,8 +117,9 @@
           <div class="steps-expanded">
             <article class="step-full">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-1.svg" alt="Una ilustración sencilla de una caja de cartón cerrada." width="1280" height="960" loading="lazy" data-slot="step-1" data-final="/assets/img/how/step-1.jpg" class="slot-4x3">
-                  <figcaption>Una ilustración sencilla de una caja de cartón cerrada.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Taller</span></span>
+                <img data-field="walnut" alt="Una caja de cartón cerrada sobre un banco de taller." width="1280" height="960" loading="lazy" data-slot="step-1" data-final="/assets/img/how/step-1.jpg" class="awaiting slot-4x3">
+                  <figcaption>Una caja de cartón cerrada sobre un banco de taller.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
               <div>
                 <h2>Imaginar</h2>
@@ -130,32 +127,50 @@
                 <p>Elija un recuerdo, cuéntenos para quién es y comparta una foto cuando se sienta preparado. Tómese el tiempo que necesite.</p>
               </div>
             </article>
-            <article class="step-full">
+            <article class="step-full step-key">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-2.svg" alt="Una ilustración sencilla de un retrato de mascota en un marco." width="1280" height="960" loading="lazy" data-slot="step-2" data-final="/assets/img/how/step-2.jpg" class="slot-4x3">
-                  <figcaption>Una ilustración sencilla de un retrato de mascota en un marco.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Prueba de diseño</span></span>
+                <img data-field="proof" alt="Un retrato de mascota en un marco, preparado como prueba de diseño." width="1280" height="960" loading="lazy" data-slot="step-2" data-final="/assets/img/how/step-2.jpg" class="awaiting slot-4x3">
+                  <figcaption>Un retrato de mascota en un marco, preparado como prueba de diseño.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
               <div>
                 <h2>Diseñar juntos</h2>
+<div class="proof-sheet">
+                  <p class="proof-kicker">Composición de muestra · no es el pedido de un cliente</p>
+                  <p class="proof-count"><span>2</span> de 3</p>
+                  <p class="proof-name">Un nombre que usted elige</p>
+                  <p class="proof-dates">Sus palabras aquí</p>
+                  <ul class="proof-options"><li>Prueba 1</li><li class="is-chosen">Prueba 2</li><li>Prueba 3</li></ul>
+                  <p class="proof-foot">Usted paga solo después de aprobar la prueba. No empezamos la elaboración antes de su aprobación.</p>
+                </div>
                 <p class="lede">Trabajamos a partir de su foto.</p>
                 <p>Envíe una foto. Le enviamos 3 propuestas de diseño en un plazo de 24 horas, contado en días hábiles de Estados Unidos, hora del Este. Usted elige 1 propuesta e incluye 2 rondas de cambios. Paga solo después de aprobar el diseño. La elaboración comienza después de su aprobación. El viernes por la tarde, el sábado, el domingo y los feriados federales de Estados Unidos quedan fuera del cómputo de 24 horas hábiles. Contamos los días hábiles de Estados Unidos según la hora del Este.</p>
               </div>
             </article>
-            <article class="step-full">
+            <article class="step-full step-key">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-3.svg" alt="Una ilustración sencilla de un retrato de mascota enmarcado." width="1280" height="960" loading="lazy" data-slot="step-3" data-final="/assets/img/how/step-3.jpg" class="slot-4x3">
-                  <figcaption>Una ilustración sencilla de un retrato de mascota enmarcado.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Prueba de diseño</span></span>
+                <img data-field="proof" alt="El retrato enmarcado elegido como prueba final." width="1280" height="960" loading="lazy" data-slot="step-3" data-final="/assets/img/how/step-3.jpg" class="awaiting slot-4x3">
+                  <figcaption>El retrato enmarcado elegido como prueba final.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
               <div>
                 <h2>Aprobar el diseño final</h2>
+<div class="proof-sheet">
+                  <p class="proof-kicker">Composición de muestra · no es el pedido de un cliente</p>
+                  <p class="proof-count"><span>1</span> elegida</p>
+                  <p class="proof-name">Un nombre que usted elige</p>
+                  <p class="proof-dates">Sus palabras aquí</p>
+                  <p class="proof-foot">Apruebe antes de que se envíen las instrucciones de pago. La elaboración empieza solo después de la aprobación.</p>
+                </div>
                 <p class="lede">Elija el diseño que sienta adecuado.</p>
                 <p>Elija 1 propuesta con 2 rondas de cambios incluidas. Apruébela antes de recibir las instrucciones de pago. La elaboración comienza después de su aprobación.</p>
               </div>
             </article>
             <article class="step-full">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-4.svg" alt="Una ilustración sencilla de una mesa con una caja pequeña, una hoja y un trazo grueso." width="1280" height="960" loading="lazy" data-slot="step-4" data-final="/assets/img/how/step-4.jpg" class="slot-4x3">
-                  <figcaption>Una ilustración sencilla de una mesa con una caja pequeña, una hoja y un trazo grueso.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Prueba</span></span>
+                <img data-field="walnut" alt="Una pieza terminada junto a su prueba impresa sobre una mesa de trabajo." width="1280" height="960" loading="lazy" data-slot="step-4" data-final="/assets/img/how/step-4.jpg" class="awaiting slot-4x3">
+                  <figcaption>Una pieza terminada junto a su prueba impresa sobre una mesa de trabajo.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
               <div>
                 <h2>Revisar juntos</h2>
@@ -165,7 +180,8 @@
             </article>
             <article class="step-full">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/step-5.svg" alt="Una caja de regalo empacada, lista para enviarse, para el paso de entrega." width="1280" height="960" loading="lazy" data-slot="step-5" data-final="/assets/img/how/step-5.jpg" class="slot-4x3">
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Paquete</span></span>
+                <img data-field="walnut" alt="Una caja de regalo empacada, lista para enviarse, para el paso de entrega." width="1280" height="960" loading="lazy" data-slot="step-5" data-final="/assets/img/how/step-5.jpg" class="awaiting slot-4x3">
                   <figcaption>Una caja de regalo empacada, lista para enviarse, para el paso de entrega.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
               <div>

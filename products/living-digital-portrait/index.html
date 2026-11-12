@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/products/living-digital-portrait/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/living-digital-portrait/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/products/living-digital-portrait/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/site.js" defer></script>
@@ -59,19 +59,15 @@
     </script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "MadeMem", "legalName": "Jingyun (Sichuan) Trading Co., Ltd.", "url": "https://mademem.com", "email": "info@teruu.com", "logo": "https://mademem.com/assets/img/placeholders/logo.svg"}</script>
   </head>
-  <body class="inner">
+  <body class="inner product-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Skip to content</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/" aria-label="MadeMem home">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/contact/" data-event="preview_start">Start with a photo</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
-          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/">How it works</a><a href="/stories/">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/es/products/living-digital-portrait/" lang="es-US" hreflang="es-US">Español</a>
-            <button data-open-search aria-label="Open site search">Search</button>
-            <button data-open-save>Save my design</button>
-          </div>
+          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/">How it works</a><a href="/stories/">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a><span class="nav-tools"><a class="language-switch" href="/es/products/living-digital-portrait/" lang="es-US" hreflang="es-US">Español</a><button data-open-search aria-label="Open site search">Search</button><button data-open-save>Save my design</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -79,11 +75,13 @@
         <section class="wrap product-detail">
           <div class="product-visuals">
             <figure class="media-frame">
-              <img src="/assets/img/placeholders/product-living-digital-portrait.svg" width="1280" height="960" alt="A cheerful portrait in an open birthday gift box, from the living-pet line." loading="eager" data-slot="product-living-digital-portrait" data-final="/assets/img/products/living-digital-portrait.jpg" class="slot-4x3">
+              <span class="field-stage field-paint" aria-hidden="true"><span class="field-name">Portrait</span></span>
+                <img data-field="paint" width="1280" height="960" alt="A cheerful portrait in an open birthday gift box, from the living-pet line." loading="eager" data-slot="product-living-digital-portrait" data-final="/assets/img/products/living-digital-portrait.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
             <figure class="media-frame">
-              <img src="/assets/img/placeholders/living-digital-portrait-scale.svg" alt="The birthday portrait gift box shown for scale." width="1280" height="960" loading="lazy" data-slot="living-digital-portrait-scale" data-final="/assets/img/products/living-digital-portrait-scale.jpg" class="slot-4x3">
+              <span class="field-stage field-paint" aria-hidden="true"><span class="field-name">For scale</span></span>
+                <img data-field="paint" alt="The birthday portrait gift box shown for scale." width="1280" height="960" loading="lazy" data-slot="living-digital-portrait-scale" data-final="/assets/img/products/living-digital-portrait-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
           </div>
@@ -145,7 +143,8 @@
               <article class="product-card" data-mode="catalog" data-audience="living" data-materials="" data-uses="Gifts">
                 <a class="image-link" href="/products/living-oil-portrait/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/living-oil-portrait-scale.svg" width="1280" height="960" loading="lazy" alt="A hand-painted oil portrait of a living golden retriever, from the living-pet line." data-slot="living-oil-portrait-scale" data-final="/assets/img/products/living-oil-portrait-scale.jpg" class="slot-4x3">
+                    <span class="field-stage field-paint" aria-hidden="true"><span class="field-name">For scale</span></span>
+                <img data-field="paint" width="1280" height="960" loading="lazy" alt="A hand-painted oil portrait of a living golden retriever, from the living-pet line." data-slot="living-oil-portrait-scale" data-final="/assets/img/products/living-oil-portrait-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
                 </a>
@@ -168,7 +167,8 @@
               <article class="product-card" data-mode="catalog" data-audience="living" data-materials="Textile &amp; embroidery" data-uses="Gifts">
                 <a class="image-link" href="/products/living-plush/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/living-plush-scale.svg" width="1280" height="960" loading="lazy" alt="A custom plush of a living golden retriever, from the living-pet line." data-slot="living-plush-scale" data-final="/assets/img/products/living-plush-scale.jpg" class="slot-4x3">
+                    <span class="field-stage field-silk" aria-hidden="true"><span class="field-name">For scale</span></span>
+                <img data-field="silk" width="1280" height="960" loading="lazy" alt="A custom plush of a living golden retriever, from the living-pet line." data-slot="living-plush-scale" data-final="/assets/img/products/living-plush-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
                 </a>
