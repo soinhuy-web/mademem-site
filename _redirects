@@ -1,0 +1,5 @@
+# Cloudflare Pages uses the root /404.html for unmatched routes.
+# No catch-all rewrite is needed. A 404 status rule is unsupported in _redirects.
+# This file intentionally contains no catch-all rule.
+# https://developers.cloudflare.com/pages/configuration/serving-pages/
+# https://developers.cloudflare.com/pages/configuration/redirects/

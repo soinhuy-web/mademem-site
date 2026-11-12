@@ -1,0 +1,443 @@
+[
+  {
+    "handle": "comfort",
+    "name": "Comfort",
+    "audience": "pet",
+    "price": 49,
+    "materials": [
+      "Acrylic"
+    ],
+    "use": [
+      "Gifts"
+    ],
+    "includes": [
+      "Acrylic suncatcher",
+      "Sympathy card",
+      "Gift box"
+    ],
+    "why": "A small gift of light, with room for your own words.",
+    "lives": "A window that catches the day.",
+    "means": "A gentle sympathy gift.",
+    "kind": "suncatcher",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/comfort/",
+    "image": "/assets/img/placeholders/product-comfort.svg"
+  },
+  {
+    "handle": "warmth",
+    "name": "Warmth",
+    "audience": "pet",
+    "price": 79,
+    "materials": [
+      "Metal"
+    ],
+    "use": [
+      "Keepsakes",
+      "Gifts"
+    ],
+    "includes": [
+      "Photo plaque",
+      "Card",
+      "Gift box",
+      "One private digital memorial page"
+    ],
+    "why": "One photograph given a place in the home.",
+    "lives": "A shelf or bedside table.",
+    "means": "A photo to return to.",
+    "kind": "plaque",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "China-made. Memorial-page hosting length is to be confirmed.",
+    "recommended": false,
+    "url": "/products/warmth/",
+    "image": "/assets/img/placeholders/product-warmth.svg"
+  },
+  {
+    "handle": "keepsake",
+    "name": "Keepsake",
+    "audience": "pet",
+    "price": 129,
+    "materials": [
+      "Metal"
+    ],
+    "use": [
+      "Keepsakes",
+      "Gifts"
+    ],
+    "includes": [
+      "Photo plaque",
+      "Small portrait",
+      "316L stainless steel necklace / hair vial",
+      "One private digital memorial page"
+    ],
+    "why": "A photograph, a portrait, and something close to wear.",
+    "lives": "A quiet shelf and close to you.",
+    "means": "A gift with more than one way to remember.",
+    "kind": "portrait",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/keepsake/",
+    "image": "/assets/img/placeholders/product-keepsake.svg"
+  },
+  {
+    "handle": "essential",
+    "name": "Essential",
+    "audience": "pet",
+    "price": 129,
+    "materials": [
+      "Wood"
+    ],
+    "use": [
+      "Urns"
+    ],
+    "includes": [
+      "Wooden pet urn",
+      "Engraving",
+      "One private digital memorial page"
+    ],
+    "why": "A wooden urn with personal engraving.",
+    "lives": "A living-room shelf or study.",
+    "means": "A place to keep your pet close.",
+    "kind": "urn",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": true,
+    "url": "/products/essential/",
+    "image": "/assets/img/placeholders/product-essential.svg"
+  },
+  {
+    "handle": "classic",
+    "name": "Classic",
+    "audience": "pet",
+    "price": 249,
+    "materials": [
+      "Wood",
+      "Metal"
+    ],
+    "use": [
+      "Urns",
+      "Keepsakes"
+    ],
+    "includes": [
+      "Wooden pet urn",
+      "316L stainless steel necklace / hair vial",
+      "Custom portrait",
+      "One private digital memorial page",
+      "Farewell certificate and booklet"
+    ],
+    "why": "Related pieces brought together in one order and one box.",
+    "lives": "A shelf, with a portrait nearby.",
+    "means": "A considered set for your own home.",
+    "kind": "urn",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "Hand-painted porcelain can be discussed on request. Timing is to be confirmed.",
+    "recommended": true,
+    "url": "/products/classic/",
+    "image": "/assets/img/placeholders/product-classic.svg"
+  },
+  {
+    "handle": "legacy",
+    "name": "Legacy",
+    "audience": "pet",
+    "price": 499,
+    "materials": [
+      "Wood",
+      "Metal"
+    ],
+    "use": [
+      "Urns",
+      "Keepsakes"
+    ],
+    "includes": [
+      "Everything in Classic",
+      "One Dafen hand-painted oil painting by default, or one 3D mini sculpture by request"
+    ],
+    "why": "A larger personal project, with a hand-painted portrait.",
+    "lives": "A quiet corner with space for a painting.",
+    "means": "A scheduled, personal remembrance.",
+    "kind": "painting",
+    "ship": "Typically about 15–20 days after proof approval before it leaves the workshop. Transit time is confirmed at order.",
+    "note": "Scheduling is required. The oil painting is the default choice. Discuss likeness expectations before considering the alternative sculpture.",
+    "recommended": false,
+    "url": "/products/legacy/",
+    "image": "/assets/img/placeholders/product-legacy.svg"
+  },
+  {
+    "handle": "memorial-plush",
+    "name": "Pet memorial plush",
+    "audience": "pet",
+    "price": null,
+    "materials": [
+      "Textile & embroidery"
+    ],
+    "use": [
+      "Keepsakes",
+      "Gifts"
+    ],
+    "includes": [
+      "Custom plush after a photo",
+      "Card",
+      "One private digital memorial page"
+    ],
+    "why": "A soft likeness that can be held.",
+    "lives": "Beside a bed or in a favorite chair.",
+    "means": "A tactile way to remember.",
+    "kind": "plush",
+    "ship": "Typical making window about 2–3 weeks, to be confirmed in the preview. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/memorial-plush/",
+    "image": "/assets/img/placeholders/product-memorial-plush.svg"
+  },
+  {
+    "handle": "memorial-oil-portrait",
+    "name": "Dafen memorial oil portrait",
+    "audience": "pet",
+    "price": null,
+    "materials": [],
+    "use": [
+      "Keepsakes"
+    ],
+    "includes": [
+      "Dafen hand-painted oil portrait"
+    ],
+    "why": "Brushwork shaped around a photograph you choose.",
+    "lives": "A wall or portrait shelf.",
+    "means": "A painted remembrance.",
+    "kind": "painting",
+    "ship": "Making time is confirmed in the preview, often longer than a standard plaque. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/memorial-oil-portrait/",
+    "image": "/assets/img/placeholders/product-memorial-oil-portrait.svg"
+  },
+  {
+    "handle": "human-plaque-keepsake",
+    "name": "Photo plaque + small sharing box",
+    "audience": "human",
+    "price": null,
+    "materials": [
+      "Metal",
+      "Wood",
+      "Ceramic"
+    ],
+    "use": [
+      "Keepsakes",
+      "Gifts"
+    ],
+    "includes": [
+      "Photo plaque",
+      "Small sharing box",
+      "Card",
+      "One private digital memorial page"
+    ],
+    "why": "A small, personal place for a photograph and a shared remembrance.",
+    "lives": "A private shelf.",
+    "means": "A remembrance to keep near.",
+    "kind": "plaque",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/human-plaque-keepsake/",
+    "image": "/assets/img/placeholders/product-human-plaque-keepsake.svg"
+  },
+  {
+    "handle": "human-full-urn",
+    "name": "Full-size urn set",
+    "audience": "human",
+    "price": null,
+    "materials": [
+      "Wood",
+      "Ceramic"
+    ],
+    "use": [
+      "Urns"
+    ],
+    "includes": [
+      "Full-size urn, 200+ cubic inches",
+      "Engraving",
+      "Portrait and/or composite portrait",
+      "One private digital memorial page"
+    ],
+    "why": "An urn and portrait considered together.",
+    "lives": "A memorial shelf or quiet corner.",
+    "means": "A personal place for family remembrance.",
+    "kind": "urn",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "The material is confirmed in your preview. Hand-painted porcelain is available to discuss on request, with timing to be confirmed.",
+    "recommended": false,
+    "url": "/products/human-full-urn/",
+    "image": "/assets/img/placeholders/product-human-full-urn.svg"
+  },
+  {
+    "handle": "human-family",
+    "name": "Family-sharing set",
+    "audience": "human",
+    "price": null,
+    "materials": [
+      "Wood",
+      "Ceramic",
+      "Metal"
+    ],
+    "use": [
+      "Urns",
+      "Keepsakes"
+    ],
+    "includes": [
+      "Full-size urn, 200+ cubic inches",
+      "Several small sharing boxes",
+      "316L stainless steel necklace"
+    ],
+    "why": "Coordinated pieces for family members who live apart.",
+    "lives": "In more than one family home.",
+    "means": "A shared remembrance.",
+    "kind": "urn",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/human-family/",
+    "image": "/assets/img/placeholders/product-human-family.svg"
+  },
+  {
+    "handle": "human-portrait",
+    "name": "Portrait set",
+    "audience": "human",
+    "price": null,
+    "materials": [],
+    "use": [
+      "Keepsakes",
+      "Gifts"
+    ],
+    "includes": [
+      "Portrait and/or composite portrait",
+      "One private digital memorial page"
+    ],
+    "why": "A familiar expression brought into a portrait.",
+    "lives": "A wall or family photograph shelf.",
+    "means": "A face you want to see each day.",
+    "kind": "portrait",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "Composite and restored portraits are described as altered work and shown in the proof.",
+    "recommended": false,
+    "url": "/products/human-portrait/",
+    "image": "/assets/img/placeholders/product-human-portrait.svg"
+  },
+  {
+    "handle": "human-suzhou",
+    "name": "Suzhou embroidery set",
+    "audience": "human",
+    "price": null,
+    "materials": [
+      "Textile & embroidery",
+      "Wood",
+      "Ceramic"
+    ],
+    "use": [
+      "Urns",
+      "Keepsakes"
+    ],
+    "includes": [
+      "Suzhou silk embroidered portrait",
+      "Full-size urn, 200+ cubic inches",
+      "One private digital memorial page"
+    ],
+    "why": "A portrait made in thread, paired with a full-size urn.",
+    "lives": "A quiet, sheltered display.",
+    "means": "A detailed family remembrance.",
+    "kind": "embroidery",
+    "ship": "Typical making window about 6–10 weeks, confirmed in the preview. Transit time is confirmed at order.",
+    "note": "From $999+, custom quote. The complete materials and urn choice are confirmed in your preview.",
+    "recommended": false,
+    "url": "/products/human-suzhou/",
+    "image": "/assets/img/placeholders/product-human-suzhou.svg"
+  },
+  {
+    "handle": "clinic-trial",
+    "name": "Clinic trial kit",
+    "audience": "clinic",
+    "price": 149,
+    "materials": [],
+    "use": [],
+    "includes": [],
+    "why": "A trial for a clinic considering a pet remembrance offering.",
+    "lives": "Details to be confirmed.",
+    "means": "A conversation about a clinic trial.",
+    "kind": "box",
+    "ship": "Making time, ship-out timing, transit, and postage are to be confirmed for the clinic trial.",
+    "note": "The only confirmed offer is $149 / 5 pets. Kit contents, post-trial pricing, monthly fees, minimum order, postage, and payment terms are to be confirmed. Printable cards with a clinic logo may be possible and are not confirmed kit contents.",
+    "recommended": false,
+    "url": "/products/clinic-trial/",
+    "image": "/assets/img/placeholders/product-clinic-trial.svg"
+  },
+  {
+    "handle": "living-oil-portrait",
+    "name": "A portrait of your companion",
+    "audience": "living",
+    "price": null,
+    "materials": [],
+    "use": [
+      "Gifts"
+    ],
+    "includes": [
+      "Dafen hand-painted oil portrait of your living pet"
+    ],
+    "why": "Bring a favorite expression to a classic or royal-style portrait.",
+    "lives": "A wall you pass every day.",
+    "means": "A birthday or everyday celebration.",
+    "kind": "painting",
+    "ship": "Making time is confirmed in the preview, often longer than a standard plaque. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/living-oil-portrait/",
+    "image": "/assets/img/placeholders/product-living-oil-portrait.svg"
+  },
+  {
+    "handle": "living-plush",
+    "name": "A plush of your pet",
+    "audience": "living",
+    "price": null,
+    "materials": [
+      "Textile & embroidery"
+    ],
+    "use": [
+      "Gifts"
+    ],
+    "includes": [
+      "Custom plush after a photo of your living pet"
+    ],
+    "why": "A soft companion inspired by the pet beside you.",
+    "lives": "A favorite chair or bedside.",
+    "means": "An affectionate birthday gift.",
+    "kind": "plush",
+    "ship": "Typical making window about 2–3 weeks, to be confirmed in the preview. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/living-plush/",
+    "image": "/assets/img/placeholders/product-living-plush.svg"
+  },
+  {
+    "handle": "living-digital-portrait",
+    "name": "Birthday portrait gift box",
+    "audience": "living",
+    "price": null,
+    "materials": [],
+    "use": [
+      "Gifts"
+    ],
+    "includes": [
+      "Digital/watercolor portrait",
+      "Birthday gift box"
+    ],
+    "why": "A cheerful portrait for a birthday or an ordinary good day.",
+    "lives": "A desk or picture shelf.",
+    "means": "A celebration of your pet as they are now.",
+    "kind": "portrait",
+    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/living-digital-portrait/",
+    "image": "/assets/img/placeholders/product-living-digital-portrait.svg"
+  }
+]
