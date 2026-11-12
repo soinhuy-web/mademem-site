@@ -10,6 +10,7 @@
 - Spanish `/pricing/` first advantages paragraph, and the three advantage blocks, finish above the contact dock at 390×844 and 375×812 with cookies dismissed. Desktop 1440×900 and 1280×800 clearance is unchanged. Home buttons and the duties line also sit above the dock at those phone widths.
 - Home buttons are “Browse the pieces” / “Submit your photo or design.” The living-pet link is “For a living pet.”
 - Added `wrangler.jsonc` with an empty `previews` block so the Workers preview command can upload the static root. Pages still publishes with no build command.
+- Duties are no longer described as included. The public line is “US shipping included; duties confirmed at order.” The first process step is “Picture the piece.” Repo docs are omitted from Workers assets and return 404 on Pages. Phone widths 360–430px keep 96px of scroll space under the contact dock.
 
 ### Checks run on this revision
 
@@ -78,7 +79,7 @@ Browser verification remains blocked in this execution environment. The local HT
 | WhatsApp display and copy only | PASS — source | PASS — source | Static number and copy controls present. No chat deep links found. Clipboard interaction remains unverified. |
 | Shared public configuration | PASS | PASS | Shared runtime settings and numeric catalog facts retained. Required static fallbacks use the documented global email token. |
 | Brand hygiene and static operator facts | PASS | PASS | Every page includes the operator, email, and WhatsApp in HTML. No secondary brand presentation, street address, or secondary-domain web link. |
-| Prices, DDP, China origin, proofs, and timing | PASS — source | PASS — source | USD amounts match the catalog. Default and longer ship-out windows, transit-at-order, and US business days in Eastern Time retained. |
+| Prices, shipping, China origin, proofs, and timing | PASS — source | PASS — source | USD amounts match the catalog. Default and longer ship-out windows, transit-at-order, and US business days in Eastern Time retained. |
 | Comfort inclusions | PASS | PASS | Only acrylic suncatcher, sympathy card, and gift box in its inclusion list. |
 | Custom quotes and schema prices | PASS | PASS | Six pet prices and clinic trial are the only Product offers. Suzhou retains its $999+ quote floor. |
 | Clinic offer | PASS | PASS | Only $149 for 5 pets is confirmed. Contents, postage, timing, and commercial terms remain to be confirmed. |
