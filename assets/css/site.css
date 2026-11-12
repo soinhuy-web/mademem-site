@@ -355,7 +355,7 @@ li {
 }
 .trust-strip {
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1.5fr;
+  grid-template-columns:1.8fr 1fr;
   gap:32px;
   padding:16px 0 50px;
   color:var(--muted);
@@ -1139,9 +1139,9 @@ body.inner main>.wrap:last-child {
     width:100%;
   }
   .trust-strip {
-    grid-template-columns:1fr 1fr;
-    gap:18px;
-    padding-bottom:30px;
+    grid-template-columns:1fr;
+    gap:10px;
+    padding-bottom:16px;
   }
   .materials-grid,.three-grid,.two-grid,.product-grid,.gallery-grid {
     grid-template-columns:1fr;
@@ -1619,5 +1619,101 @@ body.inner main>.wrap:last-child {
   .pricing-advantages p {
     line-height:1.45;
     margin-bottom:.65em;
+  }
+}
+
+/* Round 4: film slot, 4:3 pending images, and mobile pricing clearance. */
+.hero-shade {
+  background: rgba(43, 39, 35, .70);
+}
+.hero-art video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-play {
+  position: absolute;
+  z-index: 4;
+  right: 18px;
+  bottom: 18px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 0;
+  background: var(--oat);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.media-frame img.slot-4x3 {
+  aspect-ratio: 4 / 3;
+  background: #e7ded1;
+}
+.media-frame img.photo-natural {
+  aspect-ratio: auto;
+  height: auto;
+}
+@media (max-width: 760px) {
+  .hero-shade {
+    background: rgba(43, 39, 35, .50);
+  }
+  .home .hero-content {
+    padding-top: 144px;
+    padding-bottom: 4px;
+  }
+  .home .hero h1 {
+    margin-bottom: 4px;
+  }
+  .home .hero-sub,
+  .home .proof-short {
+    margin-bottom: 2px;
+  }
+  .home .hero-under {
+    padding-block: 2px;
+    gap: 8px;
+  }
+  .pricing-page .page-intro {
+    padding-top: 8px;
+    padding-bottom: 4px;
+  }
+  .pricing-page .page-intro h1 {
+    font-size: clamp(2.05rem, 8.6vw, 2.45rem);
+    margin-bottom: 6px;
+  }
+  .pricing-page .page-intro .lede {
+    font-size: .98rem;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+  .pricing-page .pricing-advantages {
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+  .pricing-page .pricing-advantages > .wrap > h2 {
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+  }
+  .pricing-page .pricing-advantages .three-grid {
+    gap: 6px;
+  }
+  .pricing-page .pricing-advantages h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0;
+  }
+  .pricing-page .pricing-advantages p {
+    font-size: .92rem;
+    line-height: 1.28;
+    margin-bottom: .2em;
+  }
+}
+@media (max-width: 400px) {
+  .pricing-page .page-intro {
+    padding-top: 2px;
+  }
+  .pricing-page .page-intro h1 {
+    font-size: 1.95rem;
+    margin-bottom: 4px;
+  }
+  .pricing-page .pricing-advantages {
+    padding-top: 8px;
   }
 }

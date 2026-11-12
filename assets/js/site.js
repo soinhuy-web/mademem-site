@@ -15,6 +15,31 @@
     set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } },
     remove(key) { try { localStorage.removeItem(key); return true; } catch { return false; } }
   };
+
+  const heroFilm = $('#hero-film');
+  const heroPlay = $('.hero-play');
+  if (heroFilm && heroPlay) {
+    const source = heroFilm.querySelector('source[src]');
+    if (source) {
+      heroFilm.hidden = false;
+      const fallback = $('.hero-fallback');
+      if (fallback) fallback.hidden = true;
+      const playLabel = heroPlay.getAttribute('data-play-label') || 'Play film';
+      const pauseLabel = heroPlay.getAttribute('data-pause-label') || 'Pause film';
+      const sync = () => {
+        const paused = heroFilm.paused;
+        heroPlay.textContent = paused ? playLabel : pauseLabel;
+        heroPlay.setAttribute('aria-pressed', paused ? 'false' : 'true');
+      };
+      heroPlay.hidden = false;
+      heroPlay.addEventListener('click', () => { if (heroFilm.paused) heroFilm.play(); else heroFilm.pause(); });
+      heroFilm.addEventListener('play', sync);
+      heroFilm.addEventListener('pause', sync);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) heroFilm.pause();
+      sync();
+    }
+  }
+
   document.body.classList.toggle('show-media-labels', config.SHOW_MEDIA_LABELS);
   $$('[data-email]').forEach(link => { link.textContent = config.EMAIL; link.href = `mailto:${config.EMAIL}`; });
   $$('[data-whatsapp]').forEach(node => { node.textContent = config.WHATSAPP; });
@@ -277,7 +302,7 @@
   function hydrateCard(card, product) {
     card.dataset.materials = product.materials.join('|');
     card.dataset.uses = product.use.join('|');
-    card.dataset.audience = product.audience;
+    if (!(Array.isArray(product.lines) && product.lines.length > 1)) card.dataset.audience = product.audience;
     const title = escapeHTML(t(product.name));
     let body = product.recommended ? `<span class="badge">${t('Recommended')}</span>` : '';
     body += `<h2><a href="${localPath(product.url)}">${title}</a></h2><p class="price">${catalogPrice(product)}</p>`;
@@ -293,7 +318,8 @@
     }
     body += `<a class="text-link" href="${localPath(product.url)}">${t('Explore')} ${title} <span aria-hidden="true">↗</span></a>`;
     $('.card-body', card).innerHTML = body;
-    const image = $('img', card); image.src = product.image; image.alt = (spanish ? `Espacio reservado para una imagen de ${t(product.name)}` : `Reserved image slot for ${product.name}`);
+    const image = $('img', card);
+    if (!image.dataset.slot) { image.src = product.image; image.alt = t(product.name); }
   }
   fetch('/assets/js/data/products.json').then(response => {
     if (!response.ok) throw new Error('Catalog unavailable');
@@ -332,7 +358,7 @@
       const audience = filterForm.elements.audience.value;
       listingSchema.textContent = JSON.stringify({
         '@context': 'https://schema.org', '@type': 'ItemList',
-        itemListElement: products.filter(product => product.audience === audience).map((product, index) => ({
+        itemListElement: products.filter(product => Array.isArray(product.lines) ? product.lines.includes(audience) : product.audience === audience).map((product, index) => ({
           '@type': 'ListItem', position: index + 1, name: t(product.name), url: config.ORIGIN + localPath(product.url)
         }))
       });

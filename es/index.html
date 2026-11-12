@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://mademem.com/assets/img/placeholders/og-default.svg">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="560">
-    <meta property="og:image:alt" content="Espacio reservado para una composición de recuerdos MadeMem">
+    <meta property="og:image:alt" content="Composición de recuerdos MadeMem">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="No necesita encontrar las palabras perfectas | MadeMem">
     <meta name="twitter:description" content="Recuerdos hechos a mano, tres propuestas de diseño antes del pago y una colección separada para mascotas en vida. Hecho en China y enviado a Estados Unidos.">
@@ -79,10 +79,16 @@
       <main id="main">
         <section class="hero">
           <div class="hero-art">
-            <figure class="media-frame">
-              <img src="/assets/img/placeholders/home-process-poster.svg" alt="Espacio reservado para una imagen del lijado de una urna de nogal, la elaboración de una placa con foto y el empaque" width="800" height="560" loading="eager">
+            <video id="hero-film" class="hero-video" muted autoplay loop playsinline preload="metadata" width="1280" height="720" hidden>
+              <!-- TODO: add assets/video/hero-15s.mp4 and assets/video/hero-poster.jpg, set poster="/assets/video/hero-poster.jpg" on this video, then uncomment the source. Do not request either file before it exists.
+              <source src="/assets/video/hero-15s.mp4" type="video/mp4">
+              -->
+            </video>
+            <figure class="media-frame hero-fallback">
+              <img src="/assets/img/placeholders/home-process-poster.svg" alt="Imagen serena del inicio, visible hasta que se agregue el archivo de la película." width="1280" height="720" loading="eager" data-slot="hero-poster" data-final="/assets/video/hero-poster.jpg">
             </figure>
           </div>
+          <button type="button" class="hero-play" hidden data-play-label="Reproducir" data-pause-label="Pausar" aria-pressed="true">Pausar</button>
           <div class="hero-shade"></div>
           <div class="hero-content wrap">
             <div class="hero-contact"><a data-email href="mailto:info@teruu.com">info@teruu.com</a><span><span data-whatsapp>+86 136 8801 2346</span> <button data-copy>Copiar</button></span></div>
@@ -90,11 +96,10 @@
             <h1>No necesita palabras perfectas.</h1>
             <p class="hero-sub">Envíe una foto. Le ayudamos a mantener vivo su recuerdo, con delicadeza y solo cuando usted lo desee.</p>
             <p class="proof-short">3 propuestas de diseño en 24 horas, contadas en días hábiles de Estados Unidos, hora del Este. Elija 1, con 2 rondas de cambios. El pago y la elaboración siguen a su aprobación.</p>
-            <p class="hero-caption">Ilustración del proceso, no es un video del pedido de un cliente. El video del taller ocupará este espacio cuando esté disponible.</p>
           </div>
         </section>
-        <div class="hero-under wrap"><a class="button " href="/es/shop/">Elegir un paquete<span aria-hidden="true"> ↗</span></a> <a class="button secondary" href="/es/contact/" data-event="preview_start">Enviar una foto<span aria-hidden="true"> ↗</span></a></div>
-        <div class="trust-strip wrap"><span>Hecho a mano por encargo en China</span><span>Envío e impuestos de importación a EE. UU. incluidos</span><span>Tres propuestas antes de pagar</span><span>Por lo general, se despacha entre 7 y 15 días después de aprobar el diseño. El tiempo de tránsito se confirma al hacer el pedido.</span></div>
+        <div class="hero-under wrap"><a class="button " href="/es/shop/">Ver las piezas<span aria-hidden="true"> ↗</span></a> <a class="button secondary" href="/es/contact/" data-event="preview_start">Enviar su foto o diseño<span aria-hidden="true"> ↗</span></a></div>
+        <div class="trust-strip wrap"><span>Hecho a mano por encargo en China. Envío a EE. UU. incluido; los aranceles se confirman al hacer el pedido.</span><span>Tres propuestas antes de pagar</span></div>
         <section class="section ">
           <div class="wrap">
             <h2>Un material que se sienta como en casa.</h2>
@@ -102,8 +107,9 @@
               <article>
                 <a href="/es/shop/pet/?material=Wood">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-wood.svg" alt="Espacio reservado para una imagen de madera de nogal" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-wood.svg" alt="Primer plano de la veta de un nogal acabado." width="1280" height="960" loading="lazy" data-slot="material-wood" data-final="/assets/img/materials/wood.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <h3>Madera de nogal</h3>
                 <p>Cálida, como un mueble de casa. Una repisa de la sala o un estudio pueden darle un lugar familiar. El nogal es una opción habitual, confirmada en su propuesta.</p>
@@ -112,8 +118,9 @@
               <article>
                 <a href="/es/shop/human/?material=Ceramic">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-ceramic.svg" alt="Espacio reservado para una imagen de cerámica" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-ceramic.svg" alt="Primer plano del esmalte de una porcelana pintada a mano." width="1280" height="960" loading="lazy" data-slot="material-ceramic" data-final="/assets/img/materials/ceramic.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <h3>Cerámica</h3>
                 <p>Serena y atemporal, con pintura a mano a pedido. Para un rincón tranquilo o una repisa de recuerdos, como pieza propia o regalo. Las consultas sobre porcelana se confirman individualmente.</p>
@@ -122,8 +129,9 @@
               <article>
                 <a href="/es/products/comfort/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-acrylic.svg" alt="Espacio reservado para una imagen de un adorno de acrílico para la ventana" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-acrylic.svg" alt="Primer plano de un acrílico transparente que capta la luz." width="1280" height="960" loading="lazy" data-slot="material-acrylic" data-final="/assets/img/materials/acrylic.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <h3>Adorno de acrílico para la ventana</h3>
                 <p>La luz encuentra su lugar junto a una ventana. Un adorno de acrílico puede ser un regalo delicado que brinde un pequeño momento de compañía.</p>
@@ -132,8 +140,9 @@
               <article>
                 <a href="/es/shop/pet/?material=Metal">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-metal.svg" alt="Espacio reservado para una imagen de metal" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-metal.svg" alt="Primer plano de un collar y un frasquito de acero inoxidable." width="1280" height="960" loading="lazy" data-slot="material-metal" data-final="/assets/img/materials/metal.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <h3>Metal</h3>
                 <p>Resistente y cercano. Una pieza para llevar puede acompañarle durante mucho tiempo o regalarse con una nota personal.</p>
@@ -142,22 +151,24 @@
               <article>
                 <a href="/es/shop/pet/?material=Textile%20%26%20embroidery">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-textile.svg" alt="Espacio reservado para una imagen de textiles e hilos" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-textile.svg" alt="Primer plano de hilo de bordado de seda y lino." width="1280" height="960" loading="lazy" data-slot="material-textile" data-final="/assets/img/materials/textile.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <h3>Textiles e hilos</h3>
                 <p>Suave para abrazar. Un peluche o una pieza bordada puede encontrar su lugar junto a la cama, para usted, un niño o un amigo.</p>
                 <a class="text-link" href="/es/shop/pet/?material=Textile%20%26%20embroidery">Explorar textiles e hilos ↗</a>
               </article>
               <article>
-                <a href="/es/contact/?need=Crystal%20add-on">
+                <a href="/es/products/crystal-3d/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-crystal.svg" alt="Espacio reservado para una imagen de cristal" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-crystal.svg" alt="Primer plano de cristal K9 con un grabado interno y un brillo suave de LED." width="1280" height="960" loading="lazy" data-slot="material-crystal" data-final="/assets/img/materials/crystal.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <h3>Cristal</h3>
                 <p>Transparente y luminoso, para un escritorio o una mesa de noche. Consulte por un complemento de cristal para conservar o regalar junto con su pieza elegida.</p>
-                <a class="text-link" href="/es/contact/?need=Crystal%20add-on">Explorar cristal ↗</a>
+                <a class="text-link" href="/es/products/crystal-3d/">Explorar cristal ↗</a>
               </article>
             </div>
             <div class="quiet-note">
@@ -169,7 +180,7 @@
         <section class="section tone">
           <div class="wrap">
             <h2>Un camino a su ritmo.</h2>
-            <div class="path-links"><a class="button secondary" href="/es/shop/pet/">Recordar a una mascota<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/es/shop/human/">Recordar a una persona<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/es/living/">Celebrar a una mascota en vida<span aria-hidden="true"> ↗</span></a></div>
+            <div class="path-links"><a class="button secondary" href="/es/shop/pet/">Recordar a una mascota<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/es/shop/human/">Recordar a una persona<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/es/living/">Para una mascota en vida<span aria-hidden="true"> ↗</span></a></div>
             <p class="center"><a href="/es/shop/clinic/">Un espacio tranquilo para clínicas ↗</a></p>
             <div class="steps-grid">
               <div>
@@ -253,8 +264,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Acrylic" data-uses="Gifts">
                 <a class="image-link" href="/es/products/comfort/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-comfort.svg" width="800" height="560" loading="lazy" alt="Espacio reservado para una imagen de Comfort">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-comfort.svg" width="1280" height="960" loading="lazy" alt="Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema." data-slot="product-comfort" data-final="/assets/img/products/comfort.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/es/products/comfort/">Comfort</a></h2>
@@ -275,8 +287,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
                 <a class="image-link" href="/es/products/warmth/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-warmth.svg" width="800" height="560" loading="lazy" alt="Espacio reservado para una imagen de Warmth">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-warmth.svg" width="1280" height="960" loading="lazy" alt="Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo." data-slot="product-warmth" data-final="/assets/img/products/warmth.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/es/products/warmth/">Warmth</a></h2>
@@ -297,8 +310,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
                 <a class="image-link" href="/es/products/keepsake/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-keepsake.svg" width="800" height="560" loading="lazy" alt="Espacio reservado para una imagen de Keepsake">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-keepsake.svg" width="1280" height="960" loading="lazy" alt="Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo." data-slot="product-keepsake" data-final="/assets/img/products/keepsake.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/es/products/keepsake/">Keepsake</a></h2>
@@ -319,8 +333,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood" data-uses="Urns">
                 <a class="image-link" href="/es/products/essential/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-essential.svg" width="800" height="560" loading="lazy" alt="Espacio reservado para una imagen de Essential">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-essential.svg" width="1280" height="960" loading="lazy" alt="Una urna de madera de nogal del conjunto Essential, grabada con el nombre Bailey y las fechas." data-slot="product-essential" data-final="/assets/img/products/essential.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <span class="badge">Recomendado</span>
@@ -342,8 +357,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood|Metal" data-uses="Urns|Keepsakes">
                 <a class="image-link" href="/es/products/classic/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-classic.svg" width="800" height="560" loading="lazy" alt="Espacio reservado para una imagen de Classic">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-classic.svg" width="1280" height="960" loading="lazy" alt="Conjunto Classic en una sola caja de regalo: una urna de nogal para mascota, un collar, un retrato enmarcado de un sabueso y un certificado de despedida." data-slot="product-classic" data-final="/assets/img/products/classic.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <span class="badge">Recomendado</span>
@@ -365,8 +381,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood|Metal" data-uses="Urns|Keepsakes">
                 <a class="image-link" href="/es/products/legacy/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-legacy.svg" width="800" height="560" loading="lazy" alt="Espacio reservado para una imagen de Legacy">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-legacy.svg" width="1280" height="960" loading="lazy" alt="Conjunto Legacy: una urna de nogal junto a un retrato al óleo pintado a mano de un golden retriever." data-slot="product-legacy" data-final="/assets/img/products/legacy.jpg" class="slot-4x3">
+                  <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/es/products/legacy/">Legacy</a></h2>
