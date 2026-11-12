@@ -19,7 +19,7 @@
     "lives": "A window that catches the day.",
     "means": "A gentle sympathy gift.",
     "kind": "suncatcher",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Made to order in China. Generally ships within 10–15 days after you approve the proof. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/comfort/",
@@ -47,7 +47,7 @@
     "lives": "A shelf or bedside table.",
     "means": "A photo to return to.",
     "kind": "plaque",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Made to order in China. Generally ships within 10–15 days after you approve the proof. Transit time is confirmed at order.",
     "note": "China-made. Memorial-page hosting length is to be confirmed.",
     "recommended": false,
     "url": "/products/warmth/",
@@ -75,7 +75,7 @@
     "lives": "A quiet shelf and close to you.",
     "means": "A gift with more than one way to remember.",
     "kind": "portrait",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Made to order in China. Generally ships within 10–15 days after you approve the proof. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/keepsake/",
@@ -101,7 +101,7 @@
     "lives": "A living-room shelf or study.",
     "means": "A place to keep your pet close.",
     "kind": "urn",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Made to order in China. Generally ships within 10–15 days after you approve the proof. Transit time is confirmed at order.",
     "note": "",
     "recommended": true,
     "url": "/products/essential/",
@@ -131,7 +131,7 @@
     "lives": "A shelf, with a portrait nearby.",
     "means": "A considered set for your own home.",
     "kind": "urn",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Made to order in China. Generally ships within 10–15 days after you approve the proof. Transit time is confirmed at order.",
     "note": "Hand-painted porcelain can be discussed on request. Timing is to be confirmed.",
     "recommended": true,
     "url": "/products/classic/",
@@ -185,7 +185,7 @@
     "lives": "Beside a bed or in a favorite chair.",
     "means": "A tactile way to remember.",
     "kind": "plush",
-    "ship": "Typical making window about 2–3 weeks, to be confirmed in the preview. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/memorial-plush/",
@@ -237,7 +237,7 @@
     "lives": "A private shelf.",
     "means": "A remembrance to keep near.",
     "kind": "plaque",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/human-plaque-keepsake/",
@@ -265,7 +265,7 @@
     "lives": "A memorial shelf or quiet corner.",
     "means": "A personal place for family remembrance.",
     "kind": "urn",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "The material is confirmed in your preview. Hand-painted porcelain is available to discuss on request, with timing to be confirmed.",
     "recommended": false,
     "url": "/products/human-full-urn/",
@@ -294,7 +294,7 @@
     "lives": "In more than one family home.",
     "means": "A shared remembrance.",
     "kind": "urn",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/human-family/",
@@ -318,7 +318,7 @@
     "lives": "A wall or family photograph shelf.",
     "means": "A face you want to see each day.",
     "kind": "portrait",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "Composite and restored portraits are described as altered work and shown in the proof.",
     "recommended": false,
     "url": "/products/human-portrait/",
@@ -347,7 +347,7 @@
     "lives": "A quiet, sheltered display.",
     "means": "A detailed family remembrance.",
     "kind": "embroidery",
-    "ship": "Typical making window about 6–10 weeks, confirmed in the preview. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "From $999+, custom quote. The complete materials and urn choice are confirmed in your preview.",
     "recommended": false,
     "url": "/products/human-suzhou/",
@@ -411,7 +411,7 @@
     "lives": "A favorite chair or bedside.",
     "means": "An affectionate birthday gift.",
     "kind": "plush",
-    "ship": "Typical making window about 2–3 weeks, to be confirmed in the preview. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/living-plush/",
@@ -434,10 +434,124 @@
     "lives": "A desk or picture shelf.",
     "means": "A celebration of your pet as they are now.",
     "kind": "portrait",
-    "ship": "Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
     "note": "",
     "recommended": false,
     "url": "/products/living-digital-portrait/",
     "image": "/assets/img/placeholders/product-living-digital-portrait.svg"
+  },
+  {
+    "handle": "crystal-3d",
+    "name": "3D crystal",
+    "audience": "pet",
+    "lines": [
+      "pet",
+      "human"
+    ],
+    "price": null,
+    "materials": [
+      "Crystal"
+    ],
+    "use": [
+      "Keepsakes"
+    ],
+    "includes": [
+      "K9 crystal photo block or tower",
+      "LED base"
+    ],
+    "why": "A photograph held inside clear crystal, with a light at the base.",
+    "lives": "A desk or bedside.",
+    "means": "A small, light-catching remembrance.",
+    "kind": "crystal-3d",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/crystal-3d/",
+    "image": "/assets/img/placeholders/product-crystal-3d.svg"
+  },
+  {
+    "handle": "embroidery-machine",
+    "name": "Machine embroidery keepsake",
+    "audience": "pet",
+    "lines": [
+      "pet",
+      "human"
+    ],
+    "price": null,
+    "materials": [
+      "Textile & embroidery"
+    ],
+    "use": [
+      "Keepsakes",
+      "Gifts"
+    ],
+    "includes": [
+      "Name-and-date mini hoop or small pillow"
+    ],
+    "why": "A name and dates stitched on a small hoop or pillow.",
+    "lives": "A shelf, a chair, or in the hand.",
+    "means": "A soft keepsake with a name you can read.",
+    "kind": "embroidery-machine",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/embroidery-machine/",
+    "image": "/assets/img/placeholders/product-embroidery-machine.svg"
+  },
+  {
+    "handle": "jingdezhen-urn",
+    "name": "Jingdezhen urn",
+    "audience": "pet",
+    "lines": [
+      "pet",
+      "human"
+    ],
+    "price": null,
+    "materials": [
+      "Ceramic"
+    ],
+    "use": [
+      "Urns"
+    ],
+    "includes": [
+      "Hand-painted Jingdezhen ceramic urn"
+    ],
+    "why": "A hand-painted ceramic urn from Jingdezhen.",
+    "lives": "A quiet shelf.",
+    "means": "A ceramic place for remembrance.",
+    "kind": "jingdezhen-urn",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/jingdezhen-urn/",
+    "image": "/assets/img/placeholders/product-jingdezhen-urn.svg"
+  },
+  {
+    "handle": "cloisonne",
+    "name": "Cloisonné plaque",
+    "audience": "pet",
+    "lines": [
+      "pet",
+      "human"
+    ],
+    "price": null,
+    "materials": [
+      "Metal"
+    ],
+    "use": [
+      "Keepsakes"
+    ],
+    "includes": [
+      "Cloisonné enamel memorial plaque or small box"
+    ],
+    "why": "Enamel color held in metal wire, for a name and a small motif.",
+    "lives": "A shelf or a small table.",
+    "means": "A metal keepsake with a lasting surface.",
+    "kind": "cloisonne",
+    "ship": "Making time is to be confirmed at preview. Transit time is confirmed at order.",
+    "note": "",
+    "recommended": false,
+    "url": "/products/cloisonne/",
+    "image": "/assets/img/placeholders/product-cloisonne.svg"
   }
 ]

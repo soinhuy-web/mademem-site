@@ -552,4 +552,52 @@
     <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/stories/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/stories/" />
   </url>
+  <url>
+    <loc>https://mademem.com/products/crystal-3d/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/crystal-3d/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/crystal-3d/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/crystal-3d/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/es/products/crystal-3d/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/crystal-3d/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/crystal-3d/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/crystal-3d/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/products/embroidery-machine/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/embroidery-machine/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/embroidery-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/embroidery-machine/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/es/products/embroidery-machine/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/embroidery-machine/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/embroidery-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/embroidery-machine/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/products/jingdezhen-urn/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/jingdezhen-urn/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/jingdezhen-urn/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/jingdezhen-urn/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/es/products/jingdezhen-urn/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/jingdezhen-urn/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/jingdezhen-urn/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/jingdezhen-urn/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/products/cloisonne/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/cloisonne/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/cloisonne/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/cloisonne/" />
+  </url>
+  <url>
+    <loc>https://mademem.com/es/products/cloisonne/</loc>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://mademem.com/products/cloisonne/" />
+    <xhtml:link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/cloisonne/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mademem.com/products/cloisonne/" />
+  </url>
 </urlset>

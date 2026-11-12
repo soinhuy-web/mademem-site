@@ -1,0 +1,14 @@
+.git
+**/.git/**
+**/.DS_Store
+**/node_modules/**
+README.md
+CHANGES.md
+TODO.md
+wrangler.jsonc
+images-manifest.json
+.assetsignore
+.gitignore
+functions
+_routes.json
+_middleware.js

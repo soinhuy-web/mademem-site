@@ -14,9 +14,8 @@ All seven acceptance fixes are implemented in English and US Spanish where appli
 ## Public settings and media
 
 - Replace the temporary mailbox `info@teruu.com` when the MadeMem mailbox exists. Use the exact site-wide find-and-replace token documented in README to update `assets/js/config.js`, `llms.txt`, English and Spanish HTML fallbacks and Organization data, any search-index contact mentions, and this note together.
-- Supply real product, scale, urn-opening, workshop, making, quality-check, and packing photographs. Replace each slot according to `images-manifest.json`.
-- Supply twelve verified CC0 lifestyle photographs with recorded provenance. The current lifestyle slots contain no licensed photos. Preserve the required lifestyle captions and related-product names.
-- Supply the 15-second process film and final poster. Add a muted player with visible pause/play and phone playback only when the file exists, then add matching VideoObject metadata. Preserve the process-illustration caption.
+- Twelve CC0 lifestyle photographs and two journal stills are in place, with captions and credits. Product, material, gallery-work, About, and How photographs are still pending. Each slot’s final path is in `images-manifest.json`. Replace the placeholder `src` only after that file exists.
+- The home film slot is built and does not request a missing file. Add `assets/video/hero-15s.mp4` and `assets/video/hero-poster.jpg`, uncomment the source, set the poster, then add VideoObject (`duration` `PT15S`) as README describes. Caption, when the film is live: “Illustrative film — not footage of a specific customer's order” / “Película ilustrativa — no es la filmación del pedido de un cliente.”
 - **TBC — visible media-label decision.** The shared `SHOW_MEDIA_LABELS` hook is ready and defaults to false.
 - Optional pixel IDs remain empty. Activate only approved IDs, verify vendor network behavior and the documented CSP, and retain consent and GPC gates.
 

@@ -58,10 +58,16 @@
       <main id="main">
         <section class="hero">
           <div class="hero-art">
-            <figure class="media-frame">
-              <img src="/assets/img/placeholders/home-process-poster.svg" alt="Reserved image slot for sanding a walnut urn, making a photo plaque, and packing" width="800" height="560" loading="eager">
+            <video id="hero-film" class="hero-video" muted autoplay loop playsinline preload="metadata" width="1280" height="720" hidden>
+              <!-- TODO: add assets/video/hero-15s.mp4 and assets/video/hero-poster.jpg, set poster="/assets/video/hero-poster.jpg" on this video, then uncomment the source. Do not request either file before it exists.
+              <source src="/assets/video/hero-15s.mp4" type="video/mp4">
+              -->
+            </video>
+            <figure class="media-frame hero-fallback">
+              <img src="/assets/img/placeholders/home-process-poster.svg" alt="A calm still shown in the hero until the film file is added." width="1280" height="720" loading="eager" data-slot="hero-poster" data-final="/assets/video/hero-poster.jpg">
             </figure>
           </div>
+          <button type="button" class="hero-play" hidden data-play-label="Play film" data-pause-label="Pause film" aria-pressed="true">Pause film</button>
           <div class="hero-shade"></div>
           <div class="hero-content wrap">
             <div class="hero-contact"><a data-email href="mailto:info@teruu.com">info@teruu.com</a><span><span data-whatsapp>+86 136 8801 2346</span> <button data-copy>Copy</button></span></div>
@@ -69,11 +75,10 @@
             <h1>You don't need perfect words.</h1>
             <p class="hero-sub">Send one photo. We'll help you keep them close — gently, and only when you're ready.</p>
             <p class="proof-short">3 design proofs within 24 hours, counted in US business days, US Eastern Time. Choose 1, with 2 revision rounds. Pay after approval. Production starts after approval.</p>
-            <p class="hero-caption">Process illustration, not footage of a customer’s order. A workshop film will occupy this space when supplied.</p>
           </div>
         </section>
-        <div class="hero-under wrap"><a class="button " href="/shop/">Choose a package<span aria-hidden="true"> ↗</span></a> <a class="button secondary" href="/contact/" data-event="preview_start">Send a photo<span aria-hidden="true"> ↗</span></a></div>
-        <div class="trust-strip wrap"><span>Handmade to order in China</span><span>US shipping & duties included</span><span>Three proofs before you pay</span><span>Generally ships within 7–15 days after you approve the proof. Transit time is confirmed at order.</span></div>
+        <div class="hero-under wrap"><a class="button " href="/shop/">Browse the pieces<span aria-hidden="true"> ↗</span></a> <a class="button secondary" href="/contact/" data-event="preview_start">Submit your photo or design<span aria-hidden="true"> ↗</span></a></div>
+        <div class="trust-strip wrap"><span>Handmade to order in China. US shipping included; duties confirmed at order.</span><span>Three proofs before you pay</span></div>
         <section class="section ">
           <div class="wrap">
             <h2>A material that feels like home.</h2>
@@ -81,8 +86,9 @@
               <article>
                 <a href="/shop/pet/?material=Wood">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-wood.svg" alt="Reserved image slot for walnut wood" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-wood.svg" alt="Close-up of finished walnut wood grain." width="1280" height="960" loading="lazy" data-slot="material-wood" data-final="/assets/img/materials/wood.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <h3>Walnut wood</h3>
                 <p>Warm, like furniture. A living-room shelf or study gives wood a familiar place, mainly for a piece you keep. Walnut is a typical option, confirmed in your preview.</p>
@@ -91,8 +97,9 @@
               <article>
                 <a href="/shop/human/?material=Ceramic">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-ceramic.svg" alt="Reserved image slot for ceramic" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-ceramic.svg" alt="Close-up of hand-painted porcelain glaze." width="1280" height="960" loading="lazy" data-slot="material-ceramic" data-final="/assets/img/materials/ceramic.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <h3>Ceramic</h3>
                 <p>Timeless and hand-painted on request. A quiet corner or memorial shelf can hold a piece to keep or give. Porcelain inquiries are confirmed individually.</p>
@@ -101,8 +108,9 @@
               <article>
                 <a href="/products/comfort/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-acrylic.svg" alt="Reserved image slot for acrylic suncatcher" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-acrylic.svg" alt="Close-up of clear acrylic catching the light." width="1280" height="960" loading="lazy" data-slot="material-acrylic" data-final="/assets/img/materials/acrylic.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <h3>Acrylic suncatcher</h3>
                 <p>Light belongs by a window. An acrylic suncatcher makes a gentle gift when you want to offer a small moment of company.</p>
@@ -111,8 +119,9 @@
               <article>
                 <a href="/shop/pet/?material=Metal">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-metal.svg" alt="Reserved image slot for metal" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-metal.svg" alt="Close-up of a stainless-steel memorial necklace and vial." width="1280" height="960" loading="lazy" data-slot="material-metal" data-final="/assets/img/materials/metal.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <h3>Metal</h3>
                 <p>Durable and close to you. A wearable keepsake can be kept for a long time or given with a personal note.</p>
@@ -121,22 +130,24 @@
               <article>
                 <a href="/shop/pet/?material=Textile%20%26%20embroidery">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-textile.svg" alt="Reserved image slot for textile &amp; thread" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-textile.svg" alt="Close-up of silk embroidery thread and linen." width="1280" height="960" loading="lazy" data-slot="material-textile" data-final="/assets/img/materials/textile.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <h3>Textile & thread</h3>
                 <p>Soft enough to hold. A plush or embroidered piece can live beside a bed, for you, a child, or a friend.</p>
                 <a class="text-link" href="/shop/pet/?material=Textile%20%26%20embroidery">Explore textile & thread ↗</a>
               </article>
               <article>
-                <a href="/contact/?need=Crystal%20add-on">
+                <a href="/products/crystal-3d/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/material-crystal.svg" alt="Reserved image slot for crystal" width="800" height="560" loading="lazy">
-                  </figure>
+                    <img src="/assets/img/placeholders/material-crystal.svg" alt="Close-up of K9 crystal with a subsurface engraving and a soft LED glow." width="1280" height="960" loading="lazy" data-slot="material-crystal" data-final="/assets/img/materials/crystal.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <h3>Crystal</h3>
                 <p>Clear and light-catching on a desk or bedside. Ask about a crystal add-on to keep or give alongside a chosen piece.</p>
-                <a class="text-link" href="/contact/?need=Crystal%20add-on">Explore crystal ↗</a>
+                <a class="text-link" href="/products/crystal-3d/">Explore crystal ↗</a>
               </article>
             </div>
             <div class="quiet-note">
@@ -148,11 +159,11 @@
         <section class="section tone">
           <div class="wrap">
             <h2>A path at your pace.</h2>
-            <div class="path-links"><a class="button secondary" href="/shop/pet/">Remember a pet<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/shop/human/">Remember a person<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/living/">Celebrate a living pet<span aria-hidden="true"> ↗</span></a></div>
+            <div class="path-links"><a class="button secondary" href="/shop/pet/">Remember a pet<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/shop/human/">Remember a person<span aria-hidden="true"> ↗</span></a><a class="button secondary" href="/living/">For a living pet<span aria-hidden="true"> ↗</span></a></div>
             <p class="center"><a href="/shop/clinic/">A quieter path for clinics ↗</a></p>
             <div class="steps-grid">
               <div>
-                <h3>Imagine</h3>
+                <h3>Picture the piece</h3>
                 <p>Picture the piece you need.</p>
               </div>
               <div>
@@ -232,8 +243,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Acrylic" data-uses="Gifts">
                 <a class="image-link" href="/products/comfort/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-comfort.svg" width="800" height="560" loading="lazy" alt="Reserved image slot for Comfort">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-comfort.svg" width="1280" height="960" loading="lazy" alt="Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box." data-slot="product-comfort" data-final="/assets/img/products/comfort.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/products/comfort/">Comfort</a></h2>
@@ -254,8 +266,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
                 <a class="image-link" href="/products/warmth/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-warmth.svg" width="800" height="560" loading="lazy" alt="Reserved image slot for Warmth">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-warmth.svg" width="1280" height="960" loading="lazy" alt="Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box." data-slot="product-warmth" data-final="/assets/img/products/warmth.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/products/warmth/">Warmth</a></h2>
@@ -276,8 +289,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
                 <a class="image-link" href="/products/keepsake/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-keepsake.svg" width="800" height="560" loading="lazy" alt="Reserved image slot for Keepsake">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-keepsake.svg" width="1280" height="960" loading="lazy" alt="Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial." data-slot="product-keepsake" data-final="/assets/img/products/keepsake.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/products/keepsake/">Keepsake</a></h2>
@@ -298,8 +312,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood" data-uses="Urns">
                 <a class="image-link" href="/products/essential/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-essential.svg" width="800" height="560" loading="lazy" alt="Reserved image slot for Essential">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-essential.svg" width="1280" height="960" loading="lazy" alt="A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates." data-slot="product-essential" data-final="/assets/img/products/essential.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <span class="badge">Recommended</span>
@@ -321,8 +336,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood|Metal" data-uses="Urns|Keepsakes">
                 <a class="image-link" href="/products/classic/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-classic.svg" width="800" height="560" loading="lazy" alt="Reserved image slot for Classic">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-classic.svg" width="1280" height="960" loading="lazy" alt="Classic set in one gift box: a walnut pet urn, a necklace, a framed portrait of a hound, and a farewell certificate." data-slot="product-classic" data-final="/assets/img/products/classic.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <span class="badge">Recommended</span>
@@ -344,8 +360,9 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood|Metal" data-uses="Urns|Keepsakes">
                 <a class="image-link" href="/products/legacy/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/product-legacy.svg" width="800" height="560" loading="lazy" alt="Reserved image slot for Legacy">
-                  </figure>
+                    <img src="/assets/img/placeholders/product-legacy.svg" width="1280" height="960" loading="lazy" alt="Legacy set: a walnut urn beside a hand-painted oil portrait of a golden retriever." data-slot="product-legacy" data-final="/assets/img/products/legacy.jpg" class="slot-4x3">
+                  <figcaption>Sample illustration — real product photos to follow</figcaption>
+                </figure>
                 </a>
                 <div class="card-body">
                   <h2><a href="/products/legacy/">Legacy</a></h2>

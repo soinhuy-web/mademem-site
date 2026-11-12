@@ -1,5 +1,23 @@
 # Changes
 
+## November 12, 2026 — round 4 slots, lead times, and four products
+
+- Home hero is a muted, looping `<video>` with a play/pause control and a 70% overlay (lighter on small screens). The source stays commented out until `assets/video/hero-15s.mp4` and `assets/video/hero-poster.jpg` exist, so the page does not request a missing file. VideoObject is omitted until then. README documents how to drop the film in.
+- Twelve CC0 lifestyle photographs and two journal stills are published with the required captions, related-piece names, and an attribution list on About. Other photographs remain neutral 4:3 placeholders listed in `images-manifest.json`. No image file is used five or more times. “Reserved image slot” text is removed.
+- Comfort, Warmth, Keepsake, Essential, and Classic ship within 10–15 days after proof approval, made in China. Legacy stays at about 15–20 days. The How page no longer says production is 5–7 business days. Plush and Suzhou windows are “to be confirmed at preview.” The home line is “Handmade to order in China. US shipping included; duties confirmed at order.”
+- Independent custom-quote pages: `/products/crystal-3d/`, `/products/embroidery-machine/`, `/products/jingdezhen-urn/`, `/products/cloisonne/`, mirrored under `/es/`. They are in the pet and human shops, the sitemap, and both search indexes. Prices of the existing packages are unchanged.
+- Footer Journal already pointed at `/blog/`. Sitemap has no `/journal/`.
+- Spanish `/pricing/` first advantages paragraph, and the three advantage blocks, finish above the contact dock at 390×844 and 375×812 with cookies dismissed. Desktop 1440×900 and 1280×800 clearance is unchanged. Home buttons and the duties line also sit above the dock at those phone widths.
+- Home buttons are “Browse the pieces” / “Submit your photo or design.” The living-pet link is “For a living pet.”
+- Added `wrangler.jsonc` with an empty `previews` block so the Workers preview command can upload the static root. Pages still publishes with no build command.
+- Duties are no longer described as included. The public line is “US shipping included; duties confirmed at order.” The first process step is “Picture the piece.” Repo docs are omitted from Workers assets and return 404 on Pages. Phone widths 360–430px keep 96px of scroll space under the contact dock.
+
+### Checks run on this revision
+
+- Source: 102 HTML pages, one `h1` each, unique titles, JSON-LD blocks parse, sitemap has 100 URLs and no `/journal/`, no image `src` used 5 or more times, no live request for the missing film.
+- Browser (headless Chrome): no console errors and no failed responses on home, pricing, crystal, shop, gallery, about, how, FAQ, Comfort, and Legacy. No horizontal overflow on those pages at 390px. Crystal filter returns only 3D crystal in English and Spanish. Cookies dismissed.
+- Not claimed: axe, Lighthouse, keyboard walk of every dialog, or a browser open of all 102 pages.
+
 ## November 11, 2026 — acceptance fixes
 
 - M1: Tightened the pricing introduction, heading sizes, column spacing, and paragraph spacing in both languages, with bottom padding on the advantages section. Kept the contact dock in its reserved row. The required three advantages remain complete in HTML. First-paint clearance still requires browser measurement at 1440×900 and 1280×800; it is not claimed as visually verified.
@@ -61,7 +79,7 @@ Browser verification remains blocked in this execution environment. The local HT
 | WhatsApp display and copy only | PASS — source | PASS — source | Static number and copy controls present. No chat deep links found. Clipboard interaction remains unverified. |
 | Shared public configuration | PASS | PASS | Shared runtime settings and numeric catalog facts retained. Required static fallbacks use the documented global email token. |
 | Brand hygiene and static operator facts | PASS | PASS | Every page includes the operator, email, and WhatsApp in HTML. No secondary brand presentation, street address, or secondary-domain web link. |
-| Prices, DDP, China origin, proofs, and timing | PASS — source | PASS — source | USD amounts match the catalog. Default and longer ship-out windows, transit-at-order, and US business days in Eastern Time retained. |
+| Prices, shipping, China origin, proofs, and timing | PASS — source | PASS — source | USD amounts match the catalog. Default and longer ship-out windows, transit-at-order, and US business days in Eastern Time retained. |
 | Comfort inclusions | PASS | PASS | Only acrylic suncatcher, sympathy card, and gift box in its inclusion list. |
 | Custom quotes and schema prices | PASS | PASS | Six pet prices and clinic trial are the only Product offers. Suzhou retains its $999+ quote floor. |
 | Clinic offer | PASS | PASS | Only $149 for 5 pets is confirmed. Contents, postage, timing, and commercial terms remain to be confirmed. |

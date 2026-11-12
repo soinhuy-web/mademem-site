@@ -1,1381 +1,2731 @@
 {
-  "notes": "SVG placeholders reserve layout. No real product or workshop photos are supplied. Lifestyle slots contain no CC0 photography. Media labels default off. Replace with verified assets at most 1280px wide, about 70–290KB.",
+  "notes": "Swap guide. placeholder_src is what the page requests today. When the file at final_path exists, point the matching data-slot image at that path. Pending files must not be requested before they exist. No image file is used in 5 or more places. Generated images use the caption 'Sample illustration — real product photos to follow'.",
   "slots": [
     {
-      "id": "og-default",
-      "path": "/assets/img/placeholders/og-default.svg",
-      "page": "all",
-      "intended_final_content": "MadeMem brand and keepsake composition",
-      "alt": "Reserved image slot for mademem brand and keepsake composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "video poster",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "favicon",
-      "path": "/assets/img/placeholders/favicon.svg",
-      "page": "all",
-      "intended_final_content": "MadeMem monogram",
-      "alt": "MadeMem",
-      "dimensions": {
-        "width": 64,
-        "height": 64
-      },
-      "type": "brand asset",
-      "required_caption": ""
-    },
-    {
-      "id": "logo",
-      "path": "/assets/img/placeholders/logo.svg",
-      "page": "all",
-      "intended_final_content": "MadeMem wordmark",
-      "alt": "MadeMem",
-      "dimensions": {
-        "width": 250,
-        "height": 60
-      },
-      "type": "brand asset",
-      "required_caption": ""
-    },
-    {
-      "id": "product-comfort",
-      "path": "/assets/img/placeholders/product-comfort.svg",
-      "page": "/products/comfort/",
-      "intended_final_content": "Comfort composition",
-      "alt": "Reserved image slot for comfort composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-warmth",
-      "path": "/assets/img/placeholders/product-warmth.svg",
-      "page": "/products/warmth/",
-      "intended_final_content": "Warmth composition",
-      "alt": "Reserved image slot for warmth composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-keepsake",
-      "path": "/assets/img/placeholders/product-keepsake.svg",
-      "page": "/products/keepsake/",
-      "intended_final_content": "Keepsake composition",
-      "alt": "Reserved image slot for keepsake composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-essential",
-      "path": "/assets/img/placeholders/product-essential.svg",
-      "page": "/products/essential/",
-      "intended_final_content": "Essential composition",
-      "alt": "Reserved image slot for essential composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-classic",
-      "path": "/assets/img/placeholders/product-classic.svg",
-      "page": "/products/classic/",
-      "intended_final_content": "Classic composition",
-      "alt": "Reserved image slot for classic composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-legacy",
-      "path": "/assets/img/placeholders/product-legacy.svg",
-      "page": "/products/legacy/",
-      "intended_final_content": "Legacy composition",
-      "alt": "Reserved image slot for legacy composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-memorial-plush",
-      "path": "/assets/img/placeholders/product-memorial-plush.svg",
-      "page": "/products/memorial-plush/",
-      "intended_final_content": "Pet memorial plush composition",
-      "alt": "Reserved image slot for pet memorial plush composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-memorial-oil-portrait",
-      "path": "/assets/img/placeholders/product-memorial-oil-portrait.svg",
-      "page": "/products/memorial-oil-portrait/",
-      "intended_final_content": "Dafen memorial oil portrait composition",
-      "alt": "Reserved image slot for dafen memorial oil portrait composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-human-plaque-keepsake",
-      "path": "/assets/img/placeholders/product-human-plaque-keepsake.svg",
-      "page": "/products/human-plaque-keepsake/",
-      "intended_final_content": "Photo plaque + small sharing box composition",
-      "alt": "Reserved image slot for photo plaque + small sharing box composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-human-full-urn",
-      "path": "/assets/img/placeholders/product-human-full-urn.svg",
-      "page": "/products/human-full-urn/",
-      "intended_final_content": "Full-size urn set composition",
-      "alt": "Reserved image slot for full-size urn set composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-human-family",
-      "path": "/assets/img/placeholders/product-human-family.svg",
-      "page": "/products/human-family/",
-      "intended_final_content": "Family-sharing set composition",
-      "alt": "Reserved image slot for family-sharing set composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-human-portrait",
-      "path": "/assets/img/placeholders/product-human-portrait.svg",
-      "page": "/products/human-portrait/",
-      "intended_final_content": "Portrait set composition",
-      "alt": "Reserved image slot for portrait set composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-human-suzhou",
-      "path": "/assets/img/placeholders/product-human-suzhou.svg",
-      "page": "/products/human-suzhou/",
-      "intended_final_content": "Suzhou embroidery set composition",
-      "alt": "Reserved image slot for suzhou embroidery set composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-clinic-trial",
-      "path": "/assets/img/placeholders/product-clinic-trial.svg",
-      "page": "/products/clinic-trial/",
-      "intended_final_content": "Clinic trial kit composition",
-      "alt": "Reserved image slot for clinic trial kit composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-living-oil-portrait",
-      "path": "/assets/img/placeholders/product-living-oil-portrait.svg",
-      "page": "/products/living-oil-portrait/",
-      "intended_final_content": "A portrait of your companion composition",
-      "alt": "Reserved image slot for a portrait of your companion composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-living-plush",
-      "path": "/assets/img/placeholders/product-living-plush.svg",
-      "page": "/products/living-plush/",
-      "intended_final_content": "A plush of your pet composition",
-      "alt": "Reserved image slot for a plush of your pet composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "product-living-digital-portrait",
-      "path": "/assets/img/placeholders/product-living-digital-portrait.svg",
-      "page": "/products/living-digital-portrait/",
-      "intended_final_content": "Birthday portrait gift box composition",
-      "alt": "Reserved image slot for birthday portrait gift box composition",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "home-process-poster",
-      "path": "/assets/img/placeholders/home-process-poster.svg",
-      "page": "/",
-      "intended_final_content": "Sanding a walnut urn, making a photo plaque, and packing",
-      "alt": "Reserved image slot for sanding a walnut urn, making a photo plaque, and packing",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "video poster",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "material-wood",
-      "path": "/assets/img/placeholders/material-wood.svg",
-      "page": "/",
-      "intended_final_content": "Walnut wood",
-      "alt": "Reserved image slot for walnut wood",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "material-ceramic",
-      "path": "/assets/img/placeholders/material-ceramic.svg",
-      "page": "/",
-      "intended_final_content": "Ceramic",
-      "alt": "Reserved image slot for ceramic",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "material-acrylic",
-      "path": "/assets/img/placeholders/material-acrylic.svg",
-      "page": "/",
-      "intended_final_content": "Acrylic suncatcher",
-      "alt": "Reserved image slot for acrylic suncatcher",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "material-metal",
-      "path": "/assets/img/placeholders/material-metal.svg",
-      "page": "/",
-      "intended_final_content": "Metal",
-      "alt": "Reserved image slot for metal",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "material-textile",
-      "path": "/assets/img/placeholders/material-textile.svg",
-      "page": "/",
-      "intended_final_content": "Textile & thread",
-      "alt": "Reserved image slot for textile & thread",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "material-crystal",
-      "path": "/assets/img/placeholders/material-crystal.svg",
-      "page": "/",
-      "intended_final_content": "Crystal",
-      "alt": "Reserved image slot for crystal",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "comfort-scale",
-      "path": "/assets/img/placeholders/comfort-scale.svg",
-      "page": "/products/comfort/",
-      "intended_final_content": "Comfort shown for scale",
-      "alt": "Reserved image slot for comfort shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "warmth-scale",
-      "path": "/assets/img/placeholders/warmth-scale.svg",
-      "page": "/products/warmth/",
-      "intended_final_content": "Warmth shown for scale",
-      "alt": "Reserved image slot for warmth shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "keepsake-scale",
-      "path": "/assets/img/placeholders/keepsake-scale.svg",
-      "page": "/products/keepsake/",
-      "intended_final_content": "Keepsake shown for scale",
-      "alt": "Reserved image slot for keepsake shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "essential-scale",
-      "path": "/assets/img/placeholders/essential-scale.svg",
-      "page": "/products/essential/",
-      "intended_final_content": "Essential shown for scale",
-      "alt": "Reserved image slot for essential shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "essential-opening",
-      "path": "/assets/img/placeholders/essential-opening.svg",
-      "page": "/products/essential/",
-      "intended_final_content": "Essential interior and filling opening",
-      "alt": "Reserved image slot for essential interior and filling opening",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "classic-scale",
-      "path": "/assets/img/placeholders/classic-scale.svg",
-      "page": "/products/classic/",
-      "intended_final_content": "Classic shown for scale",
-      "alt": "Reserved image slot for classic shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "classic-opening",
-      "path": "/assets/img/placeholders/classic-opening.svg",
-      "page": "/products/classic/",
-      "intended_final_content": "Classic interior and filling opening",
-      "alt": "Reserved image slot for classic interior and filling opening",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "legacy-scale",
-      "path": "/assets/img/placeholders/legacy-scale.svg",
-      "page": "/products/legacy/",
-      "intended_final_content": "Legacy shown for scale",
-      "alt": "Reserved image slot for legacy shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "legacy-opening",
-      "path": "/assets/img/placeholders/legacy-opening.svg",
-      "page": "/products/legacy/",
-      "intended_final_content": "Legacy interior and filling opening",
-      "alt": "Reserved image slot for legacy interior and filling opening",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "memorial-plush-scale",
-      "path": "/assets/img/placeholders/memorial-plush-scale.svg",
-      "page": "/products/memorial-plush/",
-      "intended_final_content": "Pet memorial plush shown for scale",
-      "alt": "Reserved image slot for pet memorial plush shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "memorial-oil-portrait-scale",
-      "path": "/assets/img/placeholders/memorial-oil-portrait-scale.svg",
-      "page": "/products/memorial-oil-portrait/",
-      "intended_final_content": "Dafen memorial oil portrait shown for scale",
-      "alt": "Reserved image slot for dafen memorial oil portrait shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-plaque-keepsake-scale",
-      "path": "/assets/img/placeholders/human-plaque-keepsake-scale.svg",
-      "page": "/products/human-plaque-keepsake/",
-      "intended_final_content": "Photo plaque + small sharing box shown for scale",
-      "alt": "Reserved image slot for photo plaque + small sharing box shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-full-urn-scale",
-      "path": "/assets/img/placeholders/human-full-urn-scale.svg",
-      "page": "/products/human-full-urn/",
-      "intended_final_content": "Full-size urn set shown for scale",
-      "alt": "Reserved image slot for full-size urn set shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-full-urn-opening",
-      "path": "/assets/img/placeholders/human-full-urn-opening.svg",
-      "page": "/products/human-full-urn/",
-      "intended_final_content": "Full-size urn set interior and filling opening",
-      "alt": "Reserved image slot for full-size urn set interior and filling opening",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-family-scale",
-      "path": "/assets/img/placeholders/human-family-scale.svg",
-      "page": "/products/human-family/",
-      "intended_final_content": "Family-sharing set shown for scale",
-      "alt": "Reserved image slot for family-sharing set shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-family-opening",
-      "path": "/assets/img/placeholders/human-family-opening.svg",
-      "page": "/products/human-family/",
-      "intended_final_content": "Family-sharing set interior and filling opening",
-      "alt": "Reserved image slot for family-sharing set interior and filling opening",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-portrait-scale",
-      "path": "/assets/img/placeholders/human-portrait-scale.svg",
-      "page": "/products/human-portrait/",
-      "intended_final_content": "Portrait set shown for scale",
-      "alt": "Reserved image slot for portrait set shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-suzhou-scale",
-      "path": "/assets/img/placeholders/human-suzhou-scale.svg",
-      "page": "/products/human-suzhou/",
-      "intended_final_content": "Suzhou embroidery set shown for scale",
-      "alt": "Reserved image slot for suzhou embroidery set shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "human-suzhou-opening",
-      "path": "/assets/img/placeholders/human-suzhou-opening.svg",
-      "page": "/products/human-suzhou/",
-      "intended_final_content": "Suzhou embroidery set interior and filling opening",
-      "alt": "Reserved image slot for suzhou embroidery set interior and filling opening",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "clinic-trial-scale",
-      "path": "/assets/img/placeholders/clinic-trial-scale.svg",
-      "page": "/products/clinic-trial/",
-      "intended_final_content": "Clinic trial kit shown for scale",
-      "alt": "Reserved image slot for clinic trial kit shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "living-oil-portrait-scale",
-      "path": "/assets/img/placeholders/living-oil-portrait-scale.svg",
-      "page": "/products/living-oil-portrait/",
-      "intended_final_content": "A portrait of your companion shown for scale",
-      "alt": "Reserved image slot for a portrait of your companion shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "living-plush-scale",
-      "path": "/assets/img/placeholders/living-plush-scale.svg",
-      "page": "/products/living-plush/",
-      "intended_final_content": "A plush of your pet shown for scale",
-      "alt": "Reserved image slot for a plush of your pet shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "living-digital-portrait-scale",
-      "path": "/assets/img/placeholders/living-digital-portrait-scale.svg",
-      "page": "/products/living-digital-portrait/",
-      "intended_final_content": "Birthday portrait gift box shown for scale",
-      "alt": "Reserved image slot for birthday portrait gift box shown for scale",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-01",
-      "path": "/assets/img/placeholders/gallery-work-01.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Acrylic suncatcher",
-      "alt": "Reserved image slot for acrylic suncatcher",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-02",
-      "path": "/assets/img/placeholders/gallery-work-02.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Photo plaque",
-      "alt": "Reserved image slot for photo plaque",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-03",
-      "path": "/assets/img/placeholders/gallery-work-03.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Portrait and vial",
-      "alt": "Reserved image slot for portrait and vial",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-04",
-      "path": "/assets/img/placeholders/gallery-work-04.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Engraved wooden urn",
-      "alt": "Reserved image slot for engraved wooden urn",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-05",
-      "path": "/assets/img/placeholders/gallery-work-05.svg",
-      "page": "/gallery/",
-      "intended_final_content": "One-box set",
-      "alt": "Reserved image slot for one-box set",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-06",
-      "path": "/assets/img/placeholders/gallery-work-06.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Oil painting and urn",
-      "alt": "Reserved image slot for oil painting and urn",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-07",
-      "path": "/assets/img/placeholders/gallery-work-07.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Soft likeness",
-      "alt": "Reserved image slot for soft likeness",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-08",
-      "path": "/assets/img/placeholders/gallery-work-08.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Sharing box and photo",
-      "alt": "Reserved image slot for sharing box and photo",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-09",
-      "path": "/assets/img/placeholders/gallery-work-09.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Full-size urn",
-      "alt": "Reserved image slot for full-size urn",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-10",
-      "path": "/assets/img/placeholders/gallery-work-10.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Family-sharing pieces",
-      "alt": "Reserved image slot for family-sharing pieces",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-11",
-      "path": "/assets/img/placeholders/gallery-work-11.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Restored portrait",
-      "alt": "Reserved image slot for restored portrait",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-12",
-      "path": "/assets/img/placeholders/gallery-work-12.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Thread portrait",
-      "alt": "Reserved image slot for thread portrait",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-13",
-      "path": "/assets/img/placeholders/gallery-work-13.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Living-pet oil portrait",
-      "alt": "Reserved image slot for living-pet oil portrait",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-14",
-      "path": "/assets/img/placeholders/gallery-work-14.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Living-pet plush",
-      "alt": "Reserved image slot for living-pet plush",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-work-15",
-      "path": "/assets/img/placeholders/gallery-work-15.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Birthday portrait",
-      "alt": "Reserved image slot for birthday portrait",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "product photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-01",
-      "path": "/assets/img/placeholders/gallery-lifestyle-01.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Living-room shelf lifestyle scene",
-      "alt": "Reserved image slot for living-room shelf lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-02",
-      "path": "/assets/img/placeholders/gallery-lifestyle-02.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Study desk lifestyle scene",
-      "alt": "Reserved image slot for study desk lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-03",
-      "path": "/assets/img/placeholders/gallery-lifestyle-03.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Quiet window lifestyle scene",
-      "alt": "Reserved image slot for quiet window lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-04",
-      "path": "/assets/img/placeholders/gallery-lifestyle-04.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Bedside table lifestyle scene",
-      "alt": "Reserved image slot for bedside table lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-05",
-      "path": "/assets/img/placeholders/gallery-lifestyle-05.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Family picture wall lifestyle scene",
-      "alt": "Reserved image slot for family picture wall lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-06",
-      "path": "/assets/img/placeholders/gallery-lifestyle-06.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Reading corner lifestyle scene",
-      "alt": "Reserved image slot for reading corner lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-07",
-      "path": "/assets/img/placeholders/gallery-lifestyle-07.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Entryway shelf lifestyle scene",
-      "alt": "Reserved image slot for entryway shelf lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-08",
-      "path": "/assets/img/placeholders/gallery-lifestyle-08.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Favorite armchair lifestyle scene",
-      "alt": "Reserved image slot for favorite armchair lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-09",
-      "path": "/assets/img/placeholders/gallery-lifestyle-09.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Sunny desk lifestyle scene",
-      "alt": "Reserved image slot for sunny desk lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-10",
-      "path": "/assets/img/placeholders/gallery-lifestyle-10.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Sheltered display cabinet lifestyle scene",
-      "alt": "Reserved image slot for sheltered display cabinet lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-11",
-      "path": "/assets/img/placeholders/gallery-lifestyle-11.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Small portrait ledge lifestyle scene",
-      "alt": "Reserved image slot for small portrait ledge lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "gallery-lifestyle-12",
-      "path": "/assets/img/placeholders/gallery-lifestyle-12.svg",
-      "page": "/gallery/",
-      "intended_final_content": "Gift on a side table lifestyle scene",
-      "alt": "Reserved image slot for gift on a side table lifestyle scene",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
-      "status": "empty — no CC0 file or license supplied",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "step-1",
-      "path": "/assets/img/placeholders/step-1.svg",
-      "page": "/how/",
-      "intended_final_content": "Imagine process",
-      "alt": "Reserved image slot for imagine process",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "step-2",
-      "path": "/assets/img/placeholders/step-2.svg",
-      "page": "/how/",
-      "intended_final_content": "Design together process",
-      "alt": "Reserved image slot for design together process",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "step-3",
-      "path": "/assets/img/placeholders/step-3.svg",
-      "page": "/how/",
-      "intended_final_content": "Approve the final process",
-      "alt": "Reserved image slot for approve the final process",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "step-4",
-      "path": "/assets/img/placeholders/step-4.svg",
-      "page": "/how/",
-      "intended_final_content": "Check together process",
-      "alt": "Reserved image slot for check together process",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "step-5",
-      "path": "/assets/img/placeholders/step-5.svg",
-      "page": "/how/",
-      "intended_final_content": "Delivered process",
-      "alt": "Reserved image slot for delivered process",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "about-workshop",
-      "path": "/assets/img/placeholders/about-workshop.svg",
-      "page": "/about/",
-      "intended_final_content": "Workshop making bench",
-      "alt": "Reserved image slot for workshop making bench",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
       "id": "about-making",
-      "path": "/assets/img/placeholders/about-making.svg",
-      "page": "/about/",
-      "intended_final_content": "Dafen portrait and Suzhou embroidery making",
-      "alt": "Reserved image slot for dafen portrait and suzhou embroidery making",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "about-qc",
-      "path": "/assets/img/placeholders/about-qc.svg",
-      "page": "/about/",
-      "intended_final_content": "Comparing a finished piece to its proof",
-      "alt": "Reserved image slot for comparing a finished piece to its proof",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "placeholder_src": "/assets/img/placeholders/about-making.svg",
+      "final_path": "/assets/img/about/making.jpg",
+      "status": "pending",
+      "pages": [
+        "/about/",
+        "/es/about/"
+      ],
+      "alt_en": "Oil-portrait painting and silk embroidery in progress.",
+      "alt_es": "Pintura de un retrato al óleo y un bordado de seda en proceso.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
     },
     {
       "id": "about-packing",
-      "path": "/assets/img/placeholders/about-packing.svg",
-      "page": "/about/",
-      "intended_final_content": "Assembling and packing a gift box",
-      "alt": "Reserved image slot for assembling and packing a gift box",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "workshop photo",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "placeholder_src": "/assets/img/placeholders/about-packing.svg",
+      "final_path": "/assets/img/about/packing.jpg",
+      "status": "pending",
+      "pages": [
+        "/about/",
+        "/es/about/"
+      ],
+      "alt_en": "A gift box being assembled and packed on a workshop bench.",
+      "alt_es": "Una caja de regalo que se arma y se empaca en un banco de taller.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
     },
     {
-      "id": "blog-what-to-say-when-a-friend-loses-a-pet",
-      "path": "/assets/img/placeholders/blog-what-to-say-when-a-friend-loses-a-pet.svg",
-      "page": "/blog/what-to-say-when-a-friend-loses-a-pet/",
-      "intended_final_content": "What to say when a friend loses a pet",
-      "alt": "Reserved image slot for what to say when a friend loses a pet",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "id": "about-qc",
+      "placeholder_src": "/assets/img/placeholders/about-qc.svg",
+      "final_path": "/assets/img/about/qc.jpg",
+      "status": "pending",
+      "pages": [
+        "/about/",
+        "/es/about/"
+      ],
+      "alt_en": "A finished piece being compared with its printed design proof.",
+      "alt_es": "Una pieza terminada que se compara con su prueba de diseño impresa.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
     },
     {
-      "id": "blog-words-for-a-sympathy-card",
-      "path": "/assets/img/placeholders/blog-words-for-a-sympathy-card.svg",
-      "page": "/blog/words-for-a-sympathy-card/",
-      "intended_final_content": "Words for a sympathy card",
-      "alt": "Reserved image slot for words for a sympathy card",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "id": "about-workshop",
+      "placeholder_src": "/assets/img/placeholders/about-workshop.svg",
+      "final_path": "/assets/img/about/workshop.jpg",
+      "status": "pending",
+      "pages": [
+        "/about/",
+        "/es/about/"
+      ],
+      "alt_en": "A workshop bench where a walnut piece is being prepared.",
+      "alt_es": "Un banco de taller donde se está preparando una pieza de nogal.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
     },
     {
       "id": "blog-how-to-choose-a-pet-urn-size",
-      "path": "/assets/img/placeholders/blog-how-to-choose-a-pet-urn-size.svg",
-      "page": "/blog/how-to-choose-a-pet-urn-size/",
-      "intended_final_content": "How to choose a pet urn size",
-      "alt": "Reserved image slot for how to choose a pet urn size",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "placeholder_src": "/assets/img/placeholders/blog-how-to-choose-a-pet-urn-size.svg",
+      "final_path": "/assets/img/blog/how-to-choose-a-pet-urn-size.jpg",
+      "status": "pending",
+      "pages": [
+        "/blog/",
+        "/es/blog/",
+        "/es/blog/how-to-choose-a-pet-urn-size/",
+        "/blog/how-to-choose-a-pet-urn-size/"
+      ],
+      "alt_en": "Two closed wooden boxes of different sizes beside a simple ruler.",
+      "alt_es": "Dos cajas de madera cerradas, de distintos tamaños, junto a una regla sencilla.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
     },
     {
       "id": "blog-how-to-choose-a-photo",
-      "path": "/assets/img/placeholders/blog-how-to-choose-a-photo.svg",
-      "page": "/blog/how-to-choose-a-photo/",
-      "intended_final_content": "How to choose a photo for a keepsake",
-      "alt": "Reserved image slot for how to choose a photo for a keepsake",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
-    },
-    {
-      "id": "blog-sympathy-gifts-for-pet-loss",
-      "path": "/assets/img/placeholders/blog-sympathy-gifts-for-pet-loss.svg",
-      "page": "/blog/sympathy-gifts-for-pet-loss/",
-      "intended_final_content": "Choosing a sympathy gift for pet loss",
-      "alt": "Reserved image slot for choosing a sympathy gift for pet loss",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "placeholder_src": "/assets/img/placeholders/blog-how-to-choose-a-photo.svg",
+      "final_path": "/assets/img/blog/how-to-choose-a-photo.jpg",
+      "status": "pending",
+      "pages": [
+        "/blog/",
+        "/es/blog/",
+        "/es/blog/how-to-choose-a-photo/",
+        "/blog/how-to-choose-a-photo/"
+      ],
+      "alt_en": "Printed photographs of a golden retriever laid out on cloth.",
+      "alt_es": "Fotografías impresas de un golden retriever dispuestas sobre una tela.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
     },
     {
       "id": "blog-how-to-write-a-memorial-page",
-      "path": "/assets/img/placeholders/blog-how-to-write-a-memorial-page.svg",
-      "page": "/blog/how-to-write-a-memorial-page/",
-      "intended_final_content": "How to write a memorial page",
-      "alt": "Reserved image slot for how to write a memorial page",
-      "dimensions": {
-        "width": 800,
-        "height": 560
-      },
-      "type": "CC0 lifestyle still",
-      "required_caption": "",
-      "status": "original SVG placeholder",
-      "replacement_guidance": "Supply a verified image at most 1280px wide, approximately 70–290KB."
+      "placeholder_src": "/assets/img/blog/how-to-write-a-memorial-page.jpg",
+      "final_path": "/assets/img/blog/how-to-write-a-memorial-page.jpg",
+      "status": "ready",
+      "pages": [
+        "/blog/",
+        "/es/blog/",
+        "/blog/how-to-write-a-memorial-page/",
+        "/es/blog/how-to-write-a-memorial-page/"
+      ],
+      "alt_en": "An open notebook and an open book on a wooden table, in soft light.",
+      "alt_es": "Un cuaderno abierto y un libro abierto sobre una mesa de madera, con luz suave.",
+      "width": 960,
+      "height": 721,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "blog-sympathy-gifts-for-pet-loss",
+      "placeholder_src": "/assets/img/placeholders/blog-sympathy-gifts-for-pet-loss.svg",
+      "final_path": "/assets/img/blog/sympathy-gifts-for-pet-loss.jpg",
+      "status": "pending",
+      "pages": [
+        "/blog/",
+        "/es/blog/",
+        "/es/blog/sympathy-gifts-for-pet-loss/",
+        "/blog/sympathy-gifts-for-pet-loss/"
+      ],
+      "alt_en": "A small gift box, white flowers, and a blank card on a side table.",
+      "alt_es": "Una caja de regalo pequeña, flores blancas y una tarjeta en blanco sobre una mesita.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "blog-what-to-say-when-a-friend-loses-a-pet",
+      "placeholder_src": "/assets/img/placeholders/blog-what-to-say-when-a-friend-loses-a-pet.svg",
+      "final_path": "/assets/img/blog/what-to-say-when-a-friend-loses-a-pet.jpg",
+      "status": "pending",
+      "pages": [
+        "/blog/",
+        "/es/blog/",
+        "/es/blog/what-to-say-when-a-friend-loses-a-pet/",
+        "/blog/what-to-say-when-a-friend-loses-a-pet/"
+      ],
+      "alt_en": "Two cups of tea and a blank card on a wooden table.",
+      "alt_es": "Dos tazas de té y una tarjeta en blanco sobre una mesa de madera.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "blog-words-for-a-sympathy-card",
+      "placeholder_src": "/assets/img/blog/words-for-a-sympathy-card.jpg",
+      "final_path": "/assets/img/blog/words-for-a-sympathy-card.jpg",
+      "status": "ready",
+      "pages": [
+        "/blog/",
+        "/es/blog/",
+        "/blog/words-for-a-sympathy-card/",
+        "/es/blog/words-for-a-sympathy-card/"
+      ],
+      "alt_en": "A folded cream card tied with a ribbon, lying on a wooden table beside a string of beads; any handwriting is out of focus and unreadable.",
+      "alt_es": "Una tarjeta color crema doblada y atada con una cinta, sobre una mesa de madera junto a un hilo de cuentas; la letra manuscrita está desenfocada y no se puede leer.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "classic-opening",
+      "placeholder_src": "/assets/img/placeholders/classic-opening.svg",
+      "final_path": "/assets/img/products/classic-opening.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/classic/",
+        "/products/classic/"
+      ],
+      "alt_en": "The Classic urn with the lid open, showing a clean empty lining.",
+      "alt_es": "La urna Classic con la tapa abierta, mostrando un forro interior limpio y vacío.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "classic-scale",
+      "placeholder_src": "/assets/img/placeholders/classic-scale.svg",
+      "final_path": "/assets/img/products/classic-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/classic/",
+        "/products/classic/"
+      ],
+      "alt_en": "The Classic set shown for scale.",
+      "alt_es": "El conjunto Classic mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "clinic-trial-scale",
+      "placeholder_src": "/assets/img/placeholders/clinic-trial-scale.svg",
+      "final_path": "/assets/img/products/clinic-trial-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/clinic-trial/",
+        "/products/clinic-trial/"
+      ],
+      "alt_en": "The clinic trial kit shown for scale.",
+      "alt_es": "El kit de prueba para clínicas mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "cloisonne-scale",
+      "placeholder_src": "/assets/img/placeholders/cloisonne-scale.svg",
+      "final_path": "/assets/img/products/placements/cloisonne-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/cloisonne/",
+        "/products/cloisonne/"
+      ],
+      "alt_en": "The same piece, shown for scale.",
+      "alt_es": "La misma pieza, mostrada para apreciar su escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "comfort-scale",
+      "placeholder_src": "/assets/img/placeholders/comfort-scale.svg",
+      "final_path": "/assets/img/products/comfort-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/comfort/",
+        "/products/comfort/"
+      ],
+      "alt_en": "The Comfort suncatcher shown for scale next to a book.",
+      "alt_es": "El atrapasol Comfort mostrado a escala junto a un libro.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "crystal-3d-scale",
+      "placeholder_src": "/assets/img/placeholders/crystal-3d-scale.svg",
+      "final_path": "/assets/img/products/placements/crystal-3d-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/crystal-3d/",
+        "/products/crystal-3d/"
+      ],
+      "alt_en": "The same piece, shown for scale.",
+      "alt_es": "La misma pieza, mostrada para apreciar su escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "embroidery-machine-scale",
+      "placeholder_src": "/assets/img/placeholders/embroidery-machine-scale.svg",
+      "final_path": "/assets/img/products/placements/embroidery-machine-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/embroidery-machine/",
+        "/products/embroidery-machine/"
+      ],
+      "alt_en": "The same piece, shown for scale.",
+      "alt_es": "La misma pieza, mostrada para apreciar su escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "essential-opening",
+      "placeholder_src": "/assets/img/placeholders/essential-opening.svg",
+      "final_path": "/assets/img/products/essential-opening.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/essential/",
+        "/products/essential/"
+      ],
+      "alt_en": "The Essential urn with the lid open, showing a clean empty lining.",
+      "alt_es": "La urna Essential con la tapa abierta, mostrando un forro interior limpio y vacío.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "essential-scale",
+      "placeholder_src": "/assets/img/placeholders/essential-scale.svg",
+      "final_path": "/assets/img/products/essential-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/essential/",
+        "/products/essential/"
+      ],
+      "alt_en": "The Essential walnut urn shown for scale next to a book.",
+      "alt_es": "La urna de nogal Essential mostrada a escala junto a un libro.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-01",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-01.svg",
+      "final_path": "/assets/img/gallery/work-01-comfort.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "An acrylic suncatcher hanging in a window, from the Comfort set.",
+      "alt_es": "Un atrapasol de acrílico colgado en una ventana, del conjunto Comfort.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-01-comfort",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-01-comfort.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "An acrylic suncatcher hanging in a window, from the Comfort set.",
+      "alt_es": "Un atrapasol de acrílico colgado en una ventana, del conjunto Comfort.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-02",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-02.svg",
+      "final_path": "/assets/img/gallery/work-02-warmth.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A photo plaque of a golden retriever on a desk, from the Warmth set.",
+      "alt_es": "Una placa con la foto de un golden retriever sobre un escritorio, del conjunto Warmth.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-02-warmth",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-02-warmth.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A photo plaque of a golden retriever on a desk, from the Warmth set.",
+      "alt_es": "Una placa con la foto de un golden retriever sobre un escritorio, del conjunto Warmth.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-03",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-03.svg",
+      "final_path": "/assets/img/gallery/work-03-keepsake.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A small portrait and a stainless-steel vial necklace, from the Keepsake set.",
+      "alt_es": "Un retrato pequeño y un collar con frasquito de acero inoxidable, del conjunto Keepsake.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-03-keepsake",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-03-keepsake.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A small portrait and a stainless-steel vial necklace, from the Keepsake set.",
+      "alt_es": "Un retrato pequeño y un collar con frasquito de acero inoxidable, del conjunto Keepsake.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-04",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-04.svg",
+      "final_path": "/assets/img/gallery/work-04-essential.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A close view of an engraved walnut pet urn, from the Essential set.",
+      "alt_es": "Un primer plano de una urna de nogal grabada, del conjunto Essential.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-04-essential",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-04-essential.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A close view of an engraved walnut pet urn, from the Essential set.",
+      "alt_es": "Un primer plano de una urna de nogal grabada, del conjunto Essential.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-05",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-05.svg",
+      "final_path": "/assets/img/gallery/work-05-classic.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "The Classic pieces gathered in one gift box.",
+      "alt_es": "Las piezas Classic reunidas en una sola caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-05-classic",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-05-classic.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "The Classic pieces gathered in one gift box.",
+      "alt_es": "Las piezas Classic reunidas en una sola caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-06",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-06.svg",
+      "final_path": "/assets/img/gallery/work-06-legacy.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "An oil painting of a golden retriever with a walnut urn, from the Legacy set.",
+      "alt_es": "Una pintura al óleo de un golden retriever con una urna de nogal, del conjunto Legacy.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-06-legacy",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-06-legacy.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "An oil painting of a golden retriever with a walnut urn, from the Legacy set.",
+      "alt_es": "Una pintura al óleo de un golden retriever con una urna de nogal, del conjunto Legacy.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-07",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-07.svg",
+      "final_path": "/assets/img/gallery/work-07-memorial-plush.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A custom memorial plush of a golden retriever sitting in a quiet corner.",
+      "alt_es": "Un peluche conmemorativo hecho a medida de un golden retriever, sentado en un rincón tranquilo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-07-memorial-plush",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-07-memorial-plush.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A custom memorial plush of a golden retriever sitting in a quiet corner.",
+      "alt_es": "Un peluche conmemorativo hecho a medida de un golden retriever, sentado en un rincón tranquilo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-08",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-08.svg",
+      "final_path": "/assets/img/gallery/work-08-human-plaque-keepsake.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A small sharing box and a photo plaque, from the human memorial line.",
+      "alt_es": "Una pequeña caja para compartir y una placa con foto, de la línea de memoriales para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-08-human-plaque-keepsake",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-08-human-plaque-keepsake.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A small sharing box and a photo plaque, from the human memorial line.",
+      "alt_es": "Una pequeña caja para compartir y una placa con foto, de la línea de memoriales para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-09",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-09.svg",
+      "final_path": "/assets/img/gallery/work-09-human-full-urn.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A full-size memorial urn, from the human full-size urn set.",
+      "alt_es": "Una urna conmemorativa de tamaño completo, del conjunto de urna de tamaño completo para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-09-human-full-urn",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-09-human-full-urn.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A full-size memorial urn, from the human full-size urn set.",
+      "alt_es": "Una urna conmemorativa de tamaño completo, del conjunto de urna de tamaño completo para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-10",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-10.svg",
+      "final_path": "/assets/img/gallery/work-10-human-family.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "Several small family-sharing boxes in a row.",
+      "alt_es": "Varias cajas pequeñas para compartir en fila, del conjunto familiar.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-10-human-family",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-10-human-family.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "Several small family-sharing boxes in a row.",
+      "alt_es": "Varias cajas pequeñas para compartir en fila, del conjunto familiar.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-11",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-11.svg",
+      "final_path": "/assets/img/gallery/work-11-human-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A close view of a restored painterly portrait, from the human portrait set.",
+      "alt_es": "Un primer plano de un retrato pictórico restaurado, del conjunto de retratos para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-11-human-portrait",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-11-human-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A close view of a restored painterly portrait, from the human portrait set.",
+      "alt_es": "Un primer plano de un retrato pictórico restaurado, del conjunto de retratos para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-12",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-12.svg",
+      "final_path": "/assets/img/gallery/work-12-human-suzhou.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A close view of Suzhou silk embroidery stitches, from the Suzhou embroidery set.",
+      "alt_es": "Un primer plano de las puntadas del bordado de seda de Suzhou, del conjunto de bordado de Suzhou.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-12-human-suzhou",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-12-human-suzhou.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A close view of Suzhou silk embroidery stitches, from the Suzhou embroidery set.",
+      "alt_es": "Un primer plano de las puntadas del bordado de seda de Suzhou, del conjunto de bordado de Suzhou.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-13",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-13.svg",
+      "final_path": "/assets/img/gallery/work-13-living-oil-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A sunlit oil portrait of a living golden retriever.",
+      "alt_es": "Un retrato al óleo, iluminado por el sol, de un golden retriever en vida.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-13-living-oil-portrait",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-13-living-oil-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A sunlit oil portrait of a living golden retriever.",
+      "alt_es": "Un retrato al óleo, iluminado por el sol, de un golden retriever en vida.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-14",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-14.svg",
+      "final_path": "/assets/img/gallery/work-14-living-plush.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A living-pet plush sitting in a sunlit corner.",
+      "alt_es": "Un peluche de una mascota en vida, sentado en un rincón con luz de sol.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-14-living-plush",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-14-living-plush.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A living-pet plush sitting in a sunlit corner.",
+      "alt_es": "Un peluche de una mascota en vida, sentado en un rincón con luz de sol.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "gallery-work-15",
+      "placeholder_src": "/assets/img/placeholders/gallery-work-15.svg",
+      "final_path": "/assets/img/gallery/work-15-living-digital-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A birthday portrait standing beside its open gift box.",
+      "alt_es": "Un retrato de cumpleaños de pie junto a su caja de regalo abierta.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "gallery-work-15-living-digital-portrait",
+      "placeholder_src": "",
+      "final_path": "/assets/img/gallery/work-15-living-digital-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A birthday portrait standing beside its open gift box.",
+      "alt_es": "Un retrato de cumpleaños de pie junto a su caja de regalo abierta.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "hero-poster",
+      "placeholder_src": "/assets/img/placeholders/home-process-poster.svg",
+      "final_path": "/assets/video/hero-poster.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "A calm still shown in the hero until the film file is added.",
+      "alt_es": "Imagen serena del inicio, visible hasta que se agregue el archivo de la película.",
+      "width": 1280,
+      "height": 720,
+      "caption_en": "",
+      "caption_es": ""
+    },
+    {
+      "id": "home-process-poster",
+      "placeholder_src": "",
+      "final_path": "/assets/img/home-process-poster.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Workshop still: sanding a walnut urn, a photo plaque, and packing.",
+      "alt_es": "Imagen de taller: se lija una urna de nogal, con una placa con foto y un empaque.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "how-to-write-a-memorial-page",
+      "placeholder_src": "/assets/img/blog/how-to-write-a-memorial-page.jpg",
+      "final_path": "/assets/img/blog/how-to-write-a-memorial-page.jpg",
+      "status": "ready",
+      "pages": [
+        "/es/blog/how-to-write-a-memorial-page/",
+        "/blog/how-to-write-a-memorial-page/"
+      ],
+      "alt_en": "An open notebook and an open book on a wooden table, in soft light.",
+      "alt_es": "Un cuaderno abierto y un libro abierto sobre una mesa de madera, con luz suave.",
+      "width": 960,
+      "height": 721,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "human-family-opening",
+      "placeholder_src": "/assets/img/placeholders/human-family-opening.svg",
+      "final_path": "/assets/img/products/human-family-opening.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-family/",
+        "/products/human-family/"
+      ],
+      "alt_en": "The family-sharing urn and a small box with lids open, clean empty interiors.",
+      "alt_es": "La urna del conjunto familiar y una caja pequeña con las tapas abiertas, interiores limpios y vacíos.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-family-scale",
+      "placeholder_src": "/assets/img/placeholders/human-family-scale.svg",
+      "final_path": "/assets/img/products/human-family-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-family/",
+        "/products/human-family/"
+      ],
+      "alt_en": "The family-sharing set shown for scale.",
+      "alt_es": "El conjunto para la familia mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-full-urn-opening",
+      "placeholder_src": "/assets/img/placeholders/human-full-urn-opening.svg",
+      "final_path": "/assets/img/products/human-full-urn-opening.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-full-urn/",
+        "/products/human-full-urn/"
+      ],
+      "alt_en": "The full-size urn with the lid open, showing a clean empty interior.",
+      "alt_es": "La urna de tamaño completo con la tapa abierta, mostrando un interior limpio y vacío.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-full-urn-scale",
+      "placeholder_src": "/assets/img/placeholders/human-full-urn-scale.svg",
+      "final_path": "/assets/img/products/human-full-urn-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-full-urn/",
+        "/products/human-full-urn/"
+      ],
+      "alt_en": "The full-size urn shown for scale next to a book.",
+      "alt_es": "La urna de tamaño completo mostrada a escala junto a un libro.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-plaque-keepsake-scale",
+      "placeholder_src": "/assets/img/placeholders/human-plaque-keepsake-scale.svg",
+      "final_path": "/assets/img/products/human-plaque-keepsake-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-plaque-keepsake/",
+        "/products/human-plaque-keepsake/"
+      ],
+      "alt_en": "The photo plaque and sharing box shown for scale.",
+      "alt_es": "La placa con foto y la caja para compartir mostradas a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-portrait-scale",
+      "placeholder_src": "/assets/img/placeholders/human-portrait-scale.svg",
+      "final_path": "/assets/img/products/human-portrait-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-portrait/",
+        "/products/human-portrait/"
+      ],
+      "alt_en": "The portrait set shown for scale.",
+      "alt_es": "El conjunto de retrato mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-suzhou-opening",
+      "placeholder_src": "/assets/img/placeholders/human-suzhou-opening.svg",
+      "final_path": "/assets/img/products/human-suzhou-opening.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-suzhou/",
+        "/products/human-suzhou/"
+      ],
+      "alt_en": "The Suzhou-set urn with the lid open, the embroidery portrait behind it.",
+      "alt_es": "La urna del conjunto de Suzhou con la tapa abierta, y el retrato bordado detrás.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "human-suzhou-scale",
+      "placeholder_src": "/assets/img/placeholders/human-suzhou-scale.svg",
+      "final_path": "/assets/img/products/human-suzhou-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-suzhou/",
+        "/products/human-suzhou/"
+      ],
+      "alt_en": "The Suzhou embroidery shown for scale.",
+      "alt_es": "El bordado de Suzhou mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "jingdezhen-urn-scale",
+      "placeholder_src": "/assets/img/placeholders/jingdezhen-urn-scale.svg",
+      "final_path": "/assets/img/products/placements/jingdezhen-urn-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/jingdezhen-urn/",
+        "/products/jingdezhen-urn/"
+      ],
+      "alt_en": "The same piece, shown for scale.",
+      "alt_es": "La misma pieza, mostrada para apreciar su escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "keepsake-scale",
+      "placeholder_src": "/assets/img/placeholders/keepsake-scale.svg",
+      "final_path": "/assets/img/products/keepsake-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/keepsake/",
+        "/products/keepsake/"
+      ],
+      "alt_en": "The Keepsake set shown for scale.",
+      "alt_es": "El conjunto Keepsake mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "legacy-opening",
+      "placeholder_src": "/assets/img/placeholders/legacy-opening.svg",
+      "final_path": "/assets/img/products/legacy-opening.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/legacy/",
+        "/products/legacy/"
+      ],
+      "alt_en": "The Legacy urn with the lid open, showing a clean empty lining.",
+      "alt_es": "La urna Legacy con la tapa abierta, mostrando un forro interior limpio y vacío.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "legacy-scale",
+      "placeholder_src": "/assets/img/placeholders/legacy-scale.svg",
+      "final_path": "/assets/img/products/legacy-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/legacy/",
+        "/products/legacy/"
+      ],
+      "alt_en": "The Legacy portrait and urn shown for scale.",
+      "alt_es": "El retrato y la urna Legacy mostrados a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "lifestyle-01",
+      "placeholder_src": "/assets/img/gallery/lifestyle-01.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-01.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A warm wooden living room opening onto a garden, with a sofa, a clock, and tall windows.",
+      "alt_es": "Una sala de estar de madera, cálida, que se abre a un jardín, con un sofá, un reloj y ventanas altas.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-02",
+      "placeholder_src": "/assets/img/gallery/lifestyle-02.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-02.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A stack of books and a small plant on a sunny windowsill.",
+      "alt_es": "Una pila de libros y una planta pequeña en el alféizar de una ventana con sol.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-03",
+      "placeholder_src": "/assets/img/gallery/lifestyle-03.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-03.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A white window looking onto greenery, with two vases of white flowers and a teapot on the sill.",
+      "alt_es": "Una ventana blanca que da a un jardín, con dos jarrones de flores blancas y una tetera en el alféizar.",
+      "width": 960,
+      "height": 612,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-04",
+      "placeholder_src": "/assets/img/gallery/lifestyle-04.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-04.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A quiet bedroom corner: a wooden headboard, white bedding, a copper lamp and a small vase on a bedside table, and a window with linen curtains.",
+      "alt_es": "Un rincón de dormitorio tranquilo: un cabecero de madera, ropa de cama blanca, una lámpara de cobre y un jarrón pequeño en la mesita de noche, y una ventana con cortinas de lino.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-05",
+      "placeholder_src": "/assets/img/gallery/lifestyle-05.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-05.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "Two empty picture frames leaning against a brick wall, beside a small table with a lamp, a clock, and flowers.",
+      "alt_es": "Dos marcos vacíos apoyados en una pared de ladrillo, junto a una mesita con una lámpara, un reloj y flores.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-06",
+      "placeholder_src": "/assets/img/gallery/lifestyle-06.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-06.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A quiet corner of a white sofa with a small potted plant, in soft daylight.",
+      "alt_es": "Un rincón tranquilo de un sofá blanco con una planta pequeña, con luz suave de día.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-07",
+      "placeholder_src": "/assets/img/gallery/lifestyle-07.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-07.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A light-colored dining room with a sunburst mirror, opening toward a hallway on one side and a kitchen on the other.",
+      "alt_es": "Un comedor de tonos claros con un espejo en forma de sol, que se abre a un pasillo por un lado y a una cocina por el otro.",
+      "width": 960,
+      "height": 620,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-08",
+      "placeholder_src": "/assets/img/gallery/lifestyle-08.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-08.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A leather armchair beside a wood stove, with a black-and-white American Cocker Spaniel resting on the chair.",
+      "alt_es": "Un sillón de cuero junto a una estufa de leña, con un cocker spaniel americano blanco y negro descansando en el sillón.",
+      "width": 1280,
+      "height": 964,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-09",
+      "placeholder_src": "/assets/img/gallery/lifestyle-09.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-09.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A sunlit pale-blue table with a small vase of flowers against a clear blue wall.",
+      "alt_es": "Una mesa azul claro, iluminada por el sol, con un jarrón pequeño de flores contra una pared azul.",
+      "width": 960,
+      "height": 552,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-10",
+      "placeholder_src": "/assets/img/gallery/lifestyle-10.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-10.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "An antique wooden china cabinet with glass doors, filled with white dishes, in a quiet room.",
+      "alt_es": "Un aparador antiguo de madera con puertas de vidrio, lleno de vajilla blanca, en una habitación tranquila.",
+      "width": 956,
+      "height": 1280,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-11",
+      "placeholder_src": "/assets/img/gallery/lifestyle-11.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-11.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A windowsill ledge with small plants and lanterns, and a city view beyond the glass.",
+      "alt_es": "Un alféizar con plantas pequeñas y faroles, y una vista de la ciudad detrás del cristal.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "lifestyle-12",
+      "placeholder_src": "/assets/img/gallery/lifestyle-12.jpg",
+      "final_path": "/assets/img/gallery/lifestyle-12.jpg",
+      "status": "ready",
+      "pages": [
+        "/gallery/",
+        "/es/gallery/"
+      ],
+      "alt_en": "A copper bowl of flowers on a round marble side table, in a quiet room.",
+      "alt_es": "Un cuenco de cobre con flores sobre una mesita redonda de mármol, en una habitación tranquila.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
+    },
+    {
+      "id": "living-digital-portrait-scale",
+      "placeholder_src": "/assets/img/placeholders/living-digital-portrait-scale.svg",
+      "final_path": "/assets/img/products/living-digital-portrait-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/living-digital-portrait/",
+        "/products/living-digital-portrait/"
+      ],
+      "alt_en": "The birthday portrait gift box shown for scale.",
+      "alt_es": "La caja de retrato de cumpleaños mostrada a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "living-oil-portrait-scale",
+      "placeholder_src": "/assets/img/placeholders/living-oil-portrait-scale.svg",
+      "final_path": "/assets/img/products/living-oil-portrait-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/living-oil-portrait/",
+        "/products/living-oil-portrait/"
+      ],
+      "alt_en": "The living-pet oil portrait shown for scale.",
+      "alt_es": "El retrato al óleo de una mascota en vida mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "living-plush-scale",
+      "placeholder_src": "/assets/img/placeholders/living-plush-scale.svg",
+      "final_path": "/assets/img/products/living-plush-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/living-plush/",
+        "/products/living-plush/"
+      ],
+      "alt_en": "The living-pet plush shown for scale.",
+      "alt_es": "El peluche de una mascota en vida mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "material-acrylic",
+      "placeholder_src": "/assets/img/placeholders/material-acrylic.svg",
+      "final_path": "/assets/img/materials/acrylic.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Close-up of clear acrylic catching the light.",
+      "alt_es": "Primer plano de un acrílico transparente que capta la luz.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "material-ceramic",
+      "placeholder_src": "/assets/img/placeholders/material-ceramic.svg",
+      "final_path": "/assets/img/materials/ceramic.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Close-up of hand-painted porcelain glaze.",
+      "alt_es": "Primer plano del esmalte de una porcelana pintada a mano.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "material-crystal",
+      "placeholder_src": "/assets/img/placeholders/material-crystal.svg",
+      "final_path": "/assets/img/materials/crystal.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Close-up of K9 crystal with a subsurface engraving and a soft LED glow.",
+      "alt_es": "Primer plano de cristal K9 con un grabado interno y un brillo suave de LED.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "material-metal",
+      "placeholder_src": "/assets/img/placeholders/material-metal.svg",
+      "final_path": "/assets/img/materials/metal.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Close-up of a stainless-steel memorial necklace and vial.",
+      "alt_es": "Primer plano de un collar y un frasquito de acero inoxidable.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "material-textile",
+      "placeholder_src": "/assets/img/placeholders/material-textile.svg",
+      "final_path": "/assets/img/materials/textile.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Close-up of silk embroidery thread and linen.",
+      "alt_es": "Primer plano de hilo de bordado de seda y lino.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "material-wood",
+      "placeholder_src": "/assets/img/placeholders/material-wood.svg",
+      "final_path": "/assets/img/materials/wood.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/es/"
+      ],
+      "alt_en": "Close-up of finished walnut wood grain.",
+      "alt_es": "Primer plano de la veta de un nogal acabado.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "memorial-oil-portrait-scale",
+      "placeholder_src": "/assets/img/placeholders/memorial-oil-portrait-scale.svg",
+      "final_path": "/assets/img/products/memorial-oil-portrait-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-oil-portrait/",
+        "/products/memorial-oil-portrait/"
+      ],
+      "alt_en": "The Dafen oil portrait shown for scale.",
+      "alt_es": "El retrato al óleo de Dafen mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "memorial-plush-scale",
+      "placeholder_src": "/assets/img/placeholders/memorial-plush-scale.svg",
+      "final_path": "/assets/img/products/memorial-plush-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-plush/",
+        "/products/memorial-plush/"
+      ],
+      "alt_en": "The memorial plush shown for scale.",
+      "alt_es": "El peluche conmemorativo mostrado a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "og-default",
+      "placeholder_src": "",
+      "final_path": "/assets/img/og-default.jpg",
+      "status": "pending",
+      "pages": [
+        "all pages (og:image)"
+      ],
+      "alt_en": "A walnut urn and a photo plaque on a warm off-white surface.",
+      "alt_es": "Una urna de nogal y una placa con foto sobre una superficie blanco cálido.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente",
+      "note": "Target from the image list. Not placed in HTML because this view is an extra generated file."
+    },
+    {
+      "id": "placement-product-classic-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-classic-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-classic-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/pricing/",
+        "/shop/pet/",
+        "/es/pricing/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "Classic set in one gift box: a walnut pet urn, a necklace, a framed portrait of a hound, and a farewell certificate.",
+      "alt_es": "Conjunto Classic en una sola caja de regalo: una urna de nogal para mascota, un collar, un retrato enmarcado de un sabueso y un certificado de despedida.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-classic-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-classic-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-classic-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/classic/",
+        "/products/classic/"
+      ],
+      "alt_en": "Classic set in one gift box: a walnut pet urn, a necklace, a framed portrait of a hound, and a farewell certificate.",
+      "alt_es": "Conjunto Classic en una sola caja de regalo: una urna de nogal para mascota, un collar, un retrato enmarcado de un sabueso y un certificado de despedida.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-cloisonne-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-cloisonne-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-cloisonne-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/pet/",
+        "/es/shop/pet/",
+        "/es/products/cloisonne/",
+        "/products/cloisonne/"
+      ],
+      "alt_en": "A cloisonné enamel memorial plaque and a small cloisonné box with floral enamel work.",
+      "alt_es": "Una placa conmemorativa de esmalte cloisonné y una cajita de cloisonné con trabajo floral.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/pricing/",
+        "/shop/pet/",
+        "/es/pricing/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/cloisonne/",
+        "/es/products/classic/",
+        "/products/cloisonne/",
+        "/products/classic/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-3",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-3.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-3.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/comfort/",
+        "/es/products/crystal-3d/",
+        "/products/comfort/",
+        "/products/crystal-3d/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-4",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-4.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-4.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/embroidery-machine/",
+        "/es/products/essential/",
+        "/products/embroidery-machine/",
+        "/products/essential/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-5",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-5.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-5.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/jingdezhen-urn/",
+        "/es/products/keepsake/",
+        "/products/jingdezhen-urn/",
+        "/products/keepsake/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-6",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-6.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-6.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-oil-portrait/",
+        "/es/products/legacy/",
+        "/products/memorial-oil-portrait/",
+        "/products/legacy/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-comfort-7",
+      "placeholder_src": "/assets/img/placeholders/placement-product-comfort-7.svg",
+      "final_path": "/assets/img/products/placements/placement-product-comfort-7.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-plush/",
+        "/es/products/warmth/",
+        "/products/memorial-plush/",
+        "/products/warmth/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-crystal-3d-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-crystal-3d-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-crystal-3d-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/pet/",
+        "/es/shop/pet/",
+        "/es/products/crystal-3d/",
+        "/products/crystal-3d/"
+      ],
+      "alt_en": "A K9 crystal photo block and a crystal tower on a glowing LED base, with a subsurface engraving of a golden retriever.",
+      "alt_es": "Un bloque de cristal K9 y una torre de cristal sobre una base LED encendida, con un grabado interno de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-embroidery-machine-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-embroidery-machine-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-embroidery-machine-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/pet/",
+        "/es/shop/pet/",
+        "/es/products/embroidery-machine/",
+        "/products/embroidery-machine/"
+      ],
+      "alt_en": "A small embroidery hoop and a mini pillow, machine-embroidered with the name Bailey and dates.",
+      "alt_es": "Un bastidor de bordado pequeño y un cojín mini, bordados a máquina con el nombre Bailey y las fechas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-essential-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-essential-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-essential-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/pricing/",
+        "/shop/pet/",
+        "/es/pricing/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates.",
+      "alt_es": "Una urna de madera de nogal del conjunto Essential, grabada con el nombre Bailey y las fechas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-essential-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-essential-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-essential-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/essential/",
+        "/es/products/comfort/",
+        "/products/essential/",
+        "/products/comfort/"
+      ],
+      "alt_en": "A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates.",
+      "alt_es": "Una urna de madera de nogal del conjunto Essential, grabada con el nombre Bailey y las fechas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-essential-3",
+      "placeholder_src": "/assets/img/placeholders/placement-product-essential-3.svg",
+      "final_path": "/assets/img/products/placements/placement-product-essential-3.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/warmth/",
+        "/es/products/keepsake/",
+        "/products/warmth/",
+        "/products/keepsake/"
+      ],
+      "alt_en": "A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates.",
+      "alt_es": "Una urna de madera de nogal del conjunto Essential, grabada con el nombre Bailey y las fechas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-family-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-family-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-family-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-plaque-keepsake/",
+        "/es/products/human-full-urn/",
+        "/products/human-plaque-keepsake/",
+        "/products/human-full-urn/"
+      ],
+      "alt_en": "A full-size urn with several small sharing boxes and a necklace, from the family-sharing set.",
+      "alt_es": "Una urna de tamaño completo con varias cajas pequeñas para compartir y un collar, del conjunto para la familia.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-family-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-family-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-family-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-suzhou/",
+        "/es/products/human-portrait/",
+        "/products/human-suzhou/",
+        "/products/human-portrait/"
+      ],
+      "alt_en": "A full-size urn with several small sharing boxes and a necklace, from the family-sharing set.",
+      "alt_es": "Una urna de tamaño completo con varias cajas pequeñas para compartir y un collar, del conjunto para la familia.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-full-urn-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-full-urn-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-full-urn-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-plaque-keepsake/",
+        "/es/products/human-full-urn/",
+        "/products/human-plaque-keepsake/",
+        "/products/human-full-urn/"
+      ],
+      "alt_en": "A full-size walnut urn and a framed portrait, from the human full-size urn set.",
+      "alt_es": "Una urna de nogal de tamaño completo y un retrato enmarcado, del conjunto de urna de tamaño completo para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-full-urn-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-full-urn-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-full-urn-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-suzhou/",
+        "/es/products/human-portrait/",
+        "/products/human-suzhou/",
+        "/products/human-portrait/"
+      ],
+      "alt_en": "A full-size walnut urn and a framed portrait, from the human full-size urn set.",
+      "alt_es": "Una urna de nogal de tamaño completo y un retrato enmarcado, del conjunto de urna de tamaño completo para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-plaque-keepsake-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-plaque-keepsake-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-plaque-keepsake-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-plaque-keepsake/",
+        "/es/products/human-full-urn/",
+        "/products/human-plaque-keepsake/",
+        "/products/human-full-urn/"
+      ],
+      "alt_en": "A photo plaque and a small wooden sharing box from the human memorial line.",
+      "alt_es": "Una placa con foto y una pequeña caja para compartir, de la línea de memoriales para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-plaque-keepsake-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-plaque-keepsake-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-plaque-keepsake-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-suzhou/",
+        "/es/products/human-portrait/",
+        "/products/human-suzhou/",
+        "/products/human-portrait/"
+      ],
+      "alt_en": "A photo plaque and a small wooden sharing box from the human memorial line.",
+      "alt_es": "Una placa con foto y una pequeña caja para compartir, de la línea de memoriales para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-portrait-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-portrait-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-portrait-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-plaque-keepsake/",
+        "/es/products/human-full-urn/",
+        "/products/human-plaque-keepsake/",
+        "/products/human-full-urn/"
+      ],
+      "alt_en": "A framed custom portrait from the human portrait set.",
+      "alt_es": "Un retrato personalizado enmarcado del conjunto de retratos para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-human-portrait-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-human-portrait-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-human-portrait-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/human-portrait/",
+        "/products/human-portrait/"
+      ],
+      "alt_en": "A framed custom portrait from the human portrait set.",
+      "alt_es": "Un retrato personalizado enmarcado del conjunto de retratos para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-jingdezhen-urn-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-jingdezhen-urn-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-jingdezhen-urn-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/pet/",
+        "/es/shop/pet/",
+        "/es/products/jingdezhen-urn/",
+        "/products/jingdezhen-urn/"
+      ],
+      "alt_en": "A Jingdezhen hand-painted porcelain urn with floral painting and a small portrait of a golden retriever.",
+      "alt_es": "Una urna de porcelana pintada a mano de Jingdezhen, con motivos florales y un pequeño retrato de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/pricing/",
+        "/shop/pet/",
+        "/es/pricing/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/cloisonne/",
+        "/es/products/classic/",
+        "/products/cloisonne/",
+        "/products/classic/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-3",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-3.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-3.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/comfort/",
+        "/es/products/crystal-3d/",
+        "/products/comfort/",
+        "/products/crystal-3d/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-4",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-4.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-4.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/embroidery-machine/",
+        "/es/products/essential/",
+        "/products/embroidery-machine/",
+        "/products/essential/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-5",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-5.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-5.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/jingdezhen-urn/",
+        "/es/products/keepsake/",
+        "/products/jingdezhen-urn/",
+        "/products/keepsake/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-6",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-6.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-6.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-oil-portrait/",
+        "/es/products/legacy/",
+        "/products/memorial-oil-portrait/",
+        "/products/legacy/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-keepsake-7",
+      "placeholder_src": "/assets/img/placeholders/placement-product-keepsake-7.svg",
+      "final_path": "/assets/img/products/placements/placement-product-keepsake-7.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-plush/",
+        "/es/products/warmth/",
+        "/products/memorial-plush/",
+        "/products/warmth/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-legacy-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-legacy-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-legacy-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/pricing/",
+        "/shop/pet/",
+        "/es/pricing/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "Legacy set: a walnut urn beside a hand-painted oil portrait of a golden retriever.",
+      "alt_es": "Conjunto Legacy: una urna de nogal junto a un retrato al óleo pintado a mano de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-legacy-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-legacy-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-legacy-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/legacy/",
+        "/products/legacy/"
+      ],
+      "alt_en": "Legacy set: a walnut urn beside a hand-painted oil portrait of a golden retriever.",
+      "alt_es": "Conjunto Legacy: una urna de nogal junto a un retrato al óleo pintado a mano de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-living-digital-portrait-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-living-digital-portrait-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-living-digital-portrait-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/living-plush/",
+        "/es/products/living-oil-portrait/",
+        "/products/living-plush/",
+        "/products/living-oil-portrait/"
+      ],
+      "alt_en": "A cheerful portrait in an open birthday gift box, from the living-pet line.",
+      "alt_es": "Un retrato alegre en una caja de regalo de cumpleaños abierta, de la línea para mascotas vivas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-living-oil-portrait-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-living-oil-portrait-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-living-oil-portrait-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/living-plush/",
+        "/es/products/living-oil-portrait/",
+        "/products/living-plush/",
+        "/products/living-oil-portrait/"
+      ],
+      "alt_en": "A hand-painted oil portrait of a living golden retriever, from the living-pet line.",
+      "alt_es": "Un retrato al óleo pintado a mano de un golden retriever en vida, de la línea para mascotas vivas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-living-plush-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-living-plush-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-living-plush-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/living-plush/",
+        "/es/products/living-oil-portrait/",
+        "/products/living-plush/",
+        "/products/living-oil-portrait/"
+      ],
+      "alt_en": "A custom plush of a living golden retriever, from the living-pet line.",
+      "alt_es": "Un peluche hecho a medida de un golden retriever en vida, de la línea para mascotas vivas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-memorial-oil-portrait-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-memorial-oil-portrait-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-memorial-oil-portrait-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-oil-portrait/",
+        "/products/memorial-oil-portrait/"
+      ],
+      "alt_en": "A hand-painted oil portrait of a golden retriever in a walnut frame, Dafen memorial oil portrait.",
+      "alt_es": "Un retrato al óleo pintado a mano de un golden retriever en un marco de nogal, retrato conmemorativo de Dafen.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-memorial-plush-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-memorial-plush-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-memorial-plush-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-plush/",
+        "/products/memorial-plush/"
+      ],
+      "alt_en": "A custom plush replica of a golden retriever, from the pet memorial plush line.",
+      "alt_es": "Una réplica de peluche hecha a medida de un golden retriever, de la línea de peluches conmemorativos.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-1",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-1.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/pricing/",
+        "/shop/pet/",
+        "/es/pricing/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-2",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-2.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/cloisonne/",
+        "/es/products/classic/",
+        "/products/cloisonne/",
+        "/products/classic/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-3",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-3.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-3.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/comfort/",
+        "/es/products/crystal-3d/",
+        "/products/comfort/",
+        "/products/crystal-3d/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-4",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-4.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-4.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/embroidery-machine/",
+        "/es/products/essential/",
+        "/products/embroidery-machine/",
+        "/products/essential/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-5",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-5.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-5.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/jingdezhen-urn/",
+        "/es/products/keepsake/",
+        "/products/jingdezhen-urn/",
+        "/products/keepsake/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-6",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-6.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-6.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-oil-portrait/",
+        "/es/products/legacy/",
+        "/products/memorial-oil-portrait/",
+        "/products/legacy/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "placement-product-warmth-7",
+      "placeholder_src": "/assets/img/placeholders/placement-product-warmth-7.svg",
+      "final_path": "/assets/img/products/placements/placement-product-warmth-7.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/memorial-plush/",
+        "/es/products/warmth/",
+        "/products/memorial-plush/",
+        "/products/warmth/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-classic",
+      "placeholder_src": "/assets/img/placeholders/product-classic.svg",
+      "final_path": "/assets/img/products/classic.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/shop/",
+        "/es/",
+        "/es/shop/"
+      ],
+      "alt_en": "Classic set in one gift box: a walnut pet urn, a necklace, a framed portrait of a hound, and a farewell certificate.",
+      "alt_es": "Conjunto Classic en una sola caja de regalo: una urna de nogal para mascota, un collar, un retrato enmarcado de un sabueso y un certificado de despedida.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-clinic-trial",
+      "placeholder_src": "/assets/img/placeholders/product-clinic-trial.svg",
+      "final_path": "/assets/img/products/clinic-trial.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/clinic/",
+        "/es/shop/clinic/",
+        "/es/products/clinic-trial/",
+        "/products/clinic-trial/"
+      ],
+      "alt_en": "A trial kit of five small unbranded gift boxes in a plain tray, for clinics.",
+      "alt_es": "Un kit de prueba de cinco cajas de regalo pequeñas sin marca, en una bandeja sencilla, para clínicas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-cloisonne",
+      "placeholder_src": "/assets/img/placeholders/product-cloisonne.svg",
+      "final_path": "/assets/img/products/cloisonne.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/",
+        "/shop/human/",
+        "/es/shop/",
+        "/es/shop/human/"
+      ],
+      "alt_en": "A cloisonné enamel memorial plaque and a small cloisonné box with floral enamel work.",
+      "alt_es": "Una placa conmemorativa de esmalte cloisonné y una cajita de cloisonné con trabajo floral.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-comfort",
+      "placeholder_src": "/assets/img/placeholders/product-comfort.svg",
+      "final_path": "/assets/img/products/comfort.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/shop/",
+        "/es/",
+        "/es/shop/"
+      ],
+      "alt_en": "Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box.",
+      "alt_es": "Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-crystal-3d",
+      "placeholder_src": "/assets/img/placeholders/product-crystal-3d.svg",
+      "final_path": "/assets/img/products/crystal-3d.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/",
+        "/shop/human/",
+        "/es/shop/",
+        "/es/shop/human/"
+      ],
+      "alt_en": "A K9 crystal photo block and a crystal tower on a glowing LED base, with a subsurface engraving of a golden retriever.",
+      "alt_es": "Un bloque de cristal K9 y una torre de cristal sobre una base LED encendida, con un grabado interno de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-embroidery-machine",
+      "placeholder_src": "/assets/img/placeholders/product-embroidery-machine.svg",
+      "final_path": "/assets/img/products/embroidery-machine.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/",
+        "/shop/human/",
+        "/es/shop/",
+        "/es/shop/human/"
+      ],
+      "alt_en": "A small embroidery hoop and a mini pillow, machine-embroidered with the name Bailey and dates.",
+      "alt_es": "Un bastidor de bordado pequeño y un cojín mini, bordados a máquina con el nombre Bailey y las fechas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-essential",
+      "placeholder_src": "/assets/img/placeholders/product-essential.svg",
+      "final_path": "/assets/img/products/essential.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/shop/",
+        "/es/",
+        "/es/shop/"
+      ],
+      "alt_en": "A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates.",
+      "alt_es": "Una urna de madera de nogal del conjunto Essential, grabada con el nombre Bailey y las fechas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-human-family",
+      "placeholder_src": "/assets/img/placeholders/product-human-family.svg",
+      "final_path": "/assets/img/products/human-family.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/human/",
+        "/es/shop/human/",
+        "/es/products/human-family/",
+        "/products/human-family/"
+      ],
+      "alt_en": "A full-size urn with several small sharing boxes and a necklace, from the family-sharing set.",
+      "alt_es": "Una urna de tamaño completo con varias cajas pequeñas para compartir y un collar, del conjunto para la familia.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-human-full-urn",
+      "placeholder_src": "/assets/img/placeholders/product-human-full-urn.svg",
+      "final_path": "/assets/img/products/human-full-urn.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/human/",
+        "/es/shop/human/",
+        "/es/products/human-family/",
+        "/products/human-family/"
+      ],
+      "alt_en": "A full-size walnut urn and a framed portrait, from the human full-size urn set.",
+      "alt_es": "Una urna de nogal de tamaño completo y un retrato enmarcado, del conjunto de urna de tamaño completo para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-human-plaque-keepsake",
+      "placeholder_src": "/assets/img/placeholders/product-human-plaque-keepsake.svg",
+      "final_path": "/assets/img/products/human-plaque-keepsake.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/human/",
+        "/es/shop/human/",
+        "/es/products/human-family/",
+        "/products/human-family/"
+      ],
+      "alt_en": "A photo plaque and a small wooden sharing box from the human memorial line.",
+      "alt_es": "Una placa con foto y una pequeña caja para compartir, de la línea de memoriales para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-human-portrait",
+      "placeholder_src": "/assets/img/placeholders/product-human-portrait.svg",
+      "final_path": "/assets/img/products/human-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/human/",
+        "/es/shop/human/",
+        "/es/products/human-family/",
+        "/products/human-family/"
+      ],
+      "alt_en": "A framed custom portrait from the human portrait set.",
+      "alt_es": "Un retrato personalizado enmarcado del conjunto de retratos para personas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-human-suzhou",
+      "placeholder_src": "/assets/img/placeholders/product-human-suzhou.svg",
+      "final_path": "/assets/img/products/human-suzhou.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/human/",
+        "/es/shop/human/",
+        "/es/products/human-suzhou/",
+        "/products/human-suzhou/"
+      ],
+      "alt_en": "A Suzhou silk embroidered portrait in a wooden frame, beside a full-size urn.",
+      "alt_es": "Un retrato de bordado de seda de Suzhou en un marco de madera, junto a una urna de tamaño completo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-jingdezhen-urn",
+      "placeholder_src": "/assets/img/placeholders/product-jingdezhen-urn.svg",
+      "final_path": "/assets/img/products/jingdezhen-urn.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/",
+        "/shop/human/",
+        "/es/shop/",
+        "/es/shop/human/"
+      ],
+      "alt_en": "A Jingdezhen hand-painted porcelain urn with floral painting and a small portrait of a golden retriever.",
+      "alt_es": "Una urna de porcelana pintada a mano de Jingdezhen, con motivos florales y un pequeño retrato de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-keepsake",
+      "placeholder_src": "/assets/img/placeholders/product-keepsake.svg",
+      "final_path": "/assets/img/products/keepsake.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/shop/",
+        "/es/",
+        "/es/shop/"
+      ],
+      "alt_en": "Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial.",
+      "alt_es": "Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-legacy",
+      "placeholder_src": "/assets/img/placeholders/product-legacy.svg",
+      "final_path": "/assets/img/products/legacy.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/shop/",
+        "/es/",
+        "/es/shop/"
+      ],
+      "alt_en": "Legacy set: a walnut urn beside a hand-painted oil portrait of a golden retriever.",
+      "alt_es": "Conjunto Legacy: una urna de nogal junto a un retrato al óleo pintado a mano de un golden retriever.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-living-digital-portrait",
+      "placeholder_src": "/assets/img/placeholders/product-living-digital-portrait.svg",
+      "final_path": "/assets/img/products/living-digital-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/living/",
+        "/es/living/",
+        "/es/products/living-digital-portrait/",
+        "/products/living-digital-portrait/"
+      ],
+      "alt_en": "A cheerful portrait in an open birthday gift box, from the living-pet line.",
+      "alt_es": "Un retrato alegre en una caja de regalo de cumpleaños abierta, de la línea para mascotas vivas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-living-oil-portrait",
+      "placeholder_src": "/assets/img/placeholders/product-living-oil-portrait.svg",
+      "final_path": "/assets/img/products/living-oil-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/living/",
+        "/es/living/",
+        "/es/products/living-digital-portrait/",
+        "/products/living-digital-portrait/"
+      ],
+      "alt_en": "A hand-painted oil portrait of a living golden retriever, from the living-pet line.",
+      "alt_es": "Un retrato al óleo pintado a mano de un golden retriever en vida, de la línea para mascotas vivas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-living-plush",
+      "placeholder_src": "/assets/img/placeholders/product-living-plush.svg",
+      "final_path": "/assets/img/products/living-plush.jpg",
+      "status": "pending",
+      "pages": [
+        "/living/",
+        "/es/living/",
+        "/es/products/living-digital-portrait/",
+        "/products/living-digital-portrait/"
+      ],
+      "alt_en": "A custom plush of a living golden retriever, from the living-pet line.",
+      "alt_es": "Un peluche hecho a medida de un golden retriever en vida, de la línea para mascotas vivas.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-memorial-oil-portrait",
+      "placeholder_src": "/assets/img/placeholders/product-memorial-oil-portrait.svg",
+      "final_path": "/assets/img/products/memorial-oil-portrait.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/",
+        "/shop/pet/",
+        "/es/shop/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "A hand-painted oil portrait of a golden retriever in a walnut frame, Dafen memorial oil portrait.",
+      "alt_es": "Un retrato al óleo pintado a mano de un golden retriever en un marco de nogal, retrato conmemorativo de Dafen.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-memorial-plush",
+      "placeholder_src": "/assets/img/placeholders/product-memorial-plush.svg",
+      "final_path": "/assets/img/products/memorial-plush.jpg",
+      "status": "pending",
+      "pages": [
+        "/shop/",
+        "/shop/pet/",
+        "/es/shop/",
+        "/es/shop/pet/"
+      ],
+      "alt_en": "A custom plush replica of a golden retriever, from the pet memorial plush line.",
+      "alt_es": "Una réplica de peluche hecha a medida de un golden retriever, de la línea de peluches conmemorativos.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "product-warmth",
+      "placeholder_src": "/assets/img/placeholders/product-warmth.svg",
+      "final_path": "/assets/img/products/warmth.jpg",
+      "status": "pending",
+      "pages": [
+        "/",
+        "/shop/",
+        "/es/",
+        "/es/shop/"
+      ],
+      "alt_en": "Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box.",
+      "alt_es": "Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "step-1",
+      "placeholder_src": "/assets/img/placeholders/step-1.svg",
+      "final_path": "/assets/img/how/step-1.jpg",
+      "status": "pending",
+      "pages": [
+        "/how/",
+        "/es/how/"
+      ],
+      "alt_en": "A table with a printed pet photograph and material samples, for the first step of the process.",
+      "alt_es": "Una mesa con una fotografía impresa de una mascota y muestras de materiales, para el primer paso del proceso.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "step-2",
+      "placeholder_src": "/assets/img/placeholders/step-2.svg",
+      "final_path": "/assets/img/how/step-2.jpg",
+      "status": "pending",
+      "pages": [
+        "/how/",
+        "/es/how/"
+      ],
+      "alt_en": "Three printed design proofs of a photo plaque on a desk, for the design-together step.",
+      "alt_es": "Tres pruebas impresas de una placa con foto sobre un escritorio, para el paso de diseñar juntos.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "step-3",
+      "placeholder_src": "/assets/img/placeholders/step-3.svg",
+      "final_path": "/assets/img/how/step-3.jpg",
+      "status": "pending",
+      "pages": [
+        "/how/",
+        "/es/how/"
+      ],
+      "alt_en": "A chosen design proof ready for approval, for the approve-the-final step.",
+      "alt_es": "Una prueba de diseño elegida, lista para su aprobación, para el paso de aprobar el diseño final.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "step-4",
+      "placeholder_src": "/assets/img/placeholders/step-4.svg",
+      "final_path": "/assets/img/how/step-4.jpg",
+      "status": "pending",
+      "pages": [
+        "/how/",
+        "/es/how/"
+      ],
+      "alt_en": "A finished urn being checked against its proof, for the check-together step.",
+      "alt_es": "Una urna terminada que se revisa junto a su prueba de diseño, para el paso de revisar juntos.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "step-5",
+      "placeholder_src": "/assets/img/placeholders/step-5.svg",
+      "final_path": "/assets/img/how/step-5.jpg",
+      "status": "pending",
+      "pages": [
+        "/how/",
+        "/es/how/"
+      ],
+      "alt_en": "A packed gift box ready to be sent, for the delivered step.",
+      "alt_es": "Una caja de regalo empacada, lista para enviarse, para el paso de entrega.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "warmth-scale",
+      "placeholder_src": "/assets/img/placeholders/warmth-scale.svg",
+      "final_path": "/assets/img/products/warmth-scale.jpg",
+      "status": "pending",
+      "pages": [
+        "/es/products/warmth/",
+        "/products/warmth/"
+      ],
+      "alt_en": "The Warmth photo plaque shown for scale.",
+      "alt_es": "La placa con foto Warmth mostrada a escala.",
+      "width": 1280,
+      "height": 960,
+      "caption_en": "Sample illustration — real product photos to follow",
+      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+    },
+    {
+      "id": "words-for-a-sympathy-card",
+      "placeholder_src": "/assets/img/blog/words-for-a-sympathy-card.jpg",
+      "final_path": "/assets/img/blog/words-for-a-sympathy-card.jpg",
+      "status": "ready",
+      "pages": [
+        "/es/blog/words-for-a-sympathy-card/",
+        "/blog/words-for-a-sympathy-card/"
+      ],
+      "alt_en": "A folded cream card tied with a ribbon, lying on a wooden table beside a string of beads; any handwriting is out of focus and unreadable.",
+      "alt_es": "Una tarjeta color crema doblada y atada con una cinta, sobre una mesa de madera junto a un hilo de cuentas; la letra manuscrita está desenfocada y no se puede leer.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
     }
   ]
 }
