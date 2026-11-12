@@ -70,7 +70,9 @@ Switch `SHOW_MEDIA_LABELS` to true to enable the shared short media label. Label
 
 ## Dropping in the film
 
-The home hero is a real `<video>` slot: muted, autoplay, loop, playsinline, `preload="metadata"`, with a play/pause button and a 70% overlay (lighter on small screens). The navigation sits above it. Until the files exist, the page shows the existing still and does not request a missing video or poster.
+The home hero keeps a real `<video>` slot: muted, autoplay, loop, playsinline, `preload="metadata"`, with a play/pause button and a 70% overlay (lighter on small screens). The navigation sits above it. Until the files exist, the video does not render and the page does not request a missing video or poster. The visible hero is a static public-domain photograph of a pet at home. It is not a film, and it is not a still standing in for one.
+
+Caption, shown next to the film only when the file is live: "Illustrative film — not footage of a specific customer's order". Spanish: "Película ilustrativa — no es la filmación del pedido de un cliente." Add VideoObject, including duration `PT15S`, only with the real file.
 
 Add these two files:
 
@@ -84,7 +86,7 @@ Then, in both `index.html` and `es/index.html`:
 
 The script in `assets/js/site.js` shows the player and the play/pause button only when that source is present. It does not fetch the file to test for it.
 
-Do not add VideoObject until the real file is in place and its duration is 15 seconds. Then add this block to both home pages. `description` is the caption; use the Spanish sentence on `/es/`.
+Do not add VideoObject until the real file is in place. Duration `PT15S` is added only with that real file. Then add this block to both home pages. `description` is the caption; use the Spanish sentence on `/es/`.
 
 ```json
 {

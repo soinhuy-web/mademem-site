@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960">
-  <title>crystal-3d</title>
-  <rect width="1280" height="960" fill="#E7DED1"/>
-  <rect x="72" y="72" width="1136" height="816" fill="#F4EFE8" stroke="#C9BBA8" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <title>Crystal block and tower on a light base</title>
+  <rect width="800" height="560" fill="#e1e4d9"/>
+  <ellipse cx="415" cy="452" rx="180" ry="24" fill="#5c6652" opacity=".07"/>
+  <rect x="268" y="392" width="280" height="36" rx="8" fill="#c5ccbd" stroke="#8f9a86" stroke-width="3"/>
+  <path d="M318 168L470 148L548 198V372L390 404L318 352Z" fill="#f4f5ed" fill-opacity=".82" stroke="#adb8a6" stroke-width="2"/>
+  <path d="M318 168L390 214L548 198M390 214V404M470 148L470 340L318 352" stroke="#c5ccbd" stroke-width="2" fill="none"/>
+  <path d="M250 210L300 188L332 230V368L278 386L250 340Z" fill="#f7f8f2" fill-opacity=".9" stroke="#b7c0ae" stroke-width="2"/>
+  <circle cx="455" cy="268" r="28" fill="none" stroke="#a4ad9a" stroke-width="2"/>
+  <path d="M432 300Q455 276L478 298" fill="none" stroke="#adb6a4" stroke-width="3"/>
 </svg>
