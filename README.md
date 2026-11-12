@@ -104,6 +104,6 @@ Put that same caption on the page, next to the film, when the file is live. It i
 
 ## Cloudflare Pages
 
-Publish the repository root with no build command. `_headers` sets security policy. `_redirects` documents the SPA-less native fallback supplied by root `404.html`. Cloudflare does not support a 404-status redirect rule, so the file has comments only. See the [official serving-pages documentation](https://developers.cloudflare.com/pages/configuration/serving-pages/) and [redirect status support](https://developers.cloudflare.com/pages/configuration/redirects/). Verify response headers and unknown-route status after deployment. No push or deployment is performed here.
+Publish the repository root with no build command. `wrangler.jsonc` is only there so a Workers preview (`npx wrangler preview`) can upload that same root; it does not add a build step. `_headers` sets security policy. `_redirects` documents the SPA-less native fallback supplied by root `404.html`. Cloudflare does not support a 404-status redirect rule, so the file has comments only. See the [official serving-pages documentation](https://developers.cloudflare.com/pages/configuration/serving-pages/) and [redirect status support](https://developers.cloudflare.com/pages/configuration/redirects/). Verify response headers and unknown-route status after deployment. No push or deployment is performed here.
 
 This repository is public. Do not add secrets, private research, supplier lists, personal addresses, or credentials.

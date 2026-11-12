@@ -9,6 +9,7 @@
 - Footer Journal already pointed at `/blog/`. Sitemap has no `/journal/`.
 - Spanish `/pricing/` first advantages paragraph, and the three advantage blocks, finish above the contact dock at 390×844 and 375×812 with cookies dismissed. Desktop 1440×900 and 1280×800 clearance is unchanged. Home buttons and the duties line also sit above the dock at those phone widths.
 - Home buttons are “Browse the pieces” / “Submit your photo or design.” The living-pet link is “For a living pet.”
+- Added `wrangler.jsonc` with an empty `previews` block so the Workers preview command can upload the static root. Pages still publishes with no build command.
 
 ### Checks run on this revision
 
