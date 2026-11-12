@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/stories/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/stories/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/stories/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/site.js" defer></script>
@@ -59,19 +59,15 @@
     </script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "MadeMem", "legalName": "Jingyun (Sichuan) Trading Co., Ltd.", "url": "https://mademem.com", "email": "info@teruu.com", "logo": "https://mademem.com/assets/img/placeholders/logo.svg"}</script>
   </head>
-  <body class="inner">
+  <body class="inner stories-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Skip to content</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/" aria-label="MadeMem home">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/contact/" data-event="preview_start">Start with a photo</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
-          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/">How it works</a><a href="/stories/" aria-current="page">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/es/stories/" lang="es-US" hreflang="es-US">Español</a>
-            <button data-open-search aria-label="Open site search">Search</button>
-            <button data-open-save>Save my design</button>
-          </div>
+          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/">How it works</a><a href="/stories/" aria-current="page">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a><span class="nav-tools"><a class="language-switch" href="/es/stories/" lang="es-US" hreflang="es-US">Español</a><button data-open-search aria-label="Open site search">Search</button><button data-open-save>Save my design</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -81,8 +77,13 @@
           <p class="lede">These adapted stories show how a piece might be chosen and lived with. Each is labeled as a sample story.</p>
         </section>
         <section class="wrap">
-          <div class="three-grid stories">
+          <div class="story-ledger stories">
             <article>
+              <figure class="media-frame">
+                <span class="field-stage field-walnut ratio-4x5" aria-hidden="true"><span class="field-name">At home</span></span>
+                <img class="awaiting" alt="A sample of a walnut remembrance set on a living-room shelf. Not a customer’s order." width="1200" height="1500" loading="lazy" data-slot="story-rosie-home" data-final="/assets/img/stories/rosie-home.jpg" data-field="walnut">
+                <figcaption>Sample illustration — real product photos to follow<br>Sample story — adapted. Not a customer’s order.</figcaption>
+              </figure>
               <p class="eyebrow">Sample story — adapted.</p>
               <h2>Rosie, a hound in Ohio</h2>
               <p class="small">Classic · $249</p>
@@ -91,6 +92,11 @@
               <a class="text-link" href="/products/classic/">Explore the set ↗</a>
             </article>
             <article>
+              <figure class="media-frame">
+                <span class="field-stage field-light ratio-4x5" aria-hidden="true"><span class="field-name">By the window</span></span>
+                <img class="awaiting" alt="A sample of an acrylic suncatcher in a window. Not a customer’s order." width="1200" height="1500" loading="lazy" data-slot="story-miso-home" data-final="/assets/img/stories/miso-home.jpg" data-field="light">
+                <figcaption>Sample illustration — real product photos to follow<br>Sample story — adapted. Not a customer’s order.</figcaption>
+              </figure>
               <p class="eyebrow">Sample story — adapted.</p>
               <h2>Miso, a cat in Portland</h2>
               <p class="small">Comfort · $49</p>
@@ -99,6 +105,11 @@
               <a class="text-link" href="/products/comfort/">Explore the set ↗</a>
             </article>
             <article>
+              <figure class="media-frame">
+                <span class="field-stage field-paint ratio-4x5" aria-hidden="true"><span class="field-name">On the shelf</span></span>
+                <img class="awaiting" alt="A sample of a portrait and urn on a family shelf. Not a customer’s order." width="1200" height="1500" loading="lazy" data-slot="story-rose-home" data-final="/assets/img/stories/rose-home.jpg" data-field="paint">
+                <figcaption>Sample illustration — real product photos to follow<br>Sample story — adapted. Not a customer’s order.</figcaption>
+              </figure>
               <p class="eyebrow">Sample story — adapted.</p>
               <h2>Grandma Rose, in Georgia</h2>
               <p class="small">Human full-size portrait / urn set · custom quote</p>

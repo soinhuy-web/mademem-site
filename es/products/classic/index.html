@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/products/classic/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/products/classic/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/products/classic/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Karla:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/locale-es.js" defer></script>
@@ -81,19 +81,15 @@
   "logo": "https://mademem.com/assets/img/placeholders/logo.svg"
 }</script>
   </head>
-  <body class="inner">
+  <body class="inner product-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Ir al contenido</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/es/" aria-label="Inicio de MadeMem">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/es/contact/" data-event="preview_start">Empezar con una foto</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menú</button>
-          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/products/classic/" lang="en-US" hreflang="en-US">English</a>
-            <button data-open-search aria-label="Buscar en el sitio">Buscar</button>
-            <button data-open-save>Guardar mi diseño</button>
-          </div>
+          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a><span class="nav-tools"><a class="language-switch" href="/products/classic/" lang="en-US" hreflang="en-US">English</a><button data-open-search aria-label="Buscar en el sitio">Buscar</button><button data-open-save>Guardar mi diseño</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -101,15 +97,18 @@
         <section class="wrap product-detail">
           <div class="product-visuals">
             <figure class="media-frame">
-              <img src="/assets/img/placeholders/product-classic.svg" width="1280" height="960" alt="Conjunto Classic en una sola caja de regalo: una urna de nogal para mascota, un collar, un retrato enmarcado de un sabueso y un certificado de despedida." loading="eager" data-slot="product-classic" data-final="/assets/img/products/classic.jpg" class="slot-4x3">
+              <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Classic</span></span>
+                <img data-field="walnut" width="1280" height="960" alt="Conjunto Classic en una sola caja de regalo: una urna de nogal para mascota, un collar, un retrato enmarcado de un sabueso y un certificado de despedida." loading="eager" data-slot="product-classic" data-final="/assets/img/products/classic.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
             <figure class="media-frame">
-              <img src="/assets/img/placeholders/classic-scale.svg" alt="El conjunto Classic mostrado a escala." width="1280" height="960" loading="lazy" data-slot="classic-scale" data-final="/assets/img/products/classic-scale.jpg" class="slot-4x3">
+              <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">A escala</span></span>
+                <img data-field="walnut" alt="El conjunto Classic mostrado a escala." width="1280" height="960" loading="lazy" data-slot="classic-scale" data-final="/assets/img/products/classic-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
             <figure class="media-frame">
-              <img src="/assets/img/placeholders/classic-opening.svg" alt="La urna Classic con la tapa abierta, mostrando un forro interior limpio y vacío." width="1280" height="960" loading="lazy" data-slot="classic-opening" data-final="/assets/img/products/classic-opening.jpg" class="slot-4x3">
+              <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Abierta</span></span>
+                <img data-field="walnut" alt="La urna Classic con la tapa abierta, mostrando un forro interior limpio y vacío." width="1280" height="960" loading="lazy" data-slot="classic-opening" data-final="/assets/img/products/classic-opening.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
           </div>
@@ -204,7 +203,8 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Acrylic" data-uses="Gifts">
                 <a class="image-link" href="/es/products/comfort/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/comfort-scale.svg" width="1280" height="960" loading="lazy" alt="Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema." data-slot="comfort-scale" data-final="/assets/img/products/comfort-scale.jpg" class="slot-4x3">
+                    <span class="field-stage field-light" aria-hidden="true"><span class="field-name">A escala</span></span>
+                <img data-field="light" width="1280" height="960" loading="lazy" alt="Atrapasol de acrílico del conjunto Comfort, con una tarjeta de condolencia y una caja de regalo color crema." data-slot="comfort-scale" data-final="/assets/img/products/comfort-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 </a>
@@ -227,7 +227,8 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
                 <a class="image-link" href="/es/products/warmth/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/warmth-scale.svg" width="1280" height="960" loading="lazy" alt="Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo." data-slot="warmth-scale" data-final="/assets/img/products/warmth-scale.jpg" class="slot-4x3">
+                    <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">A escala</span></span>
+                <img data-field="metal" width="1280" height="960" loading="lazy" alt="Placa con foto del conjunto Warmth, grabada con un golden retriever llamado Bailey y las fechas 24.06.2014–03.01.2024, con una tarjeta y una caja de regalo." data-slot="warmth-scale" data-final="/assets/img/products/warmth-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 </a>
@@ -250,7 +251,8 @@
               <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
                 <a class="image-link" href="/es/products/keepsake/">
                   <figure class="media-frame">
-                    <img src="/assets/img/placeholders/keepsake-scale.svg" width="1280" height="960" loading="lazy" alt="Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo." data-slot="keepsake-scale" data-final="/assets/img/products/keepsake-scale.jpg" class="slot-4x3">
+                    <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">A escala</span></span>
+                <img data-field="metal" width="1280" height="960" loading="lazy" alt="Conjunto Keepsake: una placa con foto, un retrato pequeño y un collar de acero inoxidable con un frasquito para pelo." data-slot="keepsake-scale" data-final="/assets/img/products/keepsake-scale.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 </a>

@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/about/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/about/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/about/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Karla:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/locale-es.js" defer></script>
@@ -64,19 +64,15 @@
   "logo": "https://mademem.com/assets/img/placeholders/logo.svg"
 }</script>
   </head>
-  <body class="inner">
+  <body class="inner about-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Ir al contenido</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/es/" aria-label="Inicio de MadeMem">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/es/contact/" data-event="preview_start">Empezar con una foto</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menú</button>
-          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/about/" lang="en-US" hreflang="en-US">English</a>
-            <button data-open-search aria-label="Buscar en el sitio">Buscar</button>
-            <button data-open-save>Guardar mi diseño</button>
-          </div>
+          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a><span class="nav-tools"><a class="language-switch" href="/about/" lang="en-US" hreflang="en-US">English</a><button data-open-search aria-label="Buscar en el sitio">Buscar</button><button data-open-save>Guardar mi diseño</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -118,7 +114,8 @@
             <div class="two-grid">
               <div>
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/about-workshop.svg" alt="Un banco de taller donde se está preparando una pieza de nogal." width="1280" height="960" loading="lazy" data-slot="about-workshop" data-final="/assets/img/about/workshop.jpg" class="slot-4x3">
+                  <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Nogal</span></span>
+                <img data-field="walnut" alt="Un banco de taller donde se está preparando una pieza de nogal." width="1280" height="960" loading="lazy" data-slot="about-workshop" data-final="/assets/img/about/workshop.jpg" class="awaiting slot-4x3">
                   <figcaption>Un banco de taller donde se está preparando una pieza de nogal.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 <h3>Hecho en China.</h3>
@@ -126,7 +123,8 @@
               </div>
               <div>
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/about-making.svg" alt="Pintura de un retrato al óleo y un bordado de seda en proceso." width="1280" height="960" loading="lazy" data-slot="about-making" data-final="/assets/img/about/making.jpg" class="slot-4x3">
+                  <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Taller</span></span>
+                <img data-field="clay" alt="Pintura de un retrato al óleo y un bordado de seda en proceso." width="1280" height="960" loading="lazy" data-slot="about-making" data-final="/assets/img/about/making.jpg" class="awaiting slot-4x3">
                   <figcaption>Pintura de un retrato al óleo y un bordado de seda en proceso.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 <h3>El carácter de cada material.</h3>
@@ -134,7 +132,8 @@
               </div>
               <div>
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/about-qc.svg" alt="Una pieza terminada que se compara con su prueba de diseño impresa." width="1280" height="960" loading="lazy" data-slot="about-qc" data-final="/assets/img/about/qc.jpg" class="slot-4x3">
+                  <span class="field-stage field-proof" aria-hidden="true"><span class="field-name">Prueba de diseño</span></span>
+                <img data-field="proof" alt="Una pieza terminada que se compara con su prueba de diseño impresa." width="1280" height="960" loading="lazy" data-slot="about-qc" data-final="/assets/img/about/qc.jpg" class="awaiting slot-4x3">
                   <figcaption>Una pieza terminada que se compara con su prueba de diseño impresa.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 <h3>Revisión según el diseño aprobado.</h3>
@@ -142,7 +141,8 @@
               </div>
               <div>
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/about-packing.svg" alt="Una caja de regalo que se arma y se empaca en un banco de taller." width="1280" height="960" loading="lazy" data-slot="about-packing" data-final="/assets/img/about/packing.jpg" class="slot-4x3">
+                  <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Nogal</span></span>
+                <img data-field="walnut" alt="Una caja de regalo que se arma y se empaca en un banco de taller." width="1280" height="960" loading="lazy" data-slot="about-packing" data-final="/assets/img/about/packing.jpg" class="awaiting slot-4x3">
                   <figcaption>Una caja de regalo que se arma y se empaca en un banco de taller.<br>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
                 <h3>Reunimos las piezas.</h3>

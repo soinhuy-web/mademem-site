@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/shop/pet/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/shop/pet/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/shop/pet/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/site.js" defer></script>
@@ -140,19 +140,15 @@
     </script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "MadeMem", "legalName": "Jingyun (Sichuan) Trading Co., Ltd.", "url": "https://mademem.com", "email": "info@teruu.com", "logo": "https://mademem.com/assets/img/placeholders/logo.svg"}</script>
   </head>
-  <body class="inner">
+  <body class="inner shop-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Skip to content</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/" aria-label="MadeMem home">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/contact/" data-event="preview_start">Start with a photo</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
-          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/">How it works</a><a href="/stories/">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/es/shop/pet/" lang="es-US" hreflang="es-US">Español</a>
-            <button data-open-search aria-label="Open site search">Search</button>
-            <button data-open-save>Save my design</button>
-          </div>
+          <nav id="primary-nav" aria-label="Primary"><a href="/shop/">Shop</a><a href="/living/">Living pets</a><a href="/pricing/">Pricing</a><a href="/gallery/">Gallery</a><a href="/how/">How it works</a><a href="/stories/">Stories</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a><span class="nav-tools"><a class="language-switch" href="/es/shop/pet/" lang="es-US" hreflang="es-US">Español</a><button data-open-search aria-label="Open site search">Search</button><button data-open-save>Save my design</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -201,7 +197,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Acrylic" data-uses="Gifts">
               <a class="image-link" href="/products/comfort/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-comfort.svg" width="1280" height="960" loading="lazy" alt="Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box." data-slot="product-comfort" data-final="/assets/img/products/comfort.jpg" class="slot-4x3">
+                  <span class="field-stage field-light" aria-hidden="true"><span class="field-name">Comfort</span></span>
+                <img data-field="light" width="1280" height="960" loading="lazy" alt="Acrylic suncatcher from the Comfort gift set, with a sympathy card and a cream gift box." data-slot="product-comfort" data-final="/assets/img/products/comfort.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -224,7 +221,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
               <a class="image-link" href="/products/warmth/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-warmth.svg" width="1280" height="960" loading="lazy" alt="Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box." data-slot="product-warmth" data-final="/assets/img/products/warmth.jpg" class="slot-4x3">
+                  <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">Warmth</span></span>
+                <img data-field="metal" width="1280" height="960" loading="lazy" alt="Photo plaque from the Warmth set, engraved with a golden retriever named Bailey and the dates 24.06.2014–03.01.2024, with a card and gift box." data-slot="product-warmth" data-final="/assets/img/products/warmth.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -247,7 +245,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes|Gifts">
               <a class="image-link" href="/products/keepsake/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-keepsake.svg" width="1280" height="960" loading="lazy" alt="Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial." data-slot="product-keepsake" data-final="/assets/img/products/keepsake.jpg" class="slot-4x3">
+                  <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">Keepsake</span></span>
+                <img data-field="metal" width="1280" height="960" loading="lazy" alt="Keepsake set: a photo plaque, a small portrait, and a stainless-steel necklace with a hair vial." data-slot="product-keepsake" data-final="/assets/img/products/keepsake.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -270,7 +269,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood" data-uses="Urns">
               <a class="image-link" href="/products/essential/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-essential.svg" width="1280" height="960" loading="lazy" alt="A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates." data-slot="product-essential" data-final="/assets/img/products/essential.jpg" class="slot-4x3">
+                  <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Essential</span></span>
+                <img data-field="walnut" width="1280" height="960" loading="lazy" alt="A walnut wooden pet urn from the Essential set, engraved with the name Bailey and dates." data-slot="product-essential" data-final="/assets/img/products/essential.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -294,7 +294,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood|Metal" data-uses="Urns|Keepsakes">
               <a class="image-link" href="/products/classic/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-classic.svg" width="1280" height="960" loading="lazy" alt="Classic set in one gift box: a walnut pet urn, a necklace, a framed portrait of a hound, and a farewell certificate." data-slot="product-classic" data-final="/assets/img/products/classic.jpg" class="slot-4x3">
+                  <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Classic</span></span>
+                <img data-field="walnut" width="1280" height="960" loading="lazy" alt="Classic set in one gift box: a walnut pet urn, a necklace, a framed portrait of a hound, and a farewell certificate." data-slot="product-classic" data-final="/assets/img/products/classic.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -318,7 +319,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Wood|Metal" data-uses="Urns|Keepsakes">
               <a class="image-link" href="/products/legacy/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-legacy.svg" width="1280" height="960" loading="lazy" alt="Legacy set: a walnut urn beside a hand-painted oil portrait of a golden retriever." data-slot="product-legacy" data-final="/assets/img/products/legacy.jpg" class="slot-4x3">
+                  <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Legacy</span></span>
+                <img data-field="walnut" width="1280" height="960" loading="lazy" alt="Legacy set: a walnut urn beside a hand-painted oil portrait of a golden retriever." data-slot="product-legacy" data-final="/assets/img/products/legacy.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -341,7 +343,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Textile &amp; embroidery" data-uses="Keepsakes|Gifts">
               <a class="image-link" href="/products/memorial-plush/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-memorial-plush.svg" width="1280" height="960" loading="lazy" alt="A custom plush replica of a golden retriever, from the pet memorial plush line." data-slot="product-memorial-plush" data-final="/assets/img/products/memorial-plush.jpg" class="slot-4x3">
+                  <span class="field-stage field-silk" aria-hidden="true"><span class="field-name">Plush</span></span>
+                <img data-field="silk" width="1280" height="960" loading="lazy" alt="A custom plush replica of a golden retriever, from the pet memorial plush line." data-slot="product-memorial-plush" data-final="/assets/img/products/memorial-plush.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -364,7 +367,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="" data-uses="Keepsakes">
               <a class="image-link" href="/products/memorial-oil-portrait/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-memorial-oil-portrait.svg" width="1280" height="960" loading="lazy" alt="A hand-painted oil portrait of a golden retriever in a walnut frame, Dafen memorial oil portrait." data-slot="product-memorial-oil-portrait" data-final="/assets/img/products/memorial-oil-portrait.jpg" class="slot-4x3">
+                  <span class="field-stage field-paint" aria-hidden="true"><span class="field-name">Oil portrait</span></span>
+                <img data-field="paint" width="1280" height="960" loading="lazy" alt="A hand-painted oil portrait of a golden retriever in a walnut frame, Dafen memorial oil portrait." data-slot="product-memorial-oil-portrait" data-final="/assets/img/products/memorial-oil-portrait.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -387,7 +391,8 @@
                       <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Crystal" data-uses="Keepsakes">
               <a class="image-link" href="/products/crystal-3d/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-crystal-3d.svg" width="1280" height="960" loading="lazy" alt="A K9 crystal photo block and a crystal tower on a glowing LED base, with a subsurface engraving of a golden retriever." data-slot="product-crystal-3d" data-final="/assets/img/products/crystal-3d.jpg" class="slot-4x3">
+                  <span class="field-stage field-crystal" aria-hidden="true"><span class="field-name">Crystal</span></span>
+                <img data-field="crystal" width="1280" height="960" loading="lazy" alt="A K9 crystal photo block and a crystal tower on a glowing LED base, with a subsurface engraving of a golden retriever." data-slot="product-crystal-3d" data-final="/assets/img/products/crystal-3d.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -411,7 +416,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Textile &amp; embroidery" data-uses="Keepsakes|Gifts">
               <a class="image-link" href="/products/embroidery-machine/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-embroidery-machine.svg" width="1280" height="960" loading="lazy" alt="A small embroidery hoop and a mini pillow, machine-embroidered with the name Bailey and dates." data-slot="product-embroidery-machine" data-final="/assets/img/products/embroidery-machine.jpg" class="slot-4x3">
+                  <span class="field-stage field-silk" aria-hidden="true"><span class="field-name">Embroidery</span></span>
+                <img data-field="silk" width="1280" height="960" loading="lazy" alt="A small embroidery hoop and a mini pillow, machine-embroidered with the name Bailey and dates." data-slot="product-embroidery-machine" data-final="/assets/img/products/embroidery-machine.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -435,7 +441,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Ceramic" data-uses="Urns">
               <a class="image-link" href="/products/jingdezhen-urn/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-jingdezhen-urn.svg" width="1280" height="960" loading="lazy" alt="A Jingdezhen hand-painted porcelain urn with floral painting and a small portrait of a golden retriever." data-slot="product-jingdezhen-urn" data-final="/assets/img/products/jingdezhen-urn.jpg" class="slot-4x3">
+                  <span class="field-stage field-glaze" aria-hidden="true"><span class="field-name">Jingdezhen</span></span>
+                <img data-field="glaze" width="1280" height="960" loading="lazy" alt="A Jingdezhen hand-painted porcelain urn with floral painting and a small portrait of a golden retriever." data-slot="product-jingdezhen-urn" data-final="/assets/img/products/jingdezhen-urn.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>
@@ -459,7 +466,8 @@
             <article class="product-card" data-mode="catalog" data-audience="pet" data-materials="Metal" data-uses="Keepsakes">
               <a class="image-link" href="/products/cloisonne/">
                 <figure class="media-frame">
-                  <img src="/assets/img/placeholders/product-cloisonne.svg" width="1280" height="960" loading="lazy" alt="A cloisonné enamel memorial plaque and a small cloisonné box with floral enamel work." data-slot="product-cloisonne" data-final="/assets/img/products/cloisonne.jpg" class="slot-4x3">
+                  <span class="field-stage field-enamel" aria-hidden="true"><span class="field-name">Cloisonné</span></span>
+                <img data-field="enamel" width="1280" height="960" loading="lazy" alt="A cloisonné enamel memorial plaque and a small cloisonné box with floral enamel work." data-slot="product-cloisonne" data-final="/assets/img/products/cloisonne.jpg" class="awaiting slot-4x3">
                   <figcaption>Sample illustration — real product photos to follow</figcaption>
                 </figure>
               </a>

@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/stories/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/stories/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/stories/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Karla:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/locale-es.js" defer></script>
@@ -64,19 +64,15 @@
   "logo": "https://mademem.com/assets/img/placeholders/logo.svg"
 }</script>
   </head>
-  <body class="inner">
+  <body class="inner stories-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Ir al contenido</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/es/" aria-label="Inicio de MadeMem">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/es/contact/" data-event="preview_start">Empezar con una foto</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menú</button>
-          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/" aria-current="page">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/stories/" lang="en-US" hreflang="en-US">English</a>
-            <button data-open-search aria-label="Buscar en el sitio">Buscar</button>
-            <button data-open-save>Guardar mi diseño</button>
-          </div>
+          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/" aria-current="page">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a><span class="nav-tools"><a class="language-switch" href="/stories/" lang="en-US" hreflang="en-US">English</a><button data-open-search aria-label="Buscar en el sitio">Buscar</button><button data-open-save>Guardar mi diseño</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -86,8 +82,13 @@
           <p class="lede">Estas historias adaptadas muestran cómo se puede elegir una pieza y convivir con ella. Cada una está identificada como historia de ejemplo.</p>
         </section>
         <section class="wrap">
-          <div class="three-grid stories">
+          <div class="story-ledger stories">
             <article>
+              <figure class="media-frame">
+                <span class="field-stage field-walnut ratio-4x5" aria-hidden="true"><span class="field-name">En casa</span></span>
+                <img class="awaiting" alt="Muestra de un conjunto de nogal en una repisa de la sala. No es el pedido de un cliente." width="1200" height="1500" loading="lazy" data-slot="story-rosie-home" data-final="/assets/img/stories/rosie-home.jpg" data-field="walnut">
+                <figcaption>Ilustración de muestra — fotos reales del producto próximamente<br>Historia de ejemplo — adaptada. No es el pedido de un cliente.</figcaption>
+              </figure>
               <p class="eyebrow">Historia de ejemplo — adaptada.</p>
               <h2>Rosie, una sabuesa de Ohio</h2>
               <p class="small">Classic · $249</p>
@@ -96,6 +97,11 @@
               <a class="text-link" href="/es/products/classic/">Explorar el conjunto ↗</a>
             </article>
             <article>
+              <figure class="media-frame">
+                <span class="field-stage field-light ratio-4x5" aria-hidden="true"><span class="field-name">Junto a la ventana</span></span>
+                <img class="awaiting" alt="Muestra de un adorno de acrílico en una ventana. No es el pedido de un cliente." width="1200" height="1500" loading="lazy" data-slot="story-miso-home" data-final="/assets/img/stories/miso-home.jpg" data-field="light">
+                <figcaption>Ilustración de muestra — fotos reales del producto próximamente<br>Historia de ejemplo — adaptada. No es el pedido de un cliente.</figcaption>
+              </figure>
               <p class="eyebrow">Historia de ejemplo — adaptada.</p>
               <h2>Miso, un gato de Portland</h2>
               <p class="small">Comfort · $49</p>
@@ -104,6 +110,11 @@
               <a class="text-link" href="/es/products/comfort/">Explorar el conjunto ↗</a>
             </article>
             <article>
+              <figure class="media-frame">
+                <span class="field-stage field-paint ratio-4x5" aria-hidden="true"><span class="field-name">En la repisa</span></span>
+                <img class="awaiting" alt="Muestra de un retrato y una urna en una repisa familiar. No es el pedido de un cliente." width="1200" height="1500" loading="lazy" data-slot="story-rose-home" data-final="/assets/img/stories/rose-home.jpg" data-field="paint">
+                <figcaption>Ilustración de muestra — fotos reales del producto próximamente<br>Historia de ejemplo — adaptada. No es el pedido de un cliente.</figcaption>
+              </figure>
               <p class="eyebrow">Historia de ejemplo — adaptada.</p>
               <h2>La abuela Rose, en Georgia</h2>
               <p class="small">Conjunto para personas con retrato y urna de tamaño completo · cotización personalizada</p>

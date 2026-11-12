@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/gallery/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/gallery/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/gallery/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Karla:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/locale-es.js" defer></script>
@@ -142,19 +142,15 @@
   "logo": "https://mademem.com/assets/img/placeholders/logo.svg"
 }</script>
   </head>
-  <body class="inner">
+  <body class="inner gallery-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Ir al contenido</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/es/" aria-label="Inicio de MadeMem">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/es/contact/" data-event="preview_start">Empezar con una foto</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menú</button>
-          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/" aria-current="page">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/gallery/" lang="en-US" hreflang="en-US">English</a>
-            <button data-open-search aria-label="Buscar en el sitio">Buscar</button>
-            <button data-open-save>Guardar mi diseño</button>
-          </div>
+          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/" aria-current="page">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a><span class="nav-tools"><a class="language-switch" href="/gallery/" lang="en-US" hreflang="en-US">English</a><button data-open-search aria-label="Buscar en el sitio">Buscar</button><button data-open-save>Guardar mi diseño</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -167,7 +163,7 @@
           <div class="wrap">
             <h2>Sus lugares de siempre.</h2>
             <p>Estas doce fotografías de dominio público muestran un lugar para cada pieza. Son escenas de la vida cotidiana, no fotos de producto.</p>
-            <div class="gallery-grid">
+            <div class="gallery-grid life-mosaic">
               <article>
                 <figure class="media-frame">
                   <img src="/assets/img/gallery/lifestyle-01.jpg" alt="Una sala de estar de madera, cálida, que se abre a un jardín, con un sofá, un reloj y ventanas altas." width="960" height="640" loading="lazy" class="photo-natural" data-slot="lifestyle-01" data-final="/assets/img/gallery/lifestyle-01.jpg">
@@ -267,7 +263,180 @@
             </div>
           </div>
         </section>
-        <section class="section ">
+<section class="section tone">
+          <div class="wrap">
+            <h2>Las piezas en sí</h2>
+            <p>Las fotografías del trabajo se están preparando. Hasta entonces, cada recuadro guarda el material.</p>
+            <div class="work-mosaic">
+              <article>
+                <a href="/es/products/comfort/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-light" aria-hidden="true"><span class="field-name">Comfort</span></span>
+                    <img class="awaiting slot-4x3" alt="Un atrapasol de acrílico colgado en una ventana, del conjunto Comfort." width="1280" height="960" loading="lazy" data-slot="gallery-work-01" data-final="/assets/img/gallery/work-01-comfort.jpg" data-field="light">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Comfort</h3>
+                </a>
+                <a href="/es/products/comfort/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/warmth/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">Warmth</span></span>
+                    <img class="awaiting slot-4x3" alt="Una placa con la foto de un golden retriever sobre un escritorio, del conjunto Warmth." width="1280" height="960" loading="lazy" data-slot="gallery-work-02" data-final="/assets/img/gallery/work-02-warmth.jpg" data-field="metal">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Warmth</h3>
+                </a>
+                <a href="/es/products/warmth/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/keepsake/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">Keepsake</span></span>
+                    <img class="awaiting slot-4x3" alt="Un retrato pequeño y un collar con frasquito de acero inoxidable, del conjunto Keepsake." width="1280" height="960" loading="lazy" data-slot="gallery-work-03" data-final="/assets/img/gallery/work-03-keepsake.jpg" data-field="metal">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Keepsake</h3>
+                </a>
+                <a href="/es/products/keepsake/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/essential/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Essential</span></span>
+                    <img class="awaiting slot-4x3" alt="Un primer plano de una urna de nogal grabada, del conjunto Essential." width="1280" height="960" loading="lazy" data-slot="gallery-work-04" data-final="/assets/img/gallery/work-04-essential.jpg" data-field="walnut">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Essential</h3>
+                </a>
+                <a href="/es/products/essential/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/classic/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Classic</span></span>
+                    <img class="awaiting slot-4x3" alt="Las piezas Classic reunidas en una sola caja de regalo." width="1280" height="960" loading="lazy" data-slot="gallery-work-05" data-final="/assets/img/gallery/work-05-classic.jpg" data-field="walnut">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Classic</h3>
+                </a>
+                <a href="/es/products/classic/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/legacy/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Legacy</span></span>
+                    <img class="awaiting slot-4x3" alt="Una pintura al óleo de un golden retriever con una urna de nogal, del conjunto Legacy." width="1280" height="960" loading="lazy" data-slot="gallery-work-06" data-final="/assets/img/gallery/work-06-legacy.jpg" data-field="walnut">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Legacy</h3>
+                </a>
+                <a href="/es/products/legacy/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/memorial-plush/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-silk" aria-hidden="true"><span class="field-name">Peluche conmemorativo</span></span>
+                    <img class="awaiting slot-4x3" alt="Un peluche conmemorativo hecho a medida de un golden retriever, sentado en un rincón tranquilo." width="1280" height="960" loading="lazy" data-slot="gallery-work-07" data-final="/assets/img/gallery/work-07-memorial-plush.jpg" data-field="silk">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Peluche conmemorativo</h3>
+                </a>
+                <a href="/es/products/memorial-plush/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/human-plaque-keepsake/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-metal" aria-hidden="true"><span class="field-name">Placa con foto y caja pequeña</span></span>
+                    <img class="awaiting slot-4x3" alt="Una pequeña caja para compartir y una placa con foto, de la línea de memoriales para personas." width="1280" height="960" loading="lazy" data-slot="gallery-work-08" data-final="/assets/img/gallery/work-08-human-plaque-keepsake.jpg" data-field="metal">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Placa con foto y caja pequeña</h3>
+                </a>
+                <a href="/es/products/human-plaque-keepsake/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/human-full-urn/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Conjunto con urna de tamaño completo</span></span>
+                    <img class="awaiting slot-4x3" alt="Una urna conmemorativa de tamaño completo, del conjunto de urna de tamaño completo para personas." width="1280" height="960" loading="lazy" data-slot="gallery-work-09" data-final="/assets/img/gallery/work-09-human-full-urn.jpg" data-field="walnut">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Conjunto con urna de tamaño completo</h3>
+                </a>
+                <a href="/es/products/human-full-urn/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/human-family/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Conjunto para compartir en familia</span></span>
+                    <img class="awaiting slot-4x3" alt="Varias cajas pequeñas para compartir en fila, del conjunto familiar." width="1280" height="960" loading="lazy" data-slot="gallery-work-10" data-final="/assets/img/gallery/work-10-human-family.jpg" data-field="walnut">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Conjunto para compartir en familia</h3>
+                </a>
+                <a href="/es/products/human-family/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/human-portrait/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-paint" aria-hidden="true"><span class="field-name">Conjunto de retrato</span></span>
+                    <img class="awaiting slot-4x3" alt="Un primer plano de un retrato pictórico restaurado, del conjunto de retratos para personas." width="1280" height="960" loading="lazy" data-slot="gallery-work-11" data-final="/assets/img/gallery/work-11-human-portrait.jpg" data-field="paint">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Conjunto de retrato</h3>
+                </a>
+                <a href="/es/products/human-portrait/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/human-suzhou/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-silk" aria-hidden="true"><span class="field-name">Conjunto con bordado de Suzhou</span></span>
+                    <img class="awaiting slot-4x3" alt="Un primer plano de las puntadas del bordado de seda de Suzhou, del conjunto de bordado de Suzhou." width="1280" height="960" loading="lazy" data-slot="gallery-work-12" data-final="/assets/img/gallery/work-12-human-suzhou.jpg" data-field="silk">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Conjunto con bordado de Suzhou</h3>
+                </a>
+                <a href="/es/products/human-suzhou/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/living-oil-portrait/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-paint" aria-hidden="true"><span class="field-name">Retrato al óleo de una mascota en vida</span></span>
+                    <img class="awaiting slot-4x3" alt="Un retrato al óleo, iluminado por el sol, de un golden retriever en vida." width="1280" height="960" loading="lazy" data-slot="gallery-work-13" data-final="/assets/img/gallery/work-13-living-oil-portrait.jpg" data-field="paint">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Retrato al óleo de una mascota en vida</h3>
+                </a>
+                <a href="/es/products/living-oil-portrait/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/living-plush/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-silk" aria-hidden="true"><span class="field-name">Peluche de una mascota en vida</span></span>
+                    <img class="awaiting slot-4x3" alt="Un peluche de una mascota en vida, sentado en un rincón con luz de sol." width="1280" height="960" loading="lazy" data-slot="gallery-work-14" data-final="/assets/img/gallery/work-14-living-plush.jpg" data-field="silk">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Peluche de una mascota en vida</h3>
+                </a>
+                <a href="/es/products/living-plush/">Pieza relacionada</a>
+              </article>
+              <article>
+                <a href="/es/products/living-digital-portrait/">
+                  <figure class="media-frame">
+                    <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Retrato digital de una mascota en vida</span></span>
+                    <img class="awaiting slot-4x3" alt="Un retrato de cumpleaños de pie junto a su caja de regalo abierta." width="1280" height="960" loading="lazy" data-slot="gallery-work-15" data-final="/assets/img/gallery/work-15-living-digital-portrait.jpg" data-field="clay">
+                    <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
+                  </figure>
+                  <h3>Retrato digital de una mascota en vida</h3>
+                </a>
+                <a href="/es/products/living-digital-portrait/">Pieza relacionada</a>
+              </article>
+            </div>
+          </div>
+        </section>
+                <section class="section ">
           <div class="wrap">
             <h2>Comience desde donde esté.</h2>
             <a class="button " href="/es/contact/" data-event="preview_start">Enviar una foto<span aria-hidden="true"> ↗</span></a>

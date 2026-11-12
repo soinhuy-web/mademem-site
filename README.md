@@ -64,13 +64,13 @@ Each of those carries the label “Public-domain photo (CC0) · lifestyle scene,
 | words-for-a-sympathy-card.jpg | Freestocks.org | Journal | https://stocksnap.io/photo/invitation-envelope-RMT4LVPJYN | CC0 1.0 |
 | how-to-write-a-memorial-page.jpg | Aaron Burden | Journal | https://stocksnap.io/photo/books-reading-CN63QSUO8C | CC0 1.0 |
 
-Pending product, material, gallery-work, About, and How photographs keep a neutral placeholder (`assets/img/placeholders/…svg`) at a 4:3 frame. The visible caption on those slots is “Sample illustration — real product photos to follow” (Spanish: “Ilustración de muestra — fotos reales del producto próximamente”). About and How also show the descriptive caption for the photograph that will replace the placeholder. To publish one, add the file at that slot’s `final_path`, then point the `img` with the matching `data-slot` at it. Do not request a file that is not in the repository.
+Pending product, material, gallery-work, About, How, and story photographs do not request a file. The `img` has no `src` yet (`class="awaiting"`, `data-slot`, `data-final`). The page shows a CSS material field (walnut, porcelain, silk, enamel, metal, crystal, light, paint, or proof paper) with the slot’s caption: “Sample illustration — real product photos to follow” (Spanish: “Ilustración de muestra — fotos reales del producto próximamente”). To publish one, add the file at that slot’s `final_path`, set the matching `img` `src` to that path, and remove `class="awaiting"` and the sibling `.field-stage`. Do not request a file that is not in the repository. `images-manifest.json` lists every slot with `aspect_ratio`. The hero film slot is `assets/video/hero-15s.mp4` (16:9, duration PT15S) with poster `assets/video/hero-poster.jpg`.
 
 Switch `SHOW_MEDIA_LABELS` to true to enable the shared short media label. Labels default off.
 
 ## Dropping in the film
 
-The home hero keeps a real `<video>` slot: muted, autoplay, loop, playsinline, `preload="metadata"`, with a play/pause button and a 70% overlay (lighter on small screens). The navigation sits above it. Until the files exist, the video does not render and the page does not request a missing video or poster. The visible hero is a static public-domain photograph of a pet at home. It is not a film, and it is not a still standing in for one.
+The home hero keeps a real `<video>` slot: muted, autoplay, loop, playsinline, `preload="metadata"`, with a play/pause button. The navigation sits on a light bar over the picture. Until the files exist, the video does not render and the page does not request a missing video or poster. The visible hero is a static public-domain photograph of a pet at home, with the two primary actions on the picture. It is not a film, and it is not a still standing in for one.
 
 Caption, shown next to the film only when the file is live: "Illustrative film — not footage of a specific customer's order". Spanish: "Película ilustrativa — no es la filmación del pedido de un cliente." Add VideoObject, including duration `PT15S`, only with the real file.
 

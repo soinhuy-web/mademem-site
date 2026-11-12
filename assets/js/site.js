@@ -109,19 +109,25 @@
       ttq.track('page_view');
     }
   }
+  function syncConsentBar() {
+    const banner = $('#cookie-banner');
+    document.body.classList.toggle('has-consent-bar', !!(banner && !banner.hidden));
+  }
   function setConsent(value) {
     const revoke = (loaded.google && !value.analytics) || ((loaded.meta || loaded.tiktok) && (!value.marketing || gpc));
     consent = { analytics: value.analytics, marketing: value.marketing && !gpc, updated: new Date().toISOString() };
     const saved = storage.set('mademem-consent', consent);
     $('#cookie-banner').hidden = true;
+    syncConsentBar();
     announce(saved ? t("Privacy preference saved in this browser.") : t("Privacy preference applied for this visit. Browser storage is unavailable."));
     if (revoke) { location.reload(); return; }
     loadTags();
   }
   $('#cookie-banner').hidden = !!storage.get('mademem-consent');
+  syncConsentBar();
   $('#gpc-notice').hidden = !gpc;
   $$('[data-cookie-settings]').forEach(button => button.addEventListener('click', () => {
-    $('#cookie-banner').hidden = false; $('[data-consent="decline"]').focus();
+    $('#cookie-banner').hidden = false; syncConsentBar(); $('[data-consent="decline"]').focus();
   }));
   $$('[data-consent]').forEach(button => button.addEventListener('click', () => setConsent({ analytics: button.dataset.consent !== 'decline', marketing: button.dataset.consent === 'all' })));
   if ($('#privacy-opt-out')) $('#privacy-opt-out').addEventListener('click', () => {
@@ -366,6 +372,6 @@
   }).catch(() => { /* Complete static fallback remains available when enhancement data cannot load. */ });
   if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('fade-in'); observer.unobserve(entry.target); } }), { threshold: 0.05 });
-    $$('.materials-grid article,.product-card,.gallery-grid article').forEach(card => observer.observe(card));
+    $$('.materials-grid article,.product-card,.gallery-grid article,.craft-tile,.story-pair,.ladder-card,.work-mosaic article').forEach(card => observer.observe(card));
   }
 })();

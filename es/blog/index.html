@@ -22,9 +22,9 @@
     <link rel="alternate" hreflang="en-US" href="https://mademem.com/blog/">
     <link rel="alternate" hreflang="es-US" href="https://mademem.com/es/blog/">
     <link rel="alternate" hreflang="x-default" href="https://mademem.com/blog/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Karla:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/config.js" defer></script>
     <script src="/assets/js/locale-es.js" defer></script>
@@ -106,19 +106,15 @@
   "logo": "https://mademem.com/assets/img/placeholders/logo.svg"
 }</script>
   </head>
-  <body class="inner">
+  <body class="inner blog-page">
     <div class="page-shell">
       <a class="skip-link" href="#main">Ir al contenido</a>
       <header class="site-header">
         <div class="header-inner">
           <a class="wordmark" href="/es/" aria-label="Inicio de MadeMem">MadeMem<span class="brand-dot" aria-hidden="true">·</span></a>
+          <a class="header-cta button" href="/es/contact/" data-event="preview_start">Empezar con una foto</a>
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menú</button>
-          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a></nav>
-          <div class="utilities">
-            <a class="language-switch" href="/blog/" lang="en-US" hreflang="en-US">English</a>
-            <button data-open-search aria-label="Buscar en el sitio">Buscar</button>
-            <button data-open-save>Guardar mi diseño</button>
-          </div>
+          <nav id="primary-nav" aria-label="Navegación principal"><a href="/es/shop/">Tienda</a><a href="/es/living/">Mascotas en vida</a><a href="/es/pricing/">Precios</a><a href="/es/gallery/">Galería</a><a href="/es/how/">Cómo funciona</a><a href="/es/stories/">Historias</a><a href="/es/faq/">Preguntas frecuentes</a><a href="/es/contact/">Contacto</a><span class="nav-tools"><a class="language-switch" href="/blog/" lang="en-US" hreflang="en-US">English</a><button data-open-search aria-label="Buscar en el sitio">Buscar</button><button data-open-save>Guardar mi diseño</button></span></nav>
         </div>
       </header>
       <main id="main">
@@ -131,7 +127,8 @@
           <article>
             <a href="/es/blog/what-to-say-when-a-friend-loses-a-pet/">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/blog-what-to-say-when-a-friend-loses-a-pet.svg" width="1280" height="960" loading="lazy" alt="Dos tazas de té y una tarjeta en blanco sobre una mesa de madera." data-slot="blog-what-to-say-when-a-friend-loses-a-pet" data-final="/assets/img/blog/what-to-say-when-a-friend-loses-a-pet.jpg" class="slot-4x3">
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Taller</span></span>
+                <img data-field="clay" width="1280" height="960" loading="lazy" alt="Dos tazas de té y una tarjeta en blanco sobre una mesa de madera." data-slot="blog-what-to-say-when-a-friend-loses-a-pet" data-final="/assets/img/blog/what-to-say-when-a-friend-loses-a-pet.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
             </a>
@@ -153,7 +150,8 @@
           <article>
             <a href="/es/blog/how-to-choose-a-pet-urn-size/">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/blog-how-to-choose-a-pet-urn-size.svg" width="1280" height="960" loading="lazy" alt="Dos cajas de madera cerradas, de distintos tamaños, junto a una regla sencilla." data-slot="blog-how-to-choose-a-pet-urn-size" data-final="/assets/img/blog/how-to-choose-a-pet-urn-size.jpg" class="slot-4x3">
+                <span class="field-stage field-walnut" aria-hidden="true"><span class="field-name">Nogal</span></span>
+                <img data-field="walnut" width="1280" height="960" loading="lazy" alt="Dos cajas de madera cerradas, de distintos tamaños, junto a una regla sencilla." data-slot="blog-how-to-choose-a-pet-urn-size" data-final="/assets/img/blog/how-to-choose-a-pet-urn-size.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
             </a>
@@ -164,7 +162,8 @@
           <article>
             <a href="/es/blog/how-to-choose-a-photo/">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/blog-how-to-choose-a-photo.svg" width="1280" height="960" loading="lazy" alt="Fotografías impresas de un golden retriever dispuestas sobre una tela." data-slot="blog-how-to-choose-a-photo" data-final="/assets/img/blog/how-to-choose-a-photo.jpg" class="slot-4x3">
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Taller</span></span>
+                <img data-field="clay" width="1280" height="960" loading="lazy" alt="Fotografías impresas de un golden retriever dispuestas sobre una tela." data-slot="blog-how-to-choose-a-photo" data-final="/assets/img/blog/how-to-choose-a-photo.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
             </a>
@@ -175,7 +174,8 @@
           <article>
             <a href="/es/blog/sympathy-gifts-for-pet-loss/">
               <figure class="media-frame">
-                <img src="/assets/img/placeholders/blog-sympathy-gifts-for-pet-loss.svg" width="1280" height="960" loading="lazy" alt="Una caja de regalo pequeña, flores blancas y una tarjeta en blanco sobre una mesita." data-slot="blog-sympathy-gifts-for-pet-loss" data-final="/assets/img/blog/sympathy-gifts-for-pet-loss.jpg" class="slot-4x3">
+                <span class="field-stage field-clay" aria-hidden="true"><span class="field-name">Taller</span></span>
+                <img data-field="clay" width="1280" height="960" loading="lazy" alt="Una caja de regalo pequeña, flores blancas y una tarjeta en blanco sobre una mesita." data-slot="blog-sympathy-gifts-for-pet-loss" data-final="/assets/img/blog/sympathy-gifts-for-pet-loss.jpg" class="awaiting slot-4x3">
                   <figcaption>Ilustración de muestra — fotos reales del producto próximamente</figcaption>
                 </figure>
             </a>
