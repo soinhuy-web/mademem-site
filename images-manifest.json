@@ -103,19 +103,21 @@
     },
     {
       "id": "blog-how-to-write-a-memorial-page",
-      "placeholder_src": "/assets/img/placeholders/blog-how-to-write-a-memorial-page.svg",
-      "final_path": "/assets/img/products/placements/blog-how-to-write-a-memorial-page.jpg",
-      "status": "pending",
+      "placeholder_src": "/assets/img/blog/how-to-write-a-memorial-page.jpg",
+      "final_path": "/assets/img/blog/how-to-write-a-memorial-page.jpg",
+      "status": "ready",
       "pages": [
         "/blog/",
-        "/es/blog/"
+        "/es/blog/",
+        "/blog/how-to-write-a-memorial-page/",
+        "/es/blog/how-to-write-a-memorial-page/"
       ],
-      "alt_en": "Reserved header image slot for how to write a memorial page",
-      "alt_es": "Cabecera sobre cómo escribir una página de recuerdo",
-      "width": 1280,
-      "height": 960,
-      "caption_en": "Sample illustration — real product photos to follow",
-      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+      "alt_en": "An open notebook and an open book on a wooden table, in soft light.",
+      "alt_es": "Un cuaderno abierto y un libro abierto sobre una mesa de madera, con luz suave.",
+      "width": 960,
+      "height": 721,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
     },
     {
       "id": "blog-sympathy-gifts-for-pet-loss",
@@ -155,19 +157,21 @@
     },
     {
       "id": "blog-words-for-a-sympathy-card",
-      "placeholder_src": "/assets/img/placeholders/blog-words-for-a-sympathy-card.svg",
-      "final_path": "/assets/img/products/placements/blog-words-for-a-sympathy-card.jpg",
-      "status": "pending",
+      "placeholder_src": "/assets/img/blog/words-for-a-sympathy-card.jpg",
+      "final_path": "/assets/img/blog/words-for-a-sympathy-card.jpg",
+      "status": "ready",
       "pages": [
         "/blog/",
-        "/es/blog/"
+        "/es/blog/",
+        "/blog/words-for-a-sympathy-card/",
+        "/es/blog/words-for-a-sympathy-card/"
       ],
-      "alt_en": "Reserved header image slot for words for a sympathy card",
-      "alt_es": "Cabecera sobre palabras para una tarjeta de condolencia",
-      "width": 1280,
-      "height": 960,
-      "caption_en": "Sample illustration — real product photos to follow",
-      "caption_es": "Ilustración de muestra — fotos reales del producto próximamente"
+      "alt_en": "A folded cream card tied with a ribbon, lying on a wooden table beside a string of beads; any handwriting is out of focus and unreadable.",
+      "alt_es": "Una tarjeta color crema doblada y atada con una cinta, sobre una mesa de madera junto a un hilo de cuentas; la letra manuscrita está desenfocada y no se puede leer.",
+      "width": 960,
+      "height": 640,
+      "caption_en": "Public-domain photo (CC0) · lifestyle scene, not a product photo",
+      "caption_es": "Foto de dominio público (CC0) · escena de la vida cotidiana, no es una foto de producto"
     },
     {
       "id": "classic-opening",
